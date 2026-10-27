@@ -1,0 +1,411 @@
+{
+ "number_type_legend": {
+  "continuum_variational_enclosure": "continuum certified interval: stated fixed pixel map; variational discretization enclosure, not interval-arithmetic floating-point proof",
+  "uniform_grid_point_estimate": "uniform-grid point estimate: not a continuum enclosure"
+ },
+ "ensemble": {
+  "unprotected_p4_True": {
+   "number_type": "uniform_grid_point_estimate",
+   "count": 24,
+   "mean_Sa_uV_K": 52.125698582866164,
+   "sample_std_Sa_uV_K": 0.8074223974039662,
+   "min_Sa_uV_K": 49.044454580942784,
+   "max_Sa_uV_K": 53.66371423598147,
+   "quantiles_05_50_95_uV_K": [
+    51.66925753409833,
+    52.09832807480032,
+    53.07014242818876
+   ],
+   "count_below_40": 0
+  },
+  "protected_p4_True": {
+   "number_type": "uniform_grid_point_estimate",
+   "count": 24,
+   "mean_Sa_uV_K": 52.074589602156976,
+   "sample_std_Sa_uV_K": 0.8064626460170264,
+   "min_Sa_uV_K": 48.991980250428874,
+   "max_Sa_uV_K": 53.608491860601966,
+   "quantiles_05_50_95_uV_K": [
+    51.61447283655944,
+    52.04323681677451,
+    53.01358615289799
+   ],
+   "count_below_40": 0
+  },
+  "unprotected_p4_False": {
+   "number_type": "uniform_grid_point_estimate",
+   "count": 24,
+   "mean_Sa_uV_K": 51.182318493367724,
+   "sample_std_Sa_uV_K": 4.587111543338411,
+   "min_Sa_uV_K": 29.70061520968941,
+   "max_Sa_uV_K": 53.11111484820706,
+   "quantiles_05_50_95_uV_K": [
+    51.50815530247071,
+    52.09832807480032,
+    52.541965130655974
+   ],
+   "count_below_40": 1
+  },
+  "protected_p4_False": {
+   "number_type": "uniform_grid_point_estimate",
+   "count": 24,
+   "mean_Sa_uV_K": 52.06304393403375,
+   "sample_std_Sa_uV_K": 0.32407542234552594,
+   "min_Sa_uV_K": 51.4239201113635,
+   "max_Sa_uV_K": 53.05516310310379,
+   "quantiles_05_50_95_uV_K": [
+    51.641849274287075,
+    52.04323681677451,
+    52.48666441894852
+   ],
+   "count_below_40": 0
+  }
+ },
+ "contact_PF": {
+  "original_L0.001_RK0.0_rho0.0": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 85.75720150007305
+  },
+  "original_L0.001_RK0.0_rho1e-09": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 83.54458205465454
+  },
+  "original_L0.001_RK0.0_rho1e-08": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 53.14410253407601
+  },
+  "original_L0.001_RK0.0_rho1e-07": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 10.241895352705608
+  },
+  "original_L0.001_RK0.0_rho1e-06": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 1.0132696231233853
+  },
+  "original_L0.001_RK1e-05_rho0.0": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 82.18350350318316
+  },
+  "original_L0.001_RK1e-05_rho1e-09": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 80.01739839879689
+  },
+  "original_L0.001_RK1e-05_rho1e-08": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 50.99142920902119
+  },
+  "original_L0.001_RK1e-05_rho1e-07": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 9.841862497179008
+  },
+  "original_L0.001_RK1e-05_rho1e-06": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 0.9687332740922089
+  },
+  "original_L0.0003_RK0.0_rho0.0": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 85.75720150007305
+  },
+  "original_L0.0003_RK0.0_rho1e-09": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 74.27162536023546
+  },
+  "original_L0.0003_RK0.0_rho1e-08": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 25.709454493412967
+  },
+  "original_L0.0003_RK0.0_rho1e-07": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 3.207876383454625
+  },
+  "original_L0.0003_RK0.0_rho1e-06": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 0.25267615660375886
+  },
+  "original_L0.0003_RK1e-05_rho0.0": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 74.81902962625155
+  },
+  "original_L0.0003_RK1e-05_rho1e-09": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 64.85277811058394
+  },
+  "original_L0.0003_RK1e-05_rho1e-08": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 22.642094645995023
+  },
+  "original_L0.0003_RK1e-05_rho1e-07": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 2.8120345840366263
+  },
+  "original_L0.0003_RK1e-05_rho1e-06": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 0.21457128000810638
+  },
+  "gap_4pct_L0.001_RK0.0_rho0.0": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 85.59743404171888
+  },
+  "gap_4pct_L0.001_RK0.0_rho1e-09": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 83.42283763488713
+  },
+  "gap_4pct_L0.001_RK0.0_rho1e-08": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 53.14683172504191
+  },
+  "gap_4pct_L0.001_RK0.0_rho1e-07": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 10.297173376752578
+  },
+  "gap_4pct_L0.001_RK0.0_rho1e-06": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 1.0238765474234426
+  },
+  "gap_4pct_L0.001_RK1e-05_rho0.0": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 82.03884105062255
+  },
+  "gap_4pct_L0.001_RK1e-05_rho1e-09": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 79.90741104309438
+  },
+  "gap_4pct_L0.001_RK1e-05_rho1e-08": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 50.999501672832665
+  },
+  "gap_4pct_L0.001_RK1e-05_rho1e-07": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 9.901045148691878
+  },
+  "gap_4pct_L0.001_RK1e-05_rho1e-06": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 0.9805306475859805
+  },
+  "gap_4pct_L0.0003_RK0.0_rho0.0": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 85.59743404171888
+  },
+  "gap_4pct_L0.0003_RK0.0_rho1e-09": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 74.20606708628324
+  },
+  "gap_4pct_L0.0003_RK0.0_rho1e-08": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 25.76024483915221
+  },
+  "gap_4pct_L0.0003_RK0.0_rho1e-07": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 3.2408453751630266
+  },
+  "gap_4pct_L0.0003_RK0.0_rho1e-06": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 0.2530520605561958
+  },
+  "gap_4pct_L0.0003_RK1e-05_rho0.0": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 74.57393244460319
+  },
+  "gap_4pct_L0.0003_RK1e-05_rho1e-09": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 64.69311160342184
+  },
+  "gap_4pct_L0.0003_RK1e-05_rho1e-08": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 22.66156056025774
+  },
+  "gap_4pct_L0.0003_RK1e-05_rho1e-07": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 2.845719732335457
+  },
+  "gap_4pct_L0.0003_RK1e-05_rho1e-06": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 0.21528247591219526
+  },
+  "fine_original_0.0": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 74.73980770560959
+  },
+  "fine_original_1e-08": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 22.618693448714644
+  },
+  "fine_original_1e-06": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 0.21458689605067097
+  },
+  "fine_gap_4pct_0.0": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 74.55940751414938
+  },
+  "fine_gap_4pct_1e-08": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 22.669743564652386
+  },
+  "fine_gap_4pct_1e-06": {
+   "number_type": "uniform_grid_point_estimate",
+   "PF_microW_mK2": 0.2152662529354075
+  }
+ },
+ "electrode_ratios": {
+  "A_8": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": 49.8304472,
+   "central_ratio_to_reference": 0.401823064839281
+  },
+  "gap_8": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": 49.8304472,
+   "central_ratio_to_reference": 0.9905884287140431
+  },
+  "homogeneous_8": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": 49.8304472,
+   "central_ratio_to_reference": 0.9999999996647712
+  },
+  "two_phase_8": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": 49.8304472,
+   "central_ratio_to_reference": 0.029428208534886407
+  },
+  "mirror_symmetric_8": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": 49.8304472,
+   "central_ratio_to_reference": -7.580551713340097e-12
+  },
+  "A_8_middle_line": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": 49.8304472,
+   "central_ratio_to_reference": 0.3081867336006644
+  },
+  "A_8_full_line": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": 49.8304472,
+   "central_ratio_to_reference": 0.3040911492377801
+  },
+  "A_8_mirror": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": -49.8304472,
+   "central_ratio_to_reference": 0.4018230648597303
+  },
+  "A_16": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": 49.8304472,
+   "central_ratio_to_reference": 0.3585324771093309
+  },
+  "gap_16": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": 49.8304472,
+   "central_ratio_to_reference": 0.9958869174259058
+  },
+  "homogeneous_16": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": 49.8304472,
+   "central_ratio_to_reference": 0.999999999659669
+  },
+  "two_phase_16": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": 49.8304472,
+   "central_ratio_to_reference": 0.014942058291015392
+  },
+  "mirror_symmetric_16": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": 49.8304472,
+   "central_ratio_to_reference": -3.092332161125457e-11
+  },
+  "A_16_middle_line": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": 49.8304472,
+   "central_ratio_to_reference": 0.2832713588942539
+  },
+  "A_16_full_line": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": 49.8304472,
+   "central_ratio_to_reference": 0.3098487960384356
+  },
+  "A_16_mirror": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": -49.8304472,
+   "central_ratio_to_reference": 0.3585324771920585
+  },
+  "A_8_N64": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": 49.8304472,
+   "central_ratio_to_reference": 0.46072325302640066
+  },
+  "gap4pct_8": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": 51.86001339826373,
+   "central_ratio_to_reference": 0.9852116623387297
+  },
+  "gap4pct_8_line": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": 51.86001339826373,
+   "central_ratio_to_reference": 0.8868069940425601
+  },
+  "gap4pct_16": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": 51.86001339826373,
+   "central_ratio_to_reference": 0.990803890673113
+  },
+  "gap4pct_16_line": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": 51.86001339826373,
+   "central_ratio_to_reference": 0.8976406314659109
+  },
+  "gap4pct_8_refine2": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": 51.86001339826373,
+   "central_ratio_to_reference": 0.9875792991693463
+  },
+  "gap4pct_8_shortline": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": 51.86001339826373,
+   "central_ratio_to_reference": 0.9839742178387448
+  },
+  "gap4pct_16_shortline": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": 51.86001339826373,
+   "central_ratio_to_reference": 0.9901647153934434
+  },
+  "homogeneous_8_fullline": {
+   "number_type": "uniform_grid_point_estimate",
+   "fixed_reference_Sa_uV_K": 49.8304472,
+   "central_ratio_to_reference": 1.0001483483794535
+  }
+ },
+ "data_inventory": {
+  "r8_winding.json": {
+   "bytes": 28267,
+   "sha256": "45545d69cd698182617ca679b84b740bf1e90c48c661f564658720464c30be4d"
+  },
+  "r8_tolerance.json": {
+   "bytes": 10452643,
+   "sha256": "bc5ffeeed8da0fe69d1f7dc698affa330ad9d6a6801f8709f90f02ddf9556534"
+  },
+  "r8_tolerance_audit.json": {
+   "bytes": 45951,
+   "sha256": "c9dc65265c9308e02aa39641d373e4a440d8c1ad9e4ea18ad635d18c67cfa11d"
+  },
+  "r8_manufacturing.json": {
+   "bytes": 6942602,
+   "sha256": "b56947bf9effded2f71befe81b8c147f1d9a0c40468a5ad710c8d257a50a2682"
+  },
+  "r8_contact.json": {
+   "bytes": 61736,
+   "sha256": "af16983d0034ecf018a17b1a694d6164e76dea6e07df7de6f3f3e6b44aa1d9ca"
+  },
+  "r8_electrodes.json": {
+   "bytes": 152916,
+   "sha256": "db41fc3c85df2721d65b36d2580fabcfdca232d881870b5902fe7d4c156dc79d"
+  },
+  "r8_ring.json": {
+   "bytes": 23322,
+   "sha256": "d224a4012e51d7a7e855608a998d1a03d4c0c48287fb8f130b56b075b1506ac8"
+  }
+ },
+ "variational_order_check": {
+  "checked_matrices": 21,
+  "minimum_gap_eigenvalue": 0.0021632608973574854
+ }
+}

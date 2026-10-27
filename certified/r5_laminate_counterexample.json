@@ -1,0 +1,48 @@
+{
+  "method": "Exact hierarchical laminate: normal flux and tangential gradient continuity",
+  "phase_A_sigma_S_kappa": [
+    100000.0,
+    0.0002,
+    1.0
+  ],
+  "phase_B_sigma_S_kappa": [
+    1000.0,
+    -0.0002,
+    0.1
+  ],
+  "construction": "L1=(A:.3,B:.7), normal 0 deg; L2=(A:.7,B:.3), normal 45 deg; L=(L1:.5,L2:.5), normal 70 deg. Fine/coarse scales separated.",
+  "sigma": [
+    [
+      14333.01261658885,
+      -18293.000908262988
+    ],
+    [
+      -18293.000908262988,
+      33201.08786284267
+    ]
+  ],
+  "alpha": [
+    [
+      2.19874508213013,
+      -3.9200070913830984
+    ],
+    [
+      -3.9200070913830984,
+      6.225373624904293
+    ]
+  ],
+  "S_uV_K": [
+    [
+      9.147947831930663,
+      -115.1798078695036
+    ],
+    [
+      -113.02833476082208,
+      124.04380579176876
+    ]
+  ],
+  "Santi_main_uV_K": -1.0757365543407655,
+  "alpha_symmetry_error": 0.0,
+  "energy_min_eigenvalue": 0.03132828900963761,
+  "sigma_alpha_commutator_norm": 429.7359096875494
+}

@@ -1,0 +1,739 @@
+{
+  "corners": {
+    "baseline": [
+      {
+        "lambda_FE": 0.12311057806176821,
+        "lambda_transfer": 0.12311045739650127,
+        "transfer_singular_value": 5.397847172311556e-09,
+        "energy_power_2lambda": 0.24622091479300254,
+        "quadrants": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "count": 2
+      },
+      {
+        "lambda_FE": 0.35720317890785797,
+        "lambda_transfer": 0.3572002522450906,
+        "transfer_singular_value": 1.9642257109445124e-08,
+        "energy_power_2lambda": 0.7144005044901812,
+        "quadrants": [
+          0,
+          1,
+          0,
+          2
+        ],
+        "count": 4
+      },
+      {
+        "lambda_FE": 0.5923937147256598,
+        "lambda_transfer": 0.5923803614665974,
+        "transfer_singular_value": 5.501411238304448e-09,
+        "energy_power_2lambda": 1.184760722933195,
+        "quadrants": [
+          0,
+          0,
+          1,
+          2
+        ],
+        "count": 4
+      },
+      {
+        "lambda_FE": 0.5923937147249709,
+        "lambda_transfer": 0.5923803626700953,
+        "transfer_singular_value": 5.301217440079037e-08,
+        "energy_power_2lambda": 1.1847607253401906,
+        "quadrants": [
+          0,
+          0,
+          2,
+          1
+        ],
+        "count": 4
+      },
+      {
+        "lambda_FE": 0.6735164528170992,
+        "lambda_transfer": 0.6734968269565008,
+        "transfer_singular_value": 2.195934450060546e-08,
+        "energy_power_2lambda": 1.3469936539130016,
+        "quadrants": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "count": 28
+      },
+      {
+        "lambda_FE": 0.6735164528170992,
+        "lambda_transfer": 0.6734968269565008,
+        "transfer_singular_value": 2.195934450060546e-08,
+        "energy_power_2lambda": 1.3469936539130016,
+        "quadrants": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "count": 24
+      },
+      {
+        "lambda_FE": 0.6735164528169237,
+        "lambda_transfer": 0.6734968277303381,
+        "transfer_singular_value": 5.251135588490305e-07,
+        "energy_power_2lambda": 1.3469936554606763,
+        "quadrants": [
+          1,
+          2,
+          2,
+          2
+        ],
+        "count": 28
+      },
+      {
+        "lambda_FE": 0.6735164528169237,
+        "lambda_transfer": 0.6734968277303381,
+        "transfer_singular_value": 5.251135588490305e-07,
+        "energy_power_2lambda": 1.3469936554606763,
+        "quadrants": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "count": 24
+      },
+      {
+        "lambda_FE": 0.7592405735168148,
+        "lambda_transfer": 0.7592124537450482,
+        "transfer_singular_value": 4.591529006465034e-09,
+        "energy_power_2lambda": 1.5184249074900964,
+        "quadrants": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "count": 28
+      },
+      {
+        "lambda_FE": 0.7592405735161507,
+        "lambda_transfer": 0.7592124537450482,
+        "transfer_singular_value": 4.59152885950584e-09,
+        "energy_power_2lambda": 1.5184249074900964,
+        "quadrants": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "count": 24
+      },
+      {
+        "lambda_FE": 1.000064256474587,
+        "lambda_transfer": 0.9999999976592974,
+        "transfer_singular_value": 1.4707068696898365e-10,
+        "energy_power_2lambda": 1.9999999953185947,
+        "quadrants": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "count": 72
+      },
+      {
+        "lambda_FE": 1.0000642564747069,
+        "lambda_transfer": 0.9999999982395016,
+        "transfer_singular_value": 2.152537170203954e-09,
+        "energy_power_2lambda": 1.9999999964790032,
+        "quadrants": [
+          0,
+          0,
+          2,
+          2
+        ],
+        "count": 68
+      },
+      {
+        "lambda_FE": 1.0000642564747069,
+        "lambda_transfer": 0.9999999982395016,
+        "transfer_singular_value": 2.152537170203954e-09,
+        "energy_power_2lambda": 1.9999999964790032,
+        "quadrants": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "count": 68
+      },
+      {
+        "lambda_FE": 1.0000642564745739,
+        "lambda_transfer": 0.9999999991937369,
+        "transfer_singular_value": 1.688633610945901e-09,
+        "energy_power_2lambda": 1.9999999983874739,
+        "quadrants": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "count": 65
+      },
+      {
+        "lambda_FE": 1.0000642564745739,
+        "lambda_transfer": 0.9999999991937369,
+        "transfer_singular_value": 1.688633610945901e-09,
+        "energy_power_2lambda": 1.9999999983874739,
+        "quadrants": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "count": 69
+      },
+      {
+        "lambda_FE": 1.0000642564747835,
+        "lambda_transfer": 1.0000000016242425,
+        "transfer_singular_value": 1.0205416711025753e-08,
+        "energy_power_2lambda": 2.000000003248485,
+        "quadrants": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "count": 64
+      }
+    ],
+    "metal": [
+      {
+        "lambda_FE": 0.03654553870563669,
+        "lambda_transfer": 0.036545535688224606,
+        "transfer_singular_value": 1.5585497604271932e-09,
+        "energy_power_2lambda": 0.07309107137644921,
+        "quadrants": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "count": 2
+      },
+      {
+        "lambda_FE": 0.35925281458958946,
+        "lambda_transfer": 0.3592498361344423,
+        "transfer_singular_value": 9.990000779473252e-09,
+        "energy_power_2lambda": 0.7184996722688846,
+        "quadrants": [
+          0,
+          1,
+          0,
+          2
+        ],
+        "count": 4
+      },
+      {
+        "lambda_FE": 0.5554182669590212,
+        "lambda_transfer": 0.5554072580806207,
+        "transfer_singular_value": 9.723556706971376e-11,
+        "energy_power_2lambda": 1.1108145161612415,
+        "quadrants": [
+          0,
+          0,
+          1,
+          2
+        ],
+        "count": 4
+      },
+      {
+        "lambda_FE": 0.555418266960138,
+        "lambda_transfer": 0.5554072604093154,
+        "transfer_singular_value": 1.7828685724389134e-08,
+        "energy_power_2lambda": 1.1108145208186309,
+        "quadrants": [
+          0,
+          0,
+          2,
+          1
+        ],
+        "count": 4
+      },
+      {
+        "lambda_FE": 0.6672189338259119,
+        "lambda_transfer": 0.6538745725573605,
+        "transfer_singular_value": 0.7897794141580909,
+        "energy_power_2lambda": 1.307749145114721,
+        "quadrants": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "count": 24
+      },
+      {
+        "lambda_FE": 0.6672910417925432,
+        "lambda_transfer": 0.6539452383665403,
+        "transfer_singular_value": 0.8063525724143994,
+        "energy_power_2lambda": 1.3078904767330806,
+        "quadrants": [
+          1,
+          2,
+          2,
+          2
+        ],
+        "count": 28
+      },
+      {
+        "lambda_FE": 0.6672910417920506,
+        "lambda_transfer": 0.6714553128124191,
+        "transfer_singular_value": 1.2172092678550705e-08,
+        "energy_power_2lambda": 1.3429106256248382,
+        "quadrants": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "count": 28
+      },
+      {
+        "lambda_FE": 0.6672189338262021,
+        "lambda_transfer": 0.671683275531885,
+        "transfer_singular_value": 8.958683628882355e-09,
+        "energy_power_2lambda": 1.34336655106377,
+        "quadrants": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "count": 24
+      },
+      {
+        "lambda_FE": 0.7750655584402271,
+        "lambda_transfer": 0.7750356427239545,
+        "transfer_singular_value": 1.390937445537639e-08,
+        "energy_power_2lambda": 1.550071285447909,
+        "quadrants": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "count": 28
+      },
+      {
+        "lambda_FE": 0.7750655584408915,
+        "lambda_transfer": 0.7750356464463817,
+        "transfer_singular_value": 2.147224953345433e-08,
+        "energy_power_2lambda": 1.5500712928927634,
+        "quadrants": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "count": 24
+      },
+      {
+        "lambda_FE": 1.00006425647436,
+        "lambda_transfer": 0.9999999976600309,
+        "transfer_singular_value": 2.4499635856377266e-11,
+        "energy_power_2lambda": 1.9999999953200618,
+        "quadrants": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "count": 72
+      },
+      {
+        "lambda_FE": 1.0000642564741553,
+        "lambda_transfer": 0.9999999985123946,
+        "transfer_singular_value": 1.7972838788849528e-09,
+        "energy_power_2lambda": 1.9999999970247893,
+        "quadrants": [
+          0,
+          0,
+          2,
+          2
+        ],
+        "count": 68
+      },
+      {
+        "lambda_FE": 1.0000642564752253,
+        "lambda_transfer": 0.9999999987711436,
+        "transfer_singular_value": 1.5850794224226978e-09,
+        "energy_power_2lambda": 1.9999999975422873,
+        "quadrants": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "count": 68
+      },
+      {
+        "lambda_FE": 1.0000642564746376,
+        "lambda_transfer": 0.9999999998783486,
+        "transfer_singular_value": 2.919590053460267e-10,
+        "energy_power_2lambda": 1.9999999997566973,
+        "quadrants": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "count": 65
+      },
+      {
+        "lambda_FE": 1.0000642564748412,
+        "lambda_transfer": 1.0000000001521478,
+        "transfer_singular_value": 9.117656530694408e-10,
+        "energy_power_2lambda": 2.0000000003042957,
+        "quadrants": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "count": 64
+      },
+      {
+        "lambda_FE": 1.000064256474665,
+        "lambda_transfer": 1.000000000261183,
+        "transfer_singular_value": 6.694353926705649e-10,
+        "energy_power_2lambda": 2.000000000522366,
+        "quadrants": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "count": 69
+      }
+    ]
+  },
+  "material_only_bounds": {
+    "best3": {
+      "lower_energy": [
+        [
+          0.016216605086679162,
+          0.0,
+          0.0006461682745098325,
+          0.0
+        ],
+        [
+          0.0,
+          0.016216605086679162,
+          0.0,
+          0.0006461682745098325
+        ],
+        [
+          0.0006461682745098325,
+          0.0,
+          0.3557333146144439,
+          0.0
+        ],
+        [
+          0.0,
+          0.0006461682745098325,
+          0.0,
+          0.3557333146144439
+        ]
+      ],
+      "upper_energy": [
+        [
+          0.39671875,
+          0.0,
+          -0.024695312499999993,
+          -0.0
+        ],
+        [
+          0.0,
+          0.39671875,
+          -0.0,
+          -0.024695312499999993
+        ],
+        [
+          -0.024695312499999993,
+          -0.0,
+          0.9102756510416667,
+          0.0
+        ],
+        [
+          -0.0,
+          -0.024695312499999993,
+          0.0,
+          0.9102756510416667
+        ]
+      ],
+      "gap_eigenvalues": [
+        0.3768873262421455,
+        0.37688732624214555,
+        0.5581571550983981,
+        0.5581571550983981
+      ],
+      "Sa_interval_uV_K": [
+        -571.824397600866,
+        571.8243976008665
+      ],
+      "Sxx_interval_uV_K": [
+        -574.1558147505767,
+        569.6752489856553
+      ],
+      "sigma_interval": [
+        1621.6605086679162,
+        39671.875
+      ],
+      "dual_seconds": 0,
+      "dual_residual": null,
+      "ellipticity_bound_Sa_uV_K": 1611.9382407719459,
+      "phase_scaled_min_eigenvalue": 0.009998958446348648,
+      "phase_scaled_max_eigenvalue": 2.618033988749895
+    },
+    "best4": {
+      "lower_energy": [
+        [
+          0.08197389102703155,
+          0.0,
+          0.03643079608591543,
+          0.0
+        ],
+        [
+          0.0,
+          0.08197389102703155,
+          0.0,
+          0.03643079608591543
+        ],
+        [
+          0.03643079608591543,
+          0.0,
+          0.8546365290065665,
+          0.0
+        ],
+        [
+          0.0,
+          0.03643079608591543,
+          0.0,
+          0.8546365290065665
+        ]
+      ],
+      "upper_energy": [
+        [
+          75.76671875,
+          0.0,
+          1.1734921875,
+          0.0
+        ],
+        [
+          0.0,
+          75.76671875,
+          0.0,
+          1.1734921875
+        ],
+        [
+          1.1734921875,
+          0.0,
+          43.21633815104167,
+          0.0
+        ],
+        [
+          0.0,
+          1.1734921875,
+          0.0,
+          43.21633815104167
+        ]
+      ],
+      "gap_eigenvalues": [
+        42.3229474568365,
+        42.3229474568365,
+        75.72349902417156,
+        75.72349902417156
+      ],
+      "Sa_interval_uV_K": [
+        -2271.5707853992963,
+        2271.5707853993054
+      ],
+      "Sxx_interval_uV_K": [
+        -2225.9849425872276,
+        2317.9664891463176
+      ],
+      "sigma_interval": [
+        8197.389102703155,
+        7576671.875
+      ],
+      "dual_seconds": 0,
+      "dual_residual": null,
+      "ellipticity_bound_Sa_uV_K": 24497.99657906633,
+      "phase_scaled_min_eigenvalue": 0.009998958446348648,
+      "phase_scaled_max_eigenvalue": 600.109325104581
+    },
+    "ideal": {
+      "lower_energy": [
+        [
+          0.44859631742184825,
+          0.0,
+          -0.017747637629921473,
+          0.0
+        ],
+        [
+          0.0,
+          0.44859631742184825,
+          0.0,
+          -0.017747637629921473
+        ],
+        [
+          -0.017747637629921473,
+          0.0,
+          0.11911209614897356,
+          0.0
+        ],
+        [
+          0.0,
+          -0.017747637629921473,
+          0.0,
+          0.11911209614897356
+        ]
+      ],
+      "upper_energy": [
+        [
+          168.78484992258137,
+          0.0,
+          73.48884473145736,
+          0.0
+        ],
+        [
+          0.0,
+          168.78484992258137,
+          0.0,
+          73.48884473145736
+        ],
+        [
+          73.48884473145736,
+          0.0,
+          286.4720134498291,
+          0.0
+        ],
+        [
+          0.0,
+          73.48884473145736,
+          0.0,
+          286.4720134498291
+        ]
+      ],
+      "gap_eigenvalues": [
+        133.08323116946752,
+        133.08323116946752,
+        321.6059237893721,
+        321.6059237893721
+      ],
+      "Sa_interval_uV_K": [
+        -2377.546968284544,
+        2377.546968284544
+      ],
+      "Sxx_interval_uV_K": [
+        -2338.4376434419855,
+        2417.605029491776
+      ],
+      "sigma_interval": [
+        44859.63174218482,
+        16878484.99225814
+      ],
+      "dual_seconds": 0,
+      "dual_residual": null,
+      "ellipticity_bound_Sa_uV_K": 17625.046523488683,
+      "phase_scaled_min_eigenvalue": 0.03747387762609833,
+      "phase_scaled_max_eigenvalue": 1164.1719687912896
+    },
+    "best4_overlay": {
+      "lower_energy": [
+        [
+          0.017550711984788178,
+          0.0,
+          0.0006865638829254826,
+          0.0
+        ],
+        [
+          0.0,
+          0.017550711984788178,
+          0.0,
+          0.0006865638829254826
+        ],
+        [
+          0.0006865638829254826,
+          0.0,
+          0.3811333214292013,
+          0.0
+        ],
+        [
+          0.0,
+          0.0006865638829254826,
+          0.0,
+          0.3811333214292013
+        ]
+      ],
+      "upper_energy": [
+        [
+          28.52125,
+          0.0,
+          0.22840625,
+          0.0
+        ],
+        [
+          0.0,
+          28.52125,
+          0.0,
+          0.22840625
+        ],
+        [
+          0.22840625,
+          0.0,
+          16.525833854166667,
+          0.0
+        ],
+        [
+          0.0,
+          0.22840625,
+          0.0,
+          16.525833854166667
+        ]
+      ],
+      "gap_eigenvalues": [
+        16.14050612642451,
+        16.140506126424512,
+        28.50789369432816,
+        28.507893694328164
+      ],
+      "Sa_interval_uV_K": [
+        -3031.862437420849,
+        3031.8624374208202
+      ],
+      "Sxx_interval_uV_K": [
+        -3027.1513190356304,
+        3036.5767481268394
+      ],
+      "sigma_interval": [
+        1755.071198478818,
+        2852125.0
+      ],
+      "dual_seconds": 0,
+      "dual_residual": null,
+      "ellipticity_bound_Sa_uV_K": 24497.99657906633,
+      "phase_scaled_min_eigenvalue": 0.009998958446348648,
+      "phase_scaled_max_eigenvalue": 600.109325104581
+    }
+  },
+  "all_six_material_global_bound": {
+    "scaled_min_eigenvalue": 0.009998958446348648,
+    "scaled_max_eigenvalue": 600.109325104581,
+    "Sa_upper_uV_K": 24497.99657906633
+  }
+}

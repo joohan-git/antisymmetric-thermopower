@@ -1,0 +1,1644 @@
+{
+ "atlas": [
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 3.3815842004298737,
+   "inplane": 1.0812606273669876e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 23.65433319829727,
+   "inplane": 1.5852243008682984e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 0.11744476797630649,
+   "inplane": 1.0453169887061475e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 17.35655721060217,
+   "inplane": 3.707508147593959e-10,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 2.9532618190052937,
+   "inplane": 1.3642169612614113e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 9.303402679181099,
+   "inplane": 2.94711642547838e-10,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 22.302237442276137,
+   "inplane": 2.624488251029521e-10,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 1.0295487834471404,
+   "inplane": 3.708100672380269e-11,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 11.365251073365563,
+   "inplane": 8.587222866204472e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 6.329132715124282,
+   "inplane": 1.2118945112931622e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 5.81082370048676,
+   "inplane": 1.561108972047166e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 1.5452569306613215,
+   "inplane": 1.6243781339024635e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 0.7620024148580484,
+   "inplane": 2.4376793250812283e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 7.446625340306414,
+   "inplane": 2.124489319903977e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 0.23354922153221638,
+   "inplane": 2.0236737404834944e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 5.570986038029293,
+   "inplane": 7.547841403356162e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 34.241263421437985,
+   "inplane": 1.3975232647768822e-10,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 20.09649369436515,
+   "inplane": 2.094642152690443e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 4.015907064690457,
+   "inplane": 1.5736011803124867e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 2.2361502873257724,
+   "inplane": 2.2277132770420896e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 28.1286083990533,
+   "inplane": 4.37640427549381e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 1.472366358217435,
+   "inplane": 1.120405864236131e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 9.003628794397825,
+   "inplane": 1.090920441542698e-10,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 0.2966092452359308,
+   "inplane": 3.6554115391740333e-11,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 2.119336772054251,
+   "inplane": 1.053878050865833e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 2.1103881927363703,
+   "inplane": 1.1385351130579564e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 1.5995944570411424,
+   "inplane": 5.337301564577427e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 11.650774518506042,
+   "inplane": 4.399015429705527e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": false,
+   "az": 1.5117881741777035e-08,
+   "inplane": 3.96628335696553e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 7.747544924415701,
+   "inplane": 5.790701371603408e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 16.681945495723117,
+   "inplane": 1.270047914157562e-10,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 8.577308785410146,
+   "inplane": 1.7187246895902847e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 10.364991883082347,
+   "inplane": 7.336147093861458e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 45.71619132987132,
+   "inplane": 6.344688836217967e-11,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 1.0513179807371482,
+   "inplane": 6.042258950964147e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 16.50803322147661,
+   "inplane": 9.998780134518618e-10,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 12.380319862394552,
+   "inplane": 1.4713853392562369e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 17.03151822410347,
+   "inplane": 8.809986883718752e-11,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 0.29865418045236836,
+   "inplane": 7.683771899311908e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 0.06376299488239609,
+   "inplane": 2.8088801542744713e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 10.99468977528121,
+   "inplane": 2.1606554718906617e-10,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 3.3211747473432816,
+   "inplane": 2.3049905140316233e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 44.95363358778248,
+   "inplane": 3.499318615071437e-10,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 0.44565988901401765,
+   "inplane": 6.090233876028844e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 1.2538263029491423,
+   "inplane": 3.8205365037881766e-11,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 0.432948184014498,
+   "inplane": 3.9516012486039666e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 5.015987967795025,
+   "inplane": 8.585485908105615e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 7.684619295383895,
+   "inplane": 1.0398527854662976e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 4.510382523810156,
+   "inplane": 4.23566868686439e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 0.2806438868017059,
+   "inplane": 8.01831039318724e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 14.706688305622412,
+   "inplane": 7.505458595724132e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 1.1549105878500578,
+   "inplane": 2.2022560410258978e-11,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 0.8970482896659943,
+   "inplane": 2.92202024244171e-11,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 5.313199102346969,
+   "inplane": 4.0807453882321987e-11,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 2.7388646411865176,
+   "inplane": 1.4571581166124754e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 0.27269289001277264,
+   "inplane": 3.288077172355255e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 16.17794978426677,
+   "inplane": 1.9508998870088197e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 11.35249218667798,
+   "inplane": 1.6825469248987645e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 1.7639154491334126,
+   "inplane": 1.0349358017254806e-10,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 13.286835324787504,
+   "inplane": 3.23242290650236e-11,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 4.278466950558342,
+   "inplane": 4.609931355978238e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 4.1936404140776276,
+   "inplane": 2.6417232545544975e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 1.6490241224832203,
+   "inplane": 9.25701703042891e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 20.25546522729362,
+   "inplane": 6.052868060122321e-11,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 1.6874746958358917,
+   "inplane": 5.744544942583177e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 2.1409660740124252,
+   "inplane": 2.337873893413875e-12,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 4.580546325234799,
+   "inplane": 8.451559822211471e-11,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 8.348687397789226,
+   "inplane": 1.6684904971640175e-10,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 11.39938537475411,
+   "inplane": 3.032142913397945e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 18.67292214588977,
+   "inplane": 4.144296277511289e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 23.901477007592526,
+   "inplane": 4.164846002004958e-11,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 4.069126479703275,
+   "inplane": 3.1101838519346486e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 11.228792304460937,
+   "inplane": 1.1670030819204094e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 0.19984107208982838,
+   "inplane": 1.2871330961234741e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 2.8435765858181945,
+   "inplane": 8.292829260034505e-11,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 1.2657002015669596,
+   "inplane": 8.690619632654056e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 22.25805637905296,
+   "inplane": 1.1177249869945774e-08,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 3.0609579367115654,
+   "inplane": 3.5197263481245304e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 5.758561033981028,
+   "inplane": 4.770682189448968e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 13.598957705441578,
+   "inplane": 6.446174256521249e-11,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 0.4956537518045802,
+   "inplane": 7.080015982444235e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "segmented woodpile",
+   "allowed": true,
+   "az": 3.175564956469897,
+   "inplane": 4.7271952634422815e-09,
+   "allowed_inplane": false
+  },
+  {
+   "family": "straight woodpile",
+   "allowed": false,
+   "az": 9.592341099244867e-12,
+   "inplane": 7.992641616911843e-12,
+   "allowed_inplane": false,
+   "colour_point_group": "422"
+  },
+  {
+   "family": "straight woodpile",
+   "allowed": false,
+   "az": 8.991961936914396e-12,
+   "inplane": 7.457698186789176e-12,
+   "allowed_inplane": false,
+   "colour_point_group": "422"
+  },
+  {
+   "family": "straight woodpile",
+   "allowed": false,
+   "az": 8.617092888252057e-12,
+   "inplane": 7.585319240483204e-12,
+   "allowed_inplane": false,
+   "colour_point_group": "422"
+  },
+  {
+   "family": "straight woodpile",
+   "allowed": false,
+   "az": 7.799939821819106e-12,
+   "inplane": 5.419275915261853e-12,
+   "allowed_inplane": false,
+   "colour_point_group": "422"
+  },
+  {
+   "family": "straight woodpile",
+   "allowed": false,
+   "az": 5.579703634892154e-12,
+   "inplane": 1.6691685485899588e-11,
+   "allowed_inplane": false,
+   "colour_point_group": "422"
+  },
+  {
+   "family": "straight woodpile",
+   "allowed": false,
+   "az": 3.653977214426942e-12,
+   "inplane": 1.6854581551158184e-11,
+   "allowed_inplane": false,
+   "colour_point_group": "422"
+  },
+  {
+   "family": "straight woodpile",
+   "allowed": false,
+   "az": 3.3991239933498403e-12,
+   "inplane": 5.122446025011619e-13,
+   "allowed_inplane": false,
+   "colour_point_group": "422"
+  },
+  {
+   "family": "straight woodpile",
+   "allowed": false,
+   "az": 2.747347197094009e-12,
+   "inplane": 1.4924028904204583e-12,
+   "allowed_inplane": false,
+   "colour_point_group": "422"
+  },
+  {
+   "family": "straight woodpile",
+   "allowed": false,
+   "az": 2.5892433745437076e-12,
+   "inplane": 1.2945712743599397e-11,
+   "allowed_inplane": false,
+   "colour_point_group": "422"
+  },
+  {
+   "family": "straight woodpile",
+   "allowed": false,
+   "az": 1.891843031628147e-12,
+   "inplane": 3.548753142325787e-12,
+   "allowed_inplane": false,
+   "colour_point_group": "422"
+  },
+  {
+   "family": "straight woodpile",
+   "allowed": false,
+   "az": 1.7987754081335253e-12,
+   "inplane": 2.372617894251341e-12,
+   "allowed_inplane": false,
+   "colour_point_group": "422"
+  },
+  {
+   "family": "straight woodpile",
+   "allowed": false,
+   "az": 1.3132733804123714e-12,
+   "inplane": 2.152188959632924e-12,
+   "allowed_inplane": false,
+   "colour_point_group": "422"
+  },
+  {
+   "family": "straight woodpile",
+   "allowed": false,
+   "az": 9.798784489455376e-13,
+   "inplane": 6.281898933660844e-12,
+   "allowed_inplane": false,
+   "colour_point_group": "422"
+  },
+  {
+   "family": "straight woodpile",
+   "allowed": false,
+   "az": 9.27017268812148e-13,
+   "inplane": 1.0736772606690444e-12,
+   "allowed_inplane": false,
+   "colour_point_group": "422"
+  },
+  {
+   "family": "straight woodpile",
+   "allowed": false,
+   "az": 8.449821444499157e-13,
+   "inplane": 3.068594568768068e-12,
+   "allowed_inplane": false,
+   "colour_point_group": "422"
+  },
+  {
+   "family": "straight woodpile",
+   "allowed": false,
+   "az": 1.303208671207488e-13,
+   "inplane": 6.907098644140606e-12,
+   "allowed_inplane": false,
+   "colour_point_group": "422"
+  },
+  {
+   "family": "straight woodpile",
+   "allowed": false,
+   "az": 6.384813223369012e-14,
+   "inplane": 2.001026677374907e-12,
+   "allowed_inplane": false,
+   "colour_point_group": "422"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 5.4211514153621735e-12,
+   "inplane": 1.297173827115644e-11,
+   "allowed_inplane": false,
+   "name": "utk"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 3.394846996292376e-11,
+   "inplane": 4.274165001127564e-11,
+   "allowed_inplane": false,
+   "name": "unc"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 16.487078871107308,
+   "inplane": 1.5068502511620376e-11,
+   "allowed_inplane": false,
+   "name": "unm"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 1.1580812915792612e-11,
+   "inplane": 1.805143335072844e-11,
+   "allowed_inplane": false,
+   "name": "dft"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 3.750825534518072e-11,
+   "inplane": 1.0077979660957268e-11,
+   "allowed_inplane": false,
+   "name": "umw"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 5.1686394312140145,
+   "inplane": 5.682166723007866e-11,
+   "allowed_inplane": false,
+   "name": "umx"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 3.753431354861315,
+   "inplane": 1.469166550123964e-11,
+   "allowed_inplane": false,
+   "name": "uoj"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 3.1296126856080186e-12,
+   "inplane": 1.057206035579703e-10,
+   "allowed_inplane": false,
+   "name": "lvt"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 5.29438072906448e-12,
+   "inplane": 1.389330089032084e-12,
+   "allowed_inplane": false,
+   "name": "crb"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 2.466178221099123,
+   "inplane": 2.4930164528104824e-11,
+   "allowed_inplane": false,
+   "name": "uov"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 1.571900043584197,
+   "inplane": 9.228243199869971e-11,
+   "allowed_inplane": false,
+   "name": "ukg"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 5.776158550072423e-11,
+   "inplane": 5.642227686664408e-12,
+   "allowed_inplane": false,
+   "name": "cds-b"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 1.63998241024564e-11,
+   "inplane": 2.3158729394140273e-11,
+   "allowed_inplane": false,
+   "name": "edi"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 1.485336902137211e-11,
+   "inplane": 4.2438520895827843e-11,
+   "allowed_inplane": false,
+   "name": "pts"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 13.064039430280541,
+   "inplane": 5.563197754709949e-11,
+   "allowed_inplane": false,
+   "name": "bbr"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 5.2003988844030265e-11,
+   "inplane": 3.8708809164170696e-11,
+   "allowed_inplane": false,
+   "name": "mot"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 5.2983633390111e-12,
+   "inplane": 1.3852464592879896e-12,
+   "allowed_inplane": false,
+   "name": "crb-b"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 1.0135952859710016e-11,
+   "inplane": 6.1664200251828856e-12,
+   "allowed_inplane": false,
+   "name": "bsn"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 4.988632171189728e-11,
+   "inplane": 1.050227186917429e-11,
+   "allowed_inplane": false,
+   "name": "snp"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 4.183101765377694,
+   "inplane": 2.3329549709930236e-11,
+   "allowed_inplane": false,
+   "name": "sne"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 2.8625573256460265e-11,
+   "inplane": 8.463036863350328e-12,
+   "allowed_inplane": false,
+   "name": "rtl"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 1.2497117674694134e-11,
+   "inplane": 3.4328936085477225e-12,
+   "allowed_inplane": false,
+   "name": "mot-e"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 3.4788719034236303e-12,
+   "inplane": 5.811426127581747e-11,
+   "allowed_inplane": false,
+   "name": "fsd"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 1.20232867269402e-11,
+   "inplane": 4.420610509152025e-11,
+   "allowed_inplane": false,
+   "name": "cds-a"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 4.1314363392843605,
+   "inplane": 2.1842982934444326e-11,
+   "allowed_inplane": false,
+   "name": "noo"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 5.9876437525529065,
+   "inplane": 3.041651031632301e-11,
+   "allowed_inplane": false,
+   "name": "nou"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 9.151456321398897e-12,
+   "inplane": 3.7534329786172116e-11,
+   "allowed_inplane": false,
+   "name": "fsc"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 6.664293362641096e-12,
+   "inplane": 8.687107560333844e-11,
+   "allowed_inplane": false,
+   "name": "fse"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 2.686291556480292,
+   "inplane": 2.5297391482249136e-11,
+   "allowed_inplane": false,
+   "name": "sve"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 5.84893965336403e-13,
+   "inplane": 6.996879866803189e-12,
+   "allowed_inplane": false,
+   "name": "svg"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 3.9803121797101806,
+   "inplane": 2.7505142387619443e-11,
+   "allowed_inplane": false,
+   "name": "svi"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 5.886058644569799,
+   "inplane": 7.739630530886956e-11,
+   "allowed_inplane": false,
+   "name": "svs"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 4.125779326152552,
+   "inplane": 3.829393450382288e-11,
+   "allowed_inplane": false,
+   "name": "eci"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 9.921162427428483,
+   "inplane": 2.031486489473961e-11,
+   "allowed_inplane": false,
+   "name": "ncd"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 5.702202657292435,
+   "inplane": 3.436725109845376e-11,
+   "allowed_inplane": false,
+   "name": "ncf"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 1.6263207571863152e-11,
+   "inplane": 4.5204948048877446e-11,
+   "allowed_inplane": false,
+   "name": "bct"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 0.7321641970557871,
+   "inplane": 4.1238872126569664e-11,
+   "allowed_inplane": false,
+   "name": "ela"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 8.803738848196809e-12,
+   "inplane": 3.817681679413911e-11,
+   "allowed_inplane": false,
+   "name": "scu"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 1.5329560335543768e-13,
+   "inplane": 5.27784892682315e-12,
+   "allowed_inplane": false,
+   "name": "svf"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 6.879953223295893e-11,
+   "inplane": 3.0857455543358635e-11,
+   "allowed_inplane": false,
+   "name": "dmd"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 2.0498045140969716,
+   "inplane": 6.241768085295731e-11,
+   "allowed_inplane": false,
+   "name": "wfd"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 6.8878697738889265,
+   "inplane": 1.012106013217627e-11,
+   "allowed_inplane": false,
+   "name": "wfe"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 2.8439915683900074,
+   "inplane": 3.3482724771432296e-11,
+   "allowed_inplane": false,
+   "name": "wff"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 22.730998862669026,
+   "inplane": 1.8115720197884824e-11,
+   "allowed_inplane": false,
+   "name": "wfs"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 7.544860791276136,
+   "inplane": 3.1627881294725586e-11,
+   "allowed_inplane": false,
+   "name": "wft"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 9.646194486515096,
+   "inplane": 4.791756215035047e-11,
+   "allowed_inplane": false,
+   "name": "wfu"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 3.6233065642376054,
+   "inplane": 2.0140097916246954e-11,
+   "allowed_inplane": false,
+   "name": "wfy"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 16.720402911041568,
+   "inplane": 2.049238103689602e-11,
+   "allowed_inplane": false,
+   "name": "upa"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 24.887667140379587,
+   "inplane": 1.2177535321527649e-10,
+   "allowed_inplane": false,
+   "name": "xft"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 9.505750788228081,
+   "inplane": 5.488562309761369e-11,
+   "allowed_inplane": false,
+   "name": "xfu"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 4.122850210781561e-12,
+   "inplane": 4.819164687576905e-11,
+   "allowed_inplane": false,
+   "name": "xfv-z"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 5.555476172462819,
+   "inplane": 5.140374542965814e-11,
+   "allowed_inplane": false,
+   "name": "xfw"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 9.915109368847699e-13,
+   "inplane": 7.84010594723274e-11,
+   "allowed_inplane": false,
+   "name": "xfx"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 1.2875886257700093,
+   "inplane": 5.2131845913997984e-11,
+   "allowed_inplane": false,
+   "name": "xfy"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 12.5325061784005,
+   "inplane": 2.258203673648389e-11,
+   "allowed_inplane": false,
+   "name": "yfg"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 10.514189822233968,
+   "inplane": 9.182895874997019e-11,
+   "allowed_inplane": false,
+   "name": "yfx"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 14.48491867221552,
+   "inplane": 2.3977021152063084e-11,
+   "allowed_inplane": false,
+   "name": "zfa"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 15.417887979812516,
+   "inplane": 2.6780073671306824e-11,
+   "allowed_inplane": false,
+   "name": "zfb"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 2.997174877044797,
+   "inplane": 2.232004987682942e-11,
+   "allowed_inplane": false,
+   "name": "zfs"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 7.519540367928853,
+   "inplane": 4.05306887442851e-11,
+   "allowed_inplane": false,
+   "name": "zfu"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 9.341484606845617,
+   "inplane": 6.149164980824644e-11,
+   "allowed_inplane": false,
+   "name": "wgu"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 9.524028090787057,
+   "inplane": 1.3278127543255276e-11,
+   "allowed_inplane": false,
+   "name": "wgv"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 3.5234056348243663,
+   "inplane": 3.531700759663968e-11,
+   "allowed_inplane": false,
+   "name": "wgw"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 5.381719945873702,
+   "inplane": 5.494153380818337e-11,
+   "allowed_inplane": false,
+   "name": "wha"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 4.66196447450871e-12,
+   "inplane": 4.177004204880753e-11,
+   "allowed_inplane": false,
+   "name": "whb"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 1.2842605603736417,
+   "inplane": 5.019248249626163e-11,
+   "allowed_inplane": false,
+   "name": "whc"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 6.521975973346659e-11,
+   "inplane": 7.144326691700355e-11,
+   "allowed_inplane": false,
+   "name": "msw"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 1.088035957155306,
+   "inplane": 3.7108049650182534e-11,
+   "allowed_inplane": false,
+   "name": "svi-x"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 6.882106497410161e-11,
+   "inplane": 9.390384539004975e-11,
+   "allowed_inplane": false,
+   "name": "lsz"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 4.82911830421579e-12,
+   "inplane": 2.728773778527632e-11,
+   "allowed_inplane": false,
+   "name": "lvt-c"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 2.9470156315727598e-12,
+   "inplane": 1.8797819709354337e-11,
+   "allowed_inplane": false,
+   "name": "lig-c"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 5.743784927257835e-12,
+   "inplane": 3.757399286126942e-12,
+   "allowed_inplane": false,
+   "name": "fnx"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 1.5878562207852288e-11,
+   "inplane": 7.529621559479017e-12,
+   "allowed_inplane": false,
+   "name": "srs-c*"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 2.0132347319515724e-11,
+   "inplane": 4.689543084658534e-11,
+   "allowed_inplane": false,
+   "name": "unc-c"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 8.08699604823058e-12,
+   "inplane": 1.646709790219946e-10,
+   "allowed_inplane": false,
+   "name": "cap"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 5.329956100798995e-12,
+   "inplane": 2.429241670028276e-11,
+   "allowed_inplane": false,
+   "name": "xah"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 3.6445030762508544e-11,
+   "inplane": 4.609957206007285e-11,
+   "allowed_inplane": false,
+   "name": "pts-x"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 1.1021667845886598e-10,
+   "inplane": 1.3627997456419437e-10,
+   "allowed_inplane": false,
+   "name": "xal"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 1.0741524467022783e-12,
+   "inplane": 2.1067390593126356e-11,
+   "allowed_inplane": false,
+   "name": "ddi"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 3.971952197305612e-12,
+   "inplane": 1.4628385483354047e-11,
+   "allowed_inplane": false,
+   "name": "tty"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 6.124215159066579e-12,
+   "inplane": 2.7722025965666233e-11,
+   "allowed_inplane": false,
+   "name": "cut"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 5.383181253033909e-12,
+   "inplane": 3.775119764184751e-11,
+   "allowed_inplane": false,
+   "name": "deh-d"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 6.865073749633955,
+   "inplane": 1.1102100039967509e-11,
+   "allowed_inplane": false,
+   "name": "tfn"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 6.007368593406643e-11,
+   "inplane": 1.5727830543035404e-11,
+   "allowed_inplane": false,
+   "name": "eft"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 7.714519794760267,
+   "inplane": 9.798822974044722e-11,
+   "allowed_inplane": false,
+   "name": "dnq"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 11.314589139915588,
+   "inplane": 1.3111627021962052e-11,
+   "allowed_inplane": false,
+   "name": "tfv"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 9.254545172692282e-12,
+   "inplane": 4.060621713872322e-11,
+   "allowed_inplane": false,
+   "name": "hcb-c"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 1.7861948799039453e-11,
+   "inplane": 2.915700658033586e-11,
+   "allowed_inplane": false,
+   "name": "sql-c"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 2.01101589580924e-11,
+   "inplane": 6.705441607102177e-11,
+   "allowed_inplane": false,
+   "name": "bcu-c"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 1.4513021502367505e-12,
+   "inplane": 5.690128258614328e-12,
+   "allowed_inplane": false,
+   "name": "ths-c3"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 3.333418711882096e-12,
+   "inplane": 3.017887684177306e-11,
+   "allowed_inplane": false,
+   "name": "zll"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 12.275317692483547,
+   "inplane": 1.3664625903478024e-10,
+   "allowed_inplane": false,
+   "name": "asd"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 9.759756954571638e-13,
+   "inplane": 1.4719693733500284e-11,
+   "allowed_inplane": false,
+   "name": "scu-c"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 3.232711680923035e-12,
+   "inplane": 4.387202462737819e-11,
+   "allowed_inplane": false,
+   "name": "dia-b4*"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 9.527835294356676e-12,
+   "inplane": 1.1197852508138132e-10,
+   "allowed_inplane": false,
+   "name": "dia-w*"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 3.842659336545254e-11,
+   "inplane": 1.0484661428735805e-10,
+   "allowed_inplane": false,
+   "name": "dia-w"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 8.99848445567341e-12,
+   "inplane": 7.599629787679394e-10,
+   "allowed_inplane": false,
+   "name": "dia-w-c"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 5.3116982969491555e-12,
+   "inplane": 2.927961570785447e-11,
+   "allowed_inplane": false,
+   "name": "fsj"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 53.34803683583467,
+   "inplane": 3.166664196209656e-11,
+   "allowed_inplane": false,
+   "name": "cyc"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 1.5073270251850245e-10,
+   "inplane": 1.4704242240780122e-11,
+   "allowed_inplane": false,
+   "name": "trn"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 12.20506793642763,
+   "inplane": 4.975824268091416e-11,
+   "allowed_inplane": false,
+   "name": "cyg"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 6.193160647474627,
+   "inplane": 7.210638051759594e-11,
+   "allowed_inplane": false,
+   "name": "zlg"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 6.30954792271315e-09,
+   "inplane": 2.841809576213962e-10,
+   "allowed_inplane": false,
+   "name": "sql-c*-w"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 5.74483938115651,
+   "inplane": 4.688907292464568e-11,
+   "allowed_inplane": false,
+   "name": "pll"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": true,
+   "az": 3.035743399631602,
+   "inplane": 2.814619307456328e-11,
+   "allowed_inplane": false,
+   "name": "boq"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 1.0033588785707622e-12,
+   "inplane": 5.237394708770007e-11,
+   "allowed_inplane": false,
+   "name": "bsa"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 4.65047108398234e-11,
+   "inplane": 3.1233391940279684e-11,
+   "allowed_inplane": false,
+   "name": "bsd"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 5.739931715477924e-12,
+   "inplane": 3.3215568952522086e-11,
+   "allowed_inplane": false,
+   "name": "fuq"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 1.666396287746799e-11,
+   "inplane": 1.5988718517292403e-11,
+   "allowed_inplane": false,
+   "name": "fwl"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 9.954404790181108e-12,
+   "inplane": 3.6592271088524286e-11,
+   "allowed_inplane": false,
+   "name": "fwq"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 2.036954556629977e-11,
+   "inplane": 3.97201800675904e-12,
+   "allowed_inplane": false,
+   "name": "fws"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 5.208497867041322e-13,
+   "inplane": 1.441590304090915e-11,
+   "allowed_inplane": false,
+   "name": "pcs"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 1.5285971793496191e-12,
+   "inplane": 5.3517548610201664e-11,
+   "allowed_inplane": false,
+   "name": "psb"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 9.008524573842157e-12,
+   "inplane": 2.317894788545637e-11,
+   "allowed_inplane": false,
+   "name": "sub"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 5.715945891893079e-12,
+   "inplane": 8.872306075468595e-12,
+   "allowed_inplane": false,
+   "name": "sup"
+  },
+  {
+   "family": "RCSR net",
+   "allowed": false,
+   "az": 4.229766737218379e-12,
+   "inplane": 1.3845158147277386e-11,
+   "allowed_inplane": false,
+   "name": "sfo"
+  }
+ ],
+ "n": 215,
+ "violations": 0
+}

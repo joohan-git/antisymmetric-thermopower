@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article and this archive."
+title: "Antisymmetric thermopower without magnetism in three-phase composites: code and data"
+authors:
+  - family-names: Nam
+    given-names: Joohan
+    orcid: "https://orcid.org/0000-0001-5123-418X"
+    affiliation: "Technische Universität Dresden"
+version: 1.0.0
+doi: 10.5281/zenodo.23668925
+repository-code: "https://github.com/joohan-git/antisymmetric-thermopower"
+date-released: 2026-10-26
+license: MIT
+keywords:
+  - thermoelectric composites
+  - homogenization
+  - ferroaxial
+  - colour symmetry
+  - variational bounds

@@ -1,0 +1,325 @@
+{
+  "classification": "C: continuum variational enclosure or exact algebraic/material-symmetry statement. P: numerical point estimate. Floating-point and quadrature errors are not interval-certified.",
+  "symmetry": {
+    "straight": {
+      "count_C": 17,
+      "groups_C": {
+        "422": 17
+      },
+      "z_allowed_C": 0,
+      "exceptions_to_4_or_2": [
+        "scan_woodpile_N24:0",
+        "scan_woodpile_N24:1",
+        "scan_woodpile_N24:2",
+        "scan_woodpile_N24:3",
+        "scan_woodpile_N24:4",
+        "scan_woodpile_N24:5",
+        "scan_woodpile_N24:6",
+        "scan_woodpile_N24:7",
+        "scan_woodpile_N24:8",
+        "scan_woodpile_N24:9",
+        "scan_woodpile_N24:10",
+        "scan_woodpile_N24:11",
+        "scan_woodpile_N24:12",
+        "scan_woodpile_N24:13",
+        "scan_woodpile_N24:14",
+        "scan_woodpile_N24:15",
+        "scan_woodpile_N24:16"
+      ],
+      "max_forbidden_abs_Sa_P": 9.592341099244867e-12
+    },
+    "segmented": {
+      "count_C": 82,
+      "groups_C": {
+        "m": 35,
+        "4": 46,
+        "422": 1
+      },
+      "z_allowed_C": 81,
+      "exceptions_to_4_or_2": [
+        "scan_segwood_N16_s11:0",
+        "scan_segwood_N16_s11:2",
+        "scan_segwood_N16_s11:4",
+        "scan_segwood_N16_s11:6",
+        "scan_segwood_N16_s11:9",
+        "scan_segwood_N16_s11:10",
+        "scan_segwood_N16_s11:11",
+        "scan_segwood_N16_s11:13",
+        "scan_segwood_N16_s11:14",
+        "scan_segwood_N16_s11:15",
+        "scan_segwood_N16_s11:16",
+        "scan_segwood_N16_s11:17",
+        "scan_segwood_N16_s11:19",
+        "scan_segwood_N16_s11:20",
+        "scan_segwood_N16_s12:4",
+        "scan_segwood_N16_s12:6",
+        "scan_segwood_N16_s12:7",
+        "scan_segwood_N16_s12:10",
+        "scan_segwood_N16_s12:12",
+        "scan_segwood_N16_s12:13",
+        "scan_segwood_N16_s12:16",
+        "scan_segwood_N16_s12:17",
+        "scan_segwood_N16_s12:19",
+        "scan_segwood_N16_s12:21",
+        "scan_segwood_N16_s13:3",
+        "scan_segwood_N16_s13:9",
+        "scan_segwood_N16_s13:10",
+        "scan_segwood_N16_s13:12",
+        "scan_segwood_N16_s13:16",
+        "scan_segwood_N16_s13:17",
+        "scan_segwood_N16_s13:19",
+        "scan_segwood_N16_s13:23",
+        "scan_segwood_N16_s13:24",
+        "scan_segwood_N16_s13:26",
+        "scan_segwood_N16_s13:27",
+        "scan_segwood_N16_s3:2"
+      ],
+      "max_forbidden_abs_Sa_P": 1.5117881741777035e-08
+    }
+  },
+  "p1_Sa_C": [
+    -0.4637485980371171,
+    -0.3506321442777494
+  ],
+  "p1_axes_P": {
+    "sigma_axis_deg_P": 1.6289537705931139,
+    "L_axis_deg_P": 3.4987529439857497,
+    "relative_L_antisymmetry_P": 2.613994942001081e-16
+  },
+  "weak_slope_P": {
+    "all": 2.9981163093165,
+    "eps_le_001": 2.9991427469162737,
+    "adjacent": [
+      2.9996768416843542,
+      2.9994343387488374,
+      2.999022541183062,
+      2.998351572999194,
+      2.9973515557376302,
+      2.9961800219833514,
+      2.9959962691711417,
+      3.001600645236665
+    ]
+  },
+  "weak_Taylor_coefficients_P": [
+    0.0,
+    5.03517271001262e-16,
+    -7.584642321663686e-16,
+    -0.7480390936058814,
+    0.18239972266515522,
+    -1.3198316401375074
+  ],
+  "quartic_counterexample": {
+    "D_i": [
+      [
+        [
+          0.8097222222222222,
+          -0.5375
+        ],
+        [
+          -0.5375,
+          -0.8097222222222222
+        ]
+      ],
+      [
+        [
+          -0.19027777777777777,
+          0.4625
+        ],
+        [
+          0.4625,
+          0.19027777777777777
+        ]
+      ],
+      [
+        [
+          -0.5902777777777778,
+          0.0625
+        ],
+        [
+          0.0625,
+          0.5902777777777778
+        ]
+      ]
+    ],
+    "s0": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "Sa_Taylor_uV_K_P": [
+      0.0,
+      -1.445602896647339e-17,
+      -2.64726030448544e-16,
+      -3.956769988033952e-16,
+      0.19206628152847496,
+      -3.5338474845139377e-17
+    ],
+    "rows": [
+      {
+        "epsilon": 0.001,
+        "Sa_uV_K_P": 1.920666501011454e-13,
+        "Sa_over_eps4_P": 0.19206665010114535
+      },
+      {
+        "epsilon": 0.00316227766016838,
+        "Sa_uV_K_P": 1.9206721700884245e-11,
+        "Sa_over_eps4_P": 0.19206721700884233
+      },
+      {
+        "epsilon": 0.01,
+        "Sa_uV_K_P": 1.9207551354515395e-09,
+        "Sa_over_eps4_P": 0.19207551354515395
+      },
+      {
+        "epsilon": 0.0316227766016838,
+        "Sa_uV_K_P": 1.9215833504307357e-07,
+        "Sa_over_eps4_P": 0.19215833504307345
+      },
+      {
+        "epsilon": 0.1,
+        "Sa_uV_K_P": 1.9298092290536186e-05,
+        "Sa_over_eps4_P": 0.1929809229053618
+      }
+    ],
+    "analytic_C": "Every real symmetric traceless two-by-two matrix is a linear combination of the two real Pauli matrices. Every product of three such matrices is symmetric; consequently D(x)D(y)D(z)-D(z)D(y)D(x)=0 and the cubic axial coefficient vanishes exactly, even though the three local matrices are linearly independent.",
+    "slope_eps_ge_001_P": 4.002042376007603
+  },
+  "design_A_metrics_C": {
+    "original": {
+      "Sa_uV_K": [
+        49.52371439718933,
+        50.14164578090815
+      ],
+      "Sxx_uV_K": [
+        8.165060047143177,
+        8.782976129616392
+      ],
+      "sigma_S_m": [
+        32191.90448766443,
+        32248.219736493087
+      ],
+      "kappa_open_W_mK": [
+        1.2396558950047238,
+        1.2417675810182172
+      ],
+      "PF_a_microW_mK2": [
+        78.95380982406674,
+        81.07797878101546
+      ],
+      "zT_a": [
+        0.019074538028926474,
+        0.019621084957783346
+      ],
+      "S_halfspan_uV_K": 190.0,
+      "span_normalized_abs_Sa": [
+        0.26065112840625965,
+        0.263903398846885
+      ],
+      "point": {
+        "Sa_uV_K": 49.83044718330713,
+        "Sxx_uV_K": 8.473509790437259,
+        "sigma_S_m": 32248.21973649309,
+        "kappa_open_W_mK": 1.2417675810182172,
+        "PF_a_microW_mK2": 80.07469876917227,
+        "zT_a": 0.019345334825905128,
+        "span_normalized_abs_Sa": 0.2622655114910902
+      },
+      "interval_rule": "Schur-monotone kappa bounds; conservative separate-interval products for PF and zT"
+    },
+    "0.3": {
+      "Sa_uV_K": [
+        44.02937787948753,
+        44.598082896966005
+      ],
+      "Sxx_uV_K": [
+        -2.631705048384794,
+        -2.0629970036608767
+      ],
+      "sigma_S_m": [
+        29773.9183685284,
+        29825.849313122697
+      ],
+      "kappa_open_W_mK": [
+        0.9681853749936062,
+        0.9698446002923805
+      ],
+      "PF_a_microW_mK2": [
+        57.71930478168488,
+        59.3232861423317
+      ],
+      "zT_a": [
+        0.01785419172234938,
+        0.018381795782462674
+      ],
+      "S_halfspan_uV_K": 190.0,
+      "span_normalized_abs_Sa": [
+        0.23173356778677645,
+        0.23472675208929478
+      ],
+      "point": {
+        "Sa_uV_K": 44.31406071064461,
+        "Sxx_uV_K": -2.346366862767965,
+        "sigma_S_m": 29825.849313122697,
+        "kappa_open_W_mK": 0.9698446002923805,
+        "PF_a_microW_mK2": 58.57009333081871,
+        "zT_a": 0.018117364363268558,
+        "span_normalized_abs_Sa": 0.2332318984770769
+      },
+      "interval_rule": "Schur-monotone kappa bounds; conservative separate-interval products for PF and zT"
+    },
+    "1.0": {
+      "Sa_uV_K": [
+        53.15124466705526,
+        53.775280136968256
+      ],
+      "Sxx_uV_K": [
+        10.612642627409274,
+        11.236676320794064
+      ],
+      "sigma_S_m": [
+        31910.475951890006,
+        31966.14011280911
+      ],
+      "kappa_open_W_mK": [
+        1.2616033310726458,
+        1.2637442014812954
+      ],
+      "PF_a_microW_mK2": [
+        90.14884356633632,
+        92.43906875179643
+      ],
+      "zT_a": [
+        0.021400417139956454,
+        0.021981331170044346
+      ],
+      "S_halfspan_uV_K": 190.0,
+      "span_normalized_abs_Sa": [
+        0.27974339298450135,
+        0.28302779019456975
+      ],
+      "point": {
+        "Sa_uV_K": 53.46247994940907,
+        "Sxx_uV_K": 10.924901321413827,
+        "sigma_S_m": 31966.14011280911,
+        "kappa_open_W_mK": 1.2637442014812954,
+        "PF_a_microW_mK2": 91.36679682057323,
+        "zT_a": 0.02168954683554104,
+        "span_normalized_abs_Sa": 0.2813814734179425
+      },
+      "interval_rule": "Schur-monotone kappa bounds; conservative separate-interval products for PF and zT"
+    }
+  },
+  "proposed_English": {
+    "symmetry": "All 17 straight-rod rasters have material point group 422. Among the 82 segmented rasters, 46 have group 4, 35 have the horizontal-mirror group m, and one has group 422.",
+    "p1": "The original two-phase rod-and-block cell has misaligned electrical and thermoelectric principal axes, with a certified axial Seebeck interval of [-0.4638, -0.3506] microvolts per kelvin for its fixed 64 by 64 raster.",
+    "weak": "For weak contrast in the full coupled transport matrices, the first symmetry-allowed axial contribution is cubic. The cubic coefficient is generically nonzero but can vanish for special material relations or geometries.",
+    "insulator": "For the fixed design-A raster, replacing the weak phase by an electrical insulator with conductivity 1e-6 S/m and thermal conductivity 0.3 or 1.0 W/(m K) gives certified axial Seebeck intervals of [44.029, 44.599] and [53.151, 53.776] microvolts per kelvin, respectively."
+  },
+  "read_only_originals": true,
+  "report_word_count_whitespace": 859
+}

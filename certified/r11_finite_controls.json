@@ -1,0 +1,294 @@
+{
+  "classification": "P: uniform-grid finite-sample controls",
+  "runs": {
+    "homogeneous_point_probe": {
+      "classification": "P: uniform-grid finite-sample estimate",
+      "shape": [
+        128,
+        64,
+        8
+      ],
+      "dofs_after_electrode_constraint": 150930,
+      "electrode_y_width_voxels": null,
+      "electrode_z_width_voxels": null,
+      "V_left_minus_right_uV": 96.67976254660331,
+      "electrode_T_left_minus_right_K": -2.9009128432733178e-11,
+      "probe_positions": [
+        {
+          "y_over_H": 0.25,
+          "V_left_minus_right_uV": 96.67976249546054,
+          "T_left_minus_right_K": 5.651301648867957e-11
+        },
+        {
+          "y_over_H": 0.5,
+          "V_left_minus_right_uV": 96.67976254660331,
+          "T_left_minus_right_K": -2.9009128432733178e-11
+        },
+        {
+          "y_over_H": 0.75,
+          "V_left_minus_right_uV": 96.67976247643233,
+          "T_left_minus_right_K": 1.2987388942065081e-12
+        }
+      ],
+      "solver": [
+        {
+          "iterations": 14,
+          "info": 0,
+          "relative_residual": 2.3188669087529774e-11
+        }
+      ],
+      "net_electrode_current_scaled": [
+        5.272562659912328e-12,
+        -3.2295520424607815e-13
+      ],
+      "seconds": 2.952296799980104,
+      "ratio_to_Sa_DeltaT_W_over_H": 1.000000000207038
+    },
+    "homogeneous_short_patch": {
+      "classification": "P: uniform-grid finite-sample estimate",
+      "shape": [
+        128,
+        64,
+        8
+      ],
+      "dofs_after_electrode_constraint": 150882,
+      "electrode_y_width_voxels": 4,
+      "electrode_z_width_voxels": 4,
+      "V_left_minus_right_uV": 96.67976501574144,
+      "electrode_T_left_minus_right_K": 2.2415961571653487e-05,
+      "probe_positions": [
+        {
+          "y_over_H": 0.25,
+          "V_left_minus_right_uV": 96.67976495859929,
+          "T_left_minus_right_K": 6.171352318062873e-11
+        },
+        {
+          "y_over_H": 0.5,
+          "V_left_minus_right_uV": 96.67976501574144,
+          "T_left_minus_right_K": 3.4483147539454695e-05
+        },
+        {
+          "y_over_H": 0.75,
+          "V_left_minus_right_uV": 96.67976495538251,
+          "T_left_minus_right_K": -2.687183808802729e-12
+        }
+      ],
+      "solver": [
+        {
+          "iterations": 14,
+          "info": 0,
+          "relative_residual": 2.519501425801625e-11
+        }
+      ],
+      "net_electrode_current_scaled": [
+        2.992068452809665e-11,
+        -1.4422161381810739e-11
+      ],
+      "seconds": 3.5633099999977276,
+      "ratio_to_Sa_DeltaT_W_over_H": 1.0000000257463864
+    },
+    "microstructure_point_probe": {
+      "classification": "P: uniform-grid finite-sample estimate",
+      "shape": [
+        128,
+        64,
+        8
+      ],
+      "dofs_after_electrode_constraint": 150930,
+      "electrode_y_width_voxels": null,
+      "electrode_z_width_voxels": null,
+      "V_left_minus_right_uV": 33.10262206051441,
+      "electrode_T_left_minus_right_K": -0.002093212301125469,
+      "probe_positions": [
+        {
+          "y_over_H": 0.25,
+          "V_left_minus_right_uV": 33.840907495816715,
+          "T_left_minus_right_K": -0.0024067601317342424
+        },
+        {
+          "y_over_H": 0.5,
+          "V_left_minus_right_uV": 33.10262206051441,
+          "T_left_minus_right_K": -0.002093212301125469
+        },
+        {
+          "y_over_H": 0.75,
+          "V_left_minus_right_uV": 33.84090752270154,
+          "T_left_minus_right_K": -0.0024067601135459027
+        }
+      ],
+      "solver": [
+        {
+          "iterations": 18,
+          "info": 0,
+          "relative_residual": 2.5915349987861102e-11
+        }
+      ],
+      "net_electrode_current_scaled": [
+        9.771072839726003e-13,
+        2.993397196782155e-12
+      ],
+      "seconds": 3.1771804000018165
+    },
+    "microstructure_mirror_short_patch": {
+      "classification": "P: uniform-grid finite-sample estimate",
+      "shape": [
+        128,
+        64,
+        8
+      ],
+      "dofs_after_electrode_constraint": 150882,
+      "electrode_y_width_voxels": 4,
+      "electrode_z_width_voxels": 4,
+      "V_left_minus_right_uV": -32.32488559765424,
+      "electrode_T_left_minus_right_K": 0.003112087612982928,
+      "probe_positions": [
+        {
+          "y_over_H": 0.25,
+          "V_left_minus_right_uV": -33.907991816937766,
+          "T_left_minus_right_K": 0.002492103966155873
+        },
+        {
+          "y_over_H": 0.5,
+          "V_left_minus_right_uV": -32.324885597654244,
+          "T_left_minus_right_K": 0.0026642746556052033
+        },
+        {
+          "y_over_H": 0.75,
+          "V_left_minus_right_uV": -33.90799182374066,
+          "T_left_minus_right_K": 0.0024921039816794277
+        }
+      ],
+      "solver": [
+        {
+          "iterations": 19,
+          "info": 0,
+          "relative_residual": 1.1603954494612415e-11
+        }
+      ],
+      "net_electrode_current_scaled": [
+        -8.99044727553644e-12,
+        1.0952946882802905e-11
+      ],
+      "seconds": 3.44364139996469
+    }
+  },
+  "homogeneous_midpoint_tensor": {
+    "scaled_energy": [
+      [
+        0.3228279829462996,
+        0.0,
+        0.0,
+        -0.0024640473775445555,
+        0.07802733182046326,
+        0.0
+      ],
+      [
+        0.0,
+        0.3228279829462996,
+        0.0,
+        -0.07802733182046326,
+        -0.0024640473775445555,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.7656494921874998,
+        0.0,
+        0.0,
+        0.05312622460937531
+      ],
+      [
+        -0.0024640473775445555,
+        -0.07802733182046326,
+        0.0,
+        1.0466536981872891,
+        0.0,
+        0.0
+      ],
+      [
+        0.07802733182046326,
+        -0.0024640473775445555,
+        0.0,
+        0.0,
+        1.0466536981872891,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.05312622460937531,
+        0.0,
+        0.0,
+        1.667265686230466
+      ]
+    ],
+    "sigma": [
+      [
+        32282.79829462996,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        32282.79829462996,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        76564.94921874997
+      ]
+    ],
+    "sigma_diag": [
+      32282.79829462996,
+      32282.79829462996,
+      76564.94921874997
+    ],
+    "S_uV_K": [
+      [
+        -1.5265389047481888,
+        48.339881263293464,
+        0.0
+      ],
+      [
+        -48.339881263293464,
+        -1.5265389047481888,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        13.877426982310396
+      ]
+    ],
+    "S_diag_uV_K": [
+      -1.5265389047481888,
+      -1.5265389047481888,
+      13.877426982310396
+    ],
+    "Sa_vector_uV_K": [
+      0.0,
+      0.0,
+      48.339881263293464
+    ],
+    "Sa_z_uV_K": 48.339881263293464,
+    "kappa_open_circuit": [
+      [
+        1.2333308773066805,
+        -8.420209001356504e-20,
+        0.0
+      ],
+      [
+        8.629614999374369e-20,
+        1.2333308773066805,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.9962952916593846
+      ]
+    ]
+  }
+}

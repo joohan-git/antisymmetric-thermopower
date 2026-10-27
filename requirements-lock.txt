@@ -1,0 +1,6 @@
+# Versions of a clean environment in which smoke_test.py passed (Python 3.12, Windows 11)
+gemmi==0.7.5
+numpy==2.5.4
+pyamg==5.2.1
+python-flint==0.9.0
+scipy==1.18.1

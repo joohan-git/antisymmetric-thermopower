@@ -1,0 +1,685 @@
+{
+  "number_type": "uniform_grid_point_estimate",
+  "cases": {
+    "t8": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        192,
+        192
+      ],
+      "elements": 18808,
+      "nodes": 19304,
+      "box_m": [
+        0.02,
+        0.02
+      ],
+      "residual": 2.3238574114340733e-15,
+      "heat_input_W_per_m": 67.05940854874659,
+      "heat_output_W_per_m": 67.05940854875068,
+      "seconds": 0.24273539998102933,
+      "floating_electrode_nodes": [],
+      "centroid_current_A": -0.0012386505576204019,
+      "conservative_cut_current_A": -0.001238355782096184,
+      "postprocessing_difference_A": -2.947755242178364e-07,
+      "tiles_per_box": 8,
+      "fixed_geometry_refinement": 1,
+      "conductivity_contrast": 100,
+      "offset_pixels": 0,
+      "homogeneous_p_boundary_collar": false,
+      "mirror_control": false,
+      "frozen_boundary": false,
+      "reference_A_homogeneous_current_A": 0.0016069432090548498,
+      "absolute_artifact_fraction_of_A": 0.7706282182956194
+    },
+    "t16": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        384,
+        384
+      ],
+      "elements": 75264,
+      "nodes": 76264,
+      "box_m": [
+        0.02,
+        0.02
+      ],
+      "residual": 2.980436366613076e-15,
+      "heat_input_W_per_m": 61.28400580621,
+      "heat_output_W_per_m": 61.284005806224684,
+      "seconds": 1.6622633999795653,
+      "floating_electrode_nodes": [],
+      "centroid_current_A": 0.00010335156672856004,
+      "conservative_cut_current_A": 0.0001033537998506073,
+      "postprocessing_difference_A": -2.233122047251134e-09,
+      "tiles_per_box": 16,
+      "fixed_geometry_refinement": 1,
+      "conductivity_contrast": 100,
+      "offset_pixels": 0,
+      "homogeneous_p_boundary_collar": false,
+      "mirror_control": false,
+      "frozen_boundary": false,
+      "reference_A_homogeneous_current_A": 0.0016069432090548498,
+      "absolute_artifact_fraction_of_A": 0.06431702083074643
+    },
+    "t24": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        576,
+        576
+      ],
+      "elements": 169408,
+      "nodes": 170904,
+      "box_m": [
+        0.02,
+        0.02
+      ],
+      "residual": 4.030305636047415e-15,
+      "heat_input_W_per_m": 60.32291809173695,
+      "heat_output_W_per_m": 60.32291809177123,
+      "seconds": 5.807060800027102,
+      "floating_electrode_nodes": [],
+      "centroid_current_A": 0.0005552880779032773,
+      "conservative_cut_current_A": 0.0005552819281708435,
+      "postprocessing_difference_A": 6.1497324337946024e-09,
+      "tiles_per_box": 24,
+      "fixed_geometry_refinement": 1,
+      "conductivity_contrast": 100,
+      "offset_pixels": 0,
+      "homogeneous_p_boundary_collar": false,
+      "mirror_control": false,
+      "frozen_boundary": false,
+      "reference_A_homogeneous_current_A": 0.0016069432090548498,
+      "absolute_artifact_fraction_of_A": 0.345551681628775
+    },
+    "fixed8_k2": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        384,
+        384
+      ],
+      "elements": 75232,
+      "nodes": 76224,
+      "box_m": [
+        0.02,
+        0.02
+      ],
+      "residual": 2.953011142140812e-15,
+      "heat_input_W_per_m": 65.43459689452153,
+      "heat_output_W_per_m": 65.43459689455678,
+      "seconds": 1.5569897000095807,
+      "floating_electrode_nodes": [],
+      "centroid_current_A": -0.0011473341461362937,
+      "conservative_cut_current_A": -0.0011472508779051627,
+      "postprocessing_difference_A": -8.326823113099721e-08,
+      "tiles_per_box": 8,
+      "fixed_geometry_refinement": 2,
+      "conductivity_contrast": 100,
+      "offset_pixels": 0,
+      "homogeneous_p_boundary_collar": false,
+      "mirror_control": false,
+      "frozen_boundary": true,
+      "reference_A_homogeneous_current_A": 0.0016069432090548498,
+      "absolute_artifact_fraction_of_A": 0.7139336794484089
+    },
+    "fixed8_k4": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        768,
+        768
+      ],
+      "elements": 300928,
+      "nodes": 302912,
+      "box_m": [
+        0.02,
+        0.02
+      ],
+      "residual": 4.183975610801665e-15,
+      "heat_input_W_per_m": 64.70714987944869,
+      "heat_output_W_per_m": 64.70714987964959,
+      "seconds": 12.881402399973013,
+      "floating_electrode_nodes": [],
+      "centroid_current_A": -0.0010761694328990554,
+      "conservative_cut_current_A": -0.0010761459775632338,
+      "postprocessing_difference_A": -2.345533582160178e-08,
+      "tiles_per_box": 8,
+      "fixed_geometry_refinement": 4,
+      "conductivity_contrast": 100,
+      "offset_pixels": 0,
+      "homogeneous_p_boundary_collar": false,
+      "mirror_control": false,
+      "frozen_boundary": true,
+      "reference_A_homogeneous_current_A": 0.0016069432090548498,
+      "absolute_artifact_fraction_of_A": 0.6696851335500443
+    },
+    "offset6": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        192,
+        192
+      ],
+      "elements": 18808,
+      "nodes": 19304,
+      "box_m": [
+        0.02,
+        0.02
+      ],
+      "residual": 2.239590982122074e-15,
+      "heat_input_W_per_m": 64.80248867764647,
+      "heat_output_W_per_m": 64.80248867765054,
+      "seconds": 0.2656421000137925,
+      "floating_electrode_nodes": [],
+      "centroid_current_A": 0.0014009763918232552,
+      "conservative_cut_current_A": 0.0014009709545326058,
+      "postprocessing_difference_A": 5.437290649407817e-09,
+      "tiles_per_box": 8,
+      "fixed_geometry_refinement": 1,
+      "conductivity_contrast": 100,
+      "offset_pixels": 6,
+      "homogeneous_p_boundary_collar": false,
+      "mirror_control": false,
+      "frozen_boundary": false,
+      "reference_A_homogeneous_current_A": 0.0016069432090548498,
+      "absolute_artifact_fraction_of_A": 0.8718235632960607
+    },
+    "offset12": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        192,
+        192
+      ],
+      "elements": 18808,
+      "nodes": 19304,
+      "box_m": [
+        0.02,
+        0.02
+      ],
+      "residual": 1.881892034285208e-15,
+      "heat_input_W_per_m": 64.11216660266129,
+      "heat_output_W_per_m": 64.11216660266385,
+      "seconds": 0.26284610002767295,
+      "floating_electrode_nodes": [],
+      "centroid_current_A": 0.0011965839171553614,
+      "conservative_cut_current_A": 0.0011965602682184827,
+      "postprocessing_difference_A": 2.364893687866257e-08,
+      "tiles_per_box": 8,
+      "fixed_geometry_refinement": 1,
+      "conductivity_contrast": 100,
+      "offset_pixels": 12,
+      "homogeneous_p_boundary_collar": false,
+      "mirror_control": false,
+      "frozen_boundary": false,
+      "reference_A_homogeneous_current_A": 0.0016069432090548498,
+      "absolute_artifact_fraction_of_A": 0.7446188897504719
+    },
+    "collar8": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        192,
+        192
+      ],
+      "elements": 18808,
+      "nodes": 19304,
+      "box_m": [
+        0.02,
+        0.02
+      ],
+      "residual": 1.2213147439411898e-15,
+      "heat_input_W_per_m": 7.813188377994201,
+      "heat_output_W_per_m": 7.813188377995187,
+      "seconds": 0.22537759999977425,
+      "floating_electrode_nodes": [],
+      "centroid_current_A": 9.370510029663167e-20,
+      "conservative_cut_current_A": 7.107898992509696e-18,
+      "postprocessing_difference_A": -7.014193892213065e-18,
+      "tiles_per_box": 8,
+      "fixed_geometry_refinement": 1,
+      "conductivity_contrast": 100,
+      "offset_pixels": 0,
+      "homogeneous_p_boundary_collar": true,
+      "mirror_control": false,
+      "frozen_boundary": false,
+      "reference_A_homogeneous_current_A": 0.0016069432090548498,
+      "absolute_artifact_fraction_of_A": 4.423242185820819e-15
+    },
+    "collar16": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        384,
+        384
+      ],
+      "elements": 75264,
+      "nodes": 76264,
+      "box_m": [
+        0.02,
+        0.02
+      ],
+      "residual": 2.8365103110026218e-14,
+      "heat_input_W_per_m": 13.328766581006365,
+      "heat_output_W_per_m": 13.328766581015842,
+      "seconds": 1.7384412999963388,
+      "floating_electrode_nodes": [],
+      "centroid_current_A": 2.9957419083819003e-05,
+      "conservative_cut_current_A": 2.9954239408767884e-05,
+      "postprocessing_difference_A": 3.1796750511195947e-09,
+      "tiles_per_box": 16,
+      "fixed_geometry_refinement": 1,
+      "conductivity_contrast": 100,
+      "offset_pixels": 0,
+      "homogeneous_p_boundary_collar": true,
+      "mirror_control": false,
+      "frozen_boundary": false,
+      "reference_A_homogeneous_current_A": 0.0016069432090548498,
+      "absolute_artifact_fraction_of_A": 0.01864050903602621
+    },
+    "contrast10": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        192,
+        192
+      ],
+      "elements": 18808,
+      "nodes": 19304,
+      "box_m": [
+        0.02,
+        0.02
+      ],
+      "residual": 1.593564695396499e-15,
+      "heat_input_W_per_m": 21.557516510086664,
+      "heat_output_W_per_m": 21.557516510090085,
+      "seconds": 0.25370520004071295,
+      "floating_electrode_nodes": [],
+      "centroid_current_A": -0.0006664112348515709,
+      "conservative_cut_current_A": -0.0006662990284980871,
+      "postprocessing_difference_A": -1.1220635348380831e-07,
+      "tiles_per_box": 8,
+      "fixed_geometry_refinement": 1,
+      "conductivity_contrast": 10,
+      "offset_pixels": 0,
+      "homogeneous_p_boundary_collar": false,
+      "mirror_control": false,
+      "frozen_boundary": false,
+      "reference_A_homogeneous_current_A": 0.0016069432090548498,
+      "absolute_artifact_fraction_of_A": 0.41463757072658586
+    },
+    "contrast3": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        192,
+        192
+      ],
+      "elements": 18808,
+      "nodes": 19304,
+      "box_m": [
+        0.02,
+        0.02
+      ],
+      "residual": 1.2179806619476157e-15,
+      "heat_input_W_per_m": 11.494577783878555,
+      "heat_output_W_per_m": 11.494577783879757,
+      "seconds": 0.260261100018397,
+      "floating_electrode_nodes": [],
+      "centroid_current_A": -0.0001541253461064987,
+      "conservative_cut_current_A": -0.0001540491715004902,
+      "postprocessing_difference_A": -7.617460600850231e-08,
+      "tiles_per_box": 8,
+      "fixed_geometry_refinement": 1,
+      "conductivity_contrast": 3,
+      "offset_pixels": 0,
+      "homogeneous_p_boundary_collar": false,
+      "mirror_control": false,
+      "frozen_boundary": false,
+      "reference_A_homogeneous_current_A": 0.0016069432090548498,
+      "absolute_artifact_fraction_of_A": 0.09586472666392284
+    },
+    "mirror": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        192,
+        192
+      ],
+      "elements": 18808,
+      "nodes": 19304,
+      "box_m": [
+        0.02,
+        0.02
+      ],
+      "residual": 2.2298829948252994e-15,
+      "heat_input_W_per_m": 83.42689919791208,
+      "heat_output_W_per_m": 83.4268991979157,
+      "seconds": 0.2669880000175908,
+      "floating_electrode_nodes": [],
+      "centroid_current_A": -1.4332185713630063e-14,
+      "conservative_cut_current_A": -1.3205287555286625e-14,
+      "postprocessing_difference_A": -1.1268981583434384e-15,
+      "tiles_per_box": 8,
+      "fixed_geometry_refinement": 1,
+      "conductivity_contrast": 100,
+      "offset_pixels": 0,
+      "homogeneous_p_boundary_collar": false,
+      "mirror_control": true,
+      "frozen_boundary": false,
+      "reference_A_homogeneous_current_A": 0.0016069432090548498,
+      "absolute_artifact_fraction_of_A": 8.217644208505372e-12
+    },
+    "collar8_quarter": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        192,
+        192
+      ],
+      "elements": 18808,
+      "nodes": 19304,
+      "box_m": [
+        0.02,
+        0.02
+      ],
+      "residual": 2.2644353275955173e-14,
+      "heat_input_W_per_m": 21.397204365480977,
+      "heat_output_W_per_m": 21.397204365483567,
+      "seconds": 0.3084081999841146,
+      "floating_electrode_nodes": [],
+      "centroid_current_A": 0.00046918902990371087,
+      "conservative_cut_current_A": 0.00046924221007380403,
+      "postprocessing_difference_A": -5.318017009316731e-08,
+      "tiles_per_box": 8,
+      "fixed_geometry_refinement": 1,
+      "conductivity_contrast": 100,
+      "offset_pixels": 0,
+      "homogeneous_p_boundary_collar": true,
+      "mirror_control": false,
+      "frozen_boundary": false,
+      "reference_A_homogeneous_current_A": 0.0016069432090548498,
+      "absolute_artifact_fraction_of_A": 0.2920092056954499,
+      "collar_fraction_of_cell": 0.25,
+      "remaining_metal_fraction": 0.3789876648234794
+    },
+    "collar16_quarter": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        384,
+        384
+      ],
+      "elements": 75264,
+      "nodes": 76264,
+      "box_m": [
+        0.02,
+        0.02
+      ],
+      "residual": 3.145927820333638e-14,
+      "heat_input_W_per_m": 30.970768657819093,
+      "heat_output_W_per_m": 30.97076865783161,
+      "seconds": 2.4597272999817505,
+      "floating_electrode_nodes": [],
+      "centroid_current_A": 3.459148153964615e-05,
+      "conservative_cut_current_A": 3.458889095904018e-05,
+      "postprocessing_difference_A": 2.59058060596897e-09,
+      "tiles_per_box": 16,
+      "fixed_geometry_refinement": 1,
+      "conductivity_contrast": 100,
+      "offset_pixels": 0,
+      "homogeneous_p_boundary_collar": true,
+      "mirror_control": false,
+      "frozen_boundary": false,
+      "reference_A_homogeneous_current_A": 0.0016069432090548498,
+      "absolute_artifact_fraction_of_A": 0.02152465050671219,
+      "collar_fraction_of_cell": 0.25,
+      "remaining_metal_fraction": 0.44387755102040816
+    },
+    "collar24_quarter": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        576,
+        576
+      ],
+      "elements": 169408,
+      "nodes": 170904,
+      "box_m": [
+        0.02,
+        0.02
+      ],
+      "residual": 4.007243881976091e-14,
+      "heat_input_W_per_m": 36.50428496321211,
+      "heat_output_W_per_m": 36.50428496324445,
+      "seconds": 8.592173799988814,
+      "floating_electrode_nodes": [],
+      "centroid_current_A": -0.0002651768684362429,
+      "conservative_cut_current_A": -0.0002651841197194581,
+      "postprocessing_difference_A": 7.2512832152119185e-09,
+      "tiles_per_box": 24,
+      "fixed_geometry_refinement": 1,
+      "conductivity_contrast": 100,
+      "offset_pixels": 0,
+      "homogeneous_p_boundary_collar": true,
+      "mirror_control": false,
+      "frozen_boundary": false,
+      "reference_A_homogeneous_current_A": 0.0016069432090548498,
+      "absolute_artifact_fraction_of_A": 0.16502395244909154,
+      "collar_fraction_of_cell": 0.25,
+      "remaining_metal_fraction": 0.46439365319229314
+    },
+    "contrast3_t16": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        384,
+        384
+      ],
+      "elements": 75264,
+      "nodes": 76264,
+      "box_m": [
+        0.02,
+        0.02
+      ],
+      "residual": 1.6974103343284084e-15,
+      "heat_input_W_per_m": 11.473631031837648,
+      "heat_output_W_per_m": 11.473631031842405,
+      "seconds": 2.449547900003381,
+      "floating_electrode_nodes": [],
+      "centroid_current_A": -1.3886621987078882e-05,
+      "conservative_cut_current_A": -1.3906161917183661e-05,
+      "postprocessing_difference_A": 1.953993010477902e-08,
+      "tiles_per_box": 16,
+      "fixed_geometry_refinement": 1,
+      "conductivity_contrast": 3,
+      "offset_pixels": 0,
+      "homogeneous_p_boundary_collar": false,
+      "mirror_control": false,
+      "frozen_boundary": false,
+      "reference_A_homogeneous_current_A": 0.0016069432090548498,
+      "absolute_artifact_fraction_of_A": 0.008653797992875429,
+      "collar_fraction_of_cell": 0.0,
+      "remaining_metal_fraction": 0.5073341836734694
+    },
+    "contrast3_t24": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        576,
+        576
+      ],
+      "elements": 169408,
+      "nodes": 170904,
+      "box_m": [
+        0.02,
+        0.02
+      ],
+      "residual": 2.0608022014524036e-15,
+      "heat_input_W_per_m": 11.460999776846046,
+      "heat_output_W_per_m": 11.46099977685676,
+      "seconds": 8.060471600038,
+      "floating_electrode_nodes": [],
+      "centroid_current_A": 2.5165261829290908e-05,
+      "conservative_cut_current_A": 2.515433450995676e-05,
+      "postprocessing_difference_A": 1.0927319334149278e-08,
+      "tiles_per_box": 24,
+      "fixed_geometry_refinement": 1,
+      "conductivity_contrast": 3,
+      "offset_pixels": 0,
+      "homogeneous_p_boundary_collar": false,
+      "mirror_control": false,
+      "frozen_boundary": false,
+      "reference_A_homogeneous_current_A": 0.0016069432090548498,
+      "absolute_artifact_fraction_of_A": 0.015653530484597333,
+      "collar_fraction_of_cell": 0.0,
+      "remaining_metal_fraction": 0.5062806951265584
+    },
+    "contrast3_t16_collar": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        384,
+        384
+      ],
+      "elements": 75264,
+      "nodes": 76264,
+      "box_m": [
+        0.02,
+        0.02
+      ],
+      "residual": 1.4065622260489836e-15,
+      "heat_input_W_per_m": 10.810185917547047,
+      "heat_output_W_per_m": 10.810185917551957,
+      "seconds": 2.353643500013277,
+      "floating_electrode_nodes": [],
+      "centroid_current_A": 1.0668380112476341e-05,
+      "conservative_cut_current_A": 1.0667069997438635e-05,
+      "postprocessing_difference_A": 1.3101150377063566e-09,
+      "tiles_per_box": 16,
+      "fixed_geometry_refinement": 1,
+      "conductivity_contrast": 3,
+      "offset_pixels": 0,
+      "homogeneous_p_boundary_collar": true,
+      "mirror_control": false,
+      "frozen_boundary": false,
+      "reference_A_homogeneous_current_A": 0.0016069432090548498,
+      "absolute_artifact_fraction_of_A": 0.0066381126211128814,
+      "collar_fraction_of_cell": 0.25,
+      "remaining_metal_fraction": 0.44387755102040816
+    },
+    "contrast3_fixed8_k2": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        384,
+        384
+      ],
+      "elements": 75232,
+      "nodes": 76224,
+      "box_m": [
+        0.02,
+        0.02
+      ],
+      "residual": 1.570262926527478e-15,
+      "heat_input_W_per_m": 11.420587249047433,
+      "heat_output_W_per_m": 11.42058724905267,
+      "seconds": 1.635520700016059,
+      "floating_electrode_nodes": [],
+      "centroid_current_A": -0.00014909783648441247,
+      "conservative_cut_current_A": -0.0001490750501648576,
+      "postprocessing_difference_A": -2.2786319554872697e-08,
+      "tiles_per_box": 8,
+      "fixed_geometry_refinement": 2,
+      "conductivity_contrast": 3,
+      "offset_pixels": 0,
+      "homogeneous_p_boundary_collar": false,
+      "mirror_control": false,
+      "frozen_boundary": true,
+      "reference_A_homogeneous_current_A": 0.0016069432090548498,
+      "absolute_artifact_fraction_of_A": 0.09276933330614624,
+      "collar_fraction_of_cell": 0.0,
+      "remaining_metal_fraction": 0.5068056146320714
+    },
+    "contrast3_fixed8_k4": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        768,
+        768
+      ],
+      "elements": 300928,
+      "nodes": 302912,
+      "box_m": [
+        0.02,
+        0.02
+      ],
+      "residual": 2.1805059924440764e-15,
+      "heat_input_W_per_m": 11.390828602207884,
+      "heat_output_W_per_m": 11.390828602230618,
+      "seconds": 12.987898999999743,
+      "floating_electrode_nodes": [],
+      "centroid_current_A": -0.00014746028355482047,
+      "conservative_cut_current_A": -0.00014745417451935897,
+      "postprocessing_difference_A": -6.109035461499641e-09,
+      "tiles_per_box": 8,
+      "fixed_geometry_refinement": 4,
+      "conductivity_contrast": 3,
+      "offset_pixels": 0,
+      "homogeneous_p_boundary_collar": false,
+      "mirror_control": false,
+      "frozen_boundary": true,
+      "reference_A_homogeneous_current_A": 0.0016069432090548498,
+      "absolute_artifact_fraction_of_A": 0.09176066315752787,
+      "collar_fraction_of_cell": 0.0,
+      "remaining_metal_fraction": 0.5068056146320714
+    },
+    "contrast3_t16_collar_offset6": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        384,
+        384
+      ],
+      "elements": 75264,
+      "nodes": 76264,
+      "box_m": [
+        0.02,
+        0.02
+      ],
+      "residual": 1.4030323270200517e-15,
+      "heat_input_W_per_m": 10.812262874578987,
+      "heat_output_W_per_m": 10.812262874583858,
+      "seconds": 1.8510085999732837,
+      "floating_electrode_nodes": [],
+      "centroid_current_A": -1.8101558201183232e-06,
+      "conservative_cut_current_A": -1.8159448424939143e-06,
+      "postprocessing_difference_A": 5.789022375591138e-09,
+      "tiles_per_box": 16,
+      "fixed_geometry_refinement": 1,
+      "conductivity_contrast": 3,
+      "offset_pixels": 6,
+      "homogeneous_p_boundary_collar": true,
+      "mirror_control": false,
+      "frozen_boundary": false,
+      "reference_A_homogeneous_current_A": 0.0016069432090548498,
+      "absolute_artifact_fraction_of_A": 0.001130061617773034,
+      "collar_fraction_of_cell": 0.25,
+      "remaining_metal_fraction": 0.443983843537415
+    },
+    "contrast3_t16_collar_offset12": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        384,
+        384
+      ],
+      "elements": 75264,
+      "nodes": 76264,
+      "box_m": [
+        0.02,
+        0.02
+      ],
+      "residual": 1.403693212342361e-15,
+      "heat_input_W_per_m": 10.813229013261402,
+      "heat_output_W_per_m": 10.813229013266303,
+      "seconds": 1.8488834000308998,
+      "floating_electrode_nodes": [],
+      "centroid_current_A": -3.18677008596251e-05,
+      "conservative_cut_current_A": -3.187148971106593e-05,
+      "postprocessing_difference_A": 3.7888514408274685e-09,
+      "tiles_per_box": 16,
+      "fixed_geometry_refinement": 1,
+      "conductivity_contrast": 3,
+      "offset_pixels": 12,
+      "homogeneous_p_boundary_collar": true,
+      "mirror_control": false,
+      "frozen_boundary": false,
+      "reference_A_homogeneous_current_A": 0.0016069432090548498,
+      "absolute_artifact_fraction_of_A": 0.019833612993586543,
+      "collar_fraction_of_cell": 0.25,
+      "remaining_metal_fraction": 0.44337266156462585
+    }
+  }
+}

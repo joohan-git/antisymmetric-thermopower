@@ -1,0 +1,150 @@
+{
+ "number_types": {
+  "C": "continuum energy enclosure in the stated ideal model; no interval arithmetic",
+  "P": "uniform-grid or single trial tensor estimate; numerical audit value"
+ },
+ "trace_and_spectrum": {
+  "shared_trace": "The curved outer Q1 element is Q1 in ray parameter t, not a straight chord. On the circle, t is affine in tan(theta) or cot(theta), exactly the coordinate used for the disk angular basis. Both field components share the same boundary DOFs; nodal equality therefore implies equality of the entire trace.",
+  "trace_basis_max_sample_error_P": 1.6653345369377348e-15,
+  "disk_radius_fraction_of_pixel": 0.22,
+  "angular_elements_for_m4": 32,
+  "outer_radial_elements_for_nr3": 3,
+  "outer_Gauss_order": 10,
+  "angular_Gauss_order": 16,
+  "angular_weak_problem": "integral Yprime^T s(theta) Zprime dtheta = lambda^2 integral Y^T s(theta) Z dtheta; periodic continuous traces; s Yprime continuous in the transmission sense",
+  "inner_product": "(Y,Z)_s = integral Y^T s Z dtheta; s is the symmetric positive definite 2-by-2 field coefficient",
+  "spectrum": "lambda^2 real nonnegative, complete mass-orthonormal eigenbasis; positive exponents need not be simple. Two constant field modes have lambda=0.",
+  "log_terms": "Choose finite-energy (r/R)^lambda modes for lambda>0 and constants for lambda=0. Negative powers and the lambda=0 log(r) branch have infinite energy. Repeated positive self-adjoint eigenvalues are diagonalizable and do not force generalized log modes.",
+  "homogeneous_first_positive_exponents_P": [
+   1.003098852230726,
+   1.003098852230753,
+   1.003098852230769,
+   1.0030988522307709,
+   2.0147024407119347,
+   2.0147024407119796,
+   2.019288813178574,
+   2.0192888131785796
+  ],
+  "homogeneous_first_positive_multiplicity_P": 4,
+  "DtN": "Ktheta Y = Mtheta Y diag(lambda^2), Y^T Mtheta Y=I; Bcircle = Mtheta Y diag(lambda) Y^T Mtheta. No continuum eigenmode truncation: all discrete angular modes are retained."
+ },
+ "energy_interval_optimization": {
+  "unknown": "symmetric C of size 2d by 2d, d=2 or 3; L <= C <= U in Loewner order",
+  "symmetry": "p4 in 2D or C4 about z in 3D gives sigma_xy_plane=a I. Three-dimensional bounds are C4 group averaged; the objective is invariant, so optimization over all matrices between these bounds admits a symmetric optimizer.",
+  "ordering": "[electric x,electric y,(electric z),thermal x,thermal y,(thermal z)], zero-based indices",
+  "a": "(C00+C11)/2",
+  "c": "(C0,d+1-C1,d)/2",
+  "b": "(C0,d+C1,d+1)/2",
+  "ratios": "Sa=beta*c/a; Sxx=beta*b/a; beta=200e-6 V/K. sigma_plane=1e5*a S/m.",
+  "matrix_parametrization": "C=L+Dhalf X Dhalf; D=U-L; 0<=X<=I",
+  "support_function": "F(H)=trace(H L)+sum positive_eigenvalues(Dhalf H Dhalf)",
+  "upper_ratio": "unique zero F(H-t Ha)=0",
+  "lower_ratio": "unique zero -F(-H+t Ha)=0",
+  "H": "Hc: (0,d+1),(d+1,0)=+1/4; (1,d),(d,1)=-1/4. Hb: (0,d),(d,0),(1,d+1),(d+1,1)=+1/4. Ha00=Ha11=1/2.",
+  "solver": "numpy.linalg.eigh/eigvalsh for roots/support; scipy.optimize.brentq after geometric bracket expansion. 3D xtol=1e-13; the earlier 2D code uses the scipy default. No generic nonlinear optimizer or entrywise inversion of L,U."
+ },
+ "RT0": {
+  "face_density": "F_d=A_harmonic*(u_neighbor-u_cell+h_d G_d)/h_d",
+  "FV_face_conductance": "A_harmonic * face_area/h_d = A_harmonic*voxel_volume/h_d^2",
+  "interior_flux": "J_d(t)=(1-t)Fminus_d+t Fplus_d, t in [0,1] along coordinate d",
+  "conformity": "normal trace is single valued; divergence=sum_d(Fplus_d-Fminus_d)/h_d is constant in each cell and zero after periodic Hodge projection",
+  "projection": "solve discrete Laplacian psi=div F; replace F_d by F_d-(psi_neighbor-psi_cell)/h_d; Fourier symbol uses h_d^-2",
+  "energy_per_direction": "(Fm^T s^-1 Fm+Fp^T s^-1 Fp)/3+(Fm^T s^-1 Fp+Fp^T s^-1 Fm)/6",
+  "normalization": "six flux trials form mean-flux matrix Q; B=Q^-T <J^T s^-1 J> Q^-1; L=B^-1. Volume average includes each physical cell volume. For equal rectangular voxels it is an arithmetic mean.",
+  "quadrature": "The 1/3 and 1/6 weights are exact integrals of linear RT0 products. Spatial isotropy gives no cross-direction inverse-coefficient terms."
+ },
+ "reference_data": {
+  "design_A64_winding_model_P": {
+   "Sxx_uV_K": 8.473509790437259,
+   "Sa_uV_K": 49.83044718330713,
+   "sigma_S_m": 32248.21973649309,
+   "note": "r7 upper trial energy tensor is fixed input to r8 spiral calculations, not the exact continuum tensor"
+  },
+  "design_A64_Sxx_C_uV_K": [
+   8.165060047143177,
+   8.782976129616392
+  ],
+  "Vcorr_definition": "deltaTterminal=T_end-T_start; Vraw=V_start-V_end; Vcorr=Vraw-Sxx*deltaTterminal",
+  "Vcorr_path_prediction": "Vcorr=Sa*integral(T_y dx-T_x dy), locally open circuit. For CCW positive n and radial outward heat flow: n*Sa*qprime/kappa.",
+  "Fig1b_baseline": {
+   "source": "solvers/fv2d/pinwheel.py, cell(24,15,6,3)",
+   "labels_equal_r5_and_r6": true,
+   "sigma_C_S_m": [
+    16623.721974061707,
+    16633.726651545032
+   ],
+   "sigma_upper_trial_point_P_S_m": 16633.726651545032,
+   "Sa_C_uV_K": [
+    -15.645599581832435,
+    -15.430611906820522
+   ],
+   "Sa_upper_trial_point_P_uV_K": -15.537843098044618
+  },
+  "Fig2_reference_grid": [
+   24,
+   24
+  ],
+  "r5_ring_geometry": {
+   "box_mm": [
+    20,
+    20
+   ],
+   "inner_radius_mm": 4,
+   "outer_radius_mm": 9,
+   "thickness_mm": 1,
+   "meshing": "Cartesian Q1 squares kept when cell-center radius is strictly between ri and ro; exposed square faces define staircase inner/outer boundaries. Boundary nodes have fixed T; no curved boundary elements or projection to exact circles.",
+   "finest_homogeneous_grid": [
+    576,
+    576
+   ]
+  },
+  "r8_spiral_geometry": {
+   "box_mm": [
+    20,
+    20
+   ],
+   "inner_radius_mm": 2,
+   "outer_radius_mm": 9.3,
+   "strip_width_mm": 0.4,
+   "meshing": "same cell-center inclusion and exposed Cartesian faces; bilinear interpolation of nodal fields for terminal voltage and path gradients"
+  }
+ },
+ "annulus_formula_check": {
+  "classification": "P for r5 tensor/numerical comparison; C only for the separately stated Fig1b continuum-tensor interval in the ideal homogeneous thin-sheet annulus",
+  "convention": "Sa=(Sxy-Syx)/2; right-handed x,y,z; inner-hot DeltaT>0; CCW current and +z magnetic field positive",
+  "signed_formulas": "I_CCW/DeltaT=-t*sigma*Sa; Bz/DeltaT=-mu0*t*sigma*Sa*(1/ri-1/ro)/(2*ln(ro/ri))",
+  "r5_convention": "a_cross_z=-Sa; r5 predicted() uses plus t*sigma*a_cross_z",
+  "r5_sigma_P_S_m": 19735.599383854682,
+  "r5_Sa_P_uV_K": -15.53165167776102,
+  "r5_a_cross_z_P_uV_K": 15.53165167776102,
+  "r5_formula_I_A_per_K": 0.00030652645528186597,
+  "r5_formula_B_nT_per_K": 32.98616688682219,
+  "r5_saved_prediction_I_A_per_K": 0.00030652645528186597,
+  "r5_saved_prediction_B_nT_per_K": 32.98616688682219,
+  "r5_homogeneous_grid_I_relative_error": -1.278031347418107e-09,
+  "r5_homogeneous_grid_B_relative_error": -0.0005715832289867606,
+  "Fig1b_upper_tensor_point_I_A_per_K": 0.0002584522348474698,
+  "Fig1b_upper_tensor_point_B_nT_per_K": 27.812765926227573,
+  "Fig1b_continuum_I_C_A_per_K": [
+   0.0002565898907526417,
+   0.0002601678601508497
+  ],
+  "Fig1b_continuum_B_C_nT_per_K": [
+   27.61235388330554,
+   27.997389150740133
+  ],
+  "warning": "r5 uses the coarse 24-by-24 Q1 effective tensor. Its current and B are not the continuum predictions of the Fig1b tensor, despite identical material labels."
+ },
+ "source_sha256": {
+  "certified/r6_sector.py": "6852e73329eb0c32e2a63ba5aeaac4fee6fe605cf0830c76f354e95c42a1ef9b",
+  "certified/r6_core.py": "6082ba1e0454c272d028b911387000eb0b1a42cfabcb88569c6af43ad416095c",
+  "certified/r11_run.py": "42dc9bef2c2e0f4f04c8f08e8e2afe8dda1f5969e8515f8b64ae0fd43321e93c",
+  "certified/r5_ring.py": "658eb6f800fcb278d80ecdc32feceda366947ae9bb6f6f8bbc7f510757b2366d",
+  "certified/r8_winding.py": "ba17f165ac785078fb19433f246186a4812cb0ea9180edc8a16762369209decb",
+  "certified/r8_finite.py": "17e75993448f9a68ca639025e9d71dda8ebf8585441ef4306f81695aa4417076",
+  "certified/r6_summary.json": "27331c54a78cc26301403291a3822d2f1707c019305a9a7adeabd38ebf9ec3a4",
+  "certified/r6_sector_validation.json": "ba359564cbcb43de541f6a00cc0625033b9472c611f4e8d3d244ad827dfbb4f6",
+  "certified/r5_ring_results.json": "9d1c202104dc9a40017134ce811b133e2f4671368148aee2dc52fbf95f64ce7f",
+  "certified/r7_results.json": "d7873bc94e2111a42613d7ace2d47163afb7be63271ef778eddb7c23898cbf86"
+ }
+}

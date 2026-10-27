@@ -1,0 +1,1 @@
+Place the RCSR three-dimensional net file here as `rcsr3d_web.cgd` (Systre format, from http://rcsr.net), or set the environment variable `RCSR_CGD` to its location. It is needed only to regenerate the RCSR-derived structures.

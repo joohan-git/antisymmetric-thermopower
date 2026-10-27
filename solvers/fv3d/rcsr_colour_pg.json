@@ -1,0 +1,2206 @@
+[
+ {
+  "name": "utk",
+  "parent_space_group": "P4122",
+  "setting": "P 41 2 2",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "422",
+  "order": 8,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "422",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 12,
+  "Sa_z_uV_K": -5.4211514153621735e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "unc",
+  "parent_space_group": "P4122",
+  "setting": "P 41 2 2",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "422",
+  "order": 8,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "422",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 8,
+  "Sa_z_uV_K": 3.394846996292376e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "unm",
+  "parent_space_group": "P42212",
+  "setting": "P 42 21 2",
+  "shape": [
+   16,
+   16,
+   24
+  ],
+  "colour_point_group": "4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 6,
+  "struts": 16,
+  "Sa_z_uV_K": -16.487078871107308,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "dft",
+  "parent_space_group": "P42/mmc",
+  "setting": "P 42/m m c",
+  "shape": [
+   16,
+   16,
+   24
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 16,
+  "Sa_z_uV_K": 1.1580812915792612e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "umw",
+  "parent_space_group": "P4122",
+  "setting": "P 41 2 2",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "422",
+  "order": 8,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "422",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 16,
+  "Sa_z_uV_K": -3.750825534518072e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "umx",
+  "parent_space_group": "P42/mcm",
+  "setting": "P 42/m c m",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/m",
+  "order": 8,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4/m",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 2,
+  "struts": 16,
+  "Sa_z_uV_K": 5.1686394312140145,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "uoj",
+  "parent_space_group": "P-4n2",
+  "setting": "P -4 n 2",
+  "shape": [
+   16,
+   16,
+   20
+  ],
+  "colour_point_group": "-4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "-4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 6,
+  "struts": 16,
+  "Sa_z_uV_K": -3.753431354861315,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "lvt",
+  "parent_space_group": "I41/amd",
+  "setting": "I 41/a m d:2",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 16,
+  "Sa_z_uV_K": -3.1296126856080186e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "crb",
+  "parent_space_group": "I4/mmm",
+  "setting": "I 4/m m m",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 16,
+  "Sa_z_uV_K": -5.29438072906448e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "uov",
+  "parent_space_group": "P-4c2",
+  "setting": "P -4 c 2",
+  "shape": [
+   16,
+   16,
+   24
+  ],
+  "colour_point_group": "-4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "-4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 6,
+  "struts": 16,
+  "Sa_z_uV_K": 2.466178221099123,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "ukg",
+  "parent_space_group": "P42/n",
+  "setting": "P 42/n:2",
+  "shape": [
+   16,
+   16,
+   24
+  ],
+  "colour_point_group": "4/m",
+  "order": 8,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4/m",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 4,
+  "struts": 16,
+  "Sa_z_uV_K": -1.571900043584197,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "cds-b",
+  "parent_space_group": "P42/mnm",
+  "setting": "P 42/m n m",
+  "shape": [
+   16,
+   16,
+   24
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 8,
+  "Sa_z_uV_K": 5.776158550072423e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "edi",
+  "parent_space_group": "P-4m2",
+  "setting": "P -4 m 2",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "-42m",
+  "order": 8,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "-42m",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 10,
+  "Sa_z_uV_K": 1.63998241024564e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "pts",
+  "parent_space_group": "P42/mmc",
+  "setting": "P 42/m m c",
+  "shape": [
+   16,
+   16,
+   24
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 8,
+  "Sa_z_uV_K": -1.485336902137211e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "bbr",
+  "parent_space_group": "P4122",
+  "setting": "P 41 2 2",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 4,
+  "struts": 16,
+  "Sa_z_uV_K": 13.064039430280541,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "mot",
+  "parent_space_group": "P4/mmm",
+  "setting": "P 4/m m m",
+  "shape": [
+   16,
+   16,
+   8
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 6,
+  "Sa_z_uV_K": -5.2003988844030265e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "crb-b",
+  "parent_space_group": "P42/mnm",
+  "setting": "P 42/m n m",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 16,
+  "Sa_z_uV_K": -5.2983633390111e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "bsn",
+  "parent_space_group": "I41/amd",
+  "setting": "I 41/a m d:2",
+  "shape": [
+   16,
+   16,
+   8
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 12,
+  "Sa_z_uV_K": -1.0135952859710016e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "snp",
+  "parent_space_group": "P42/mmc",
+  "setting": "P 42/m m c",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 12,
+  "Sa_z_uV_K": 4.988632171189728e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "sne",
+  "parent_space_group": "I-42d",
+  "setting": "I -4 2 d",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "-4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "-4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 8,
+  "struts": 24,
+  "Sa_z_uV_K": 4.183101765377694,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "rtl",
+  "parent_space_group": "P42/mnm",
+  "setting": "P 42/m n m",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 12,
+  "Sa_z_uV_K": -2.8625573256460265e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "mot-e",
+  "parent_space_group": "P4/mmm",
+  "setting": "P 4/m m m",
+  "shape": [
+   16,
+   16,
+   8
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 12,
+  "Sa_z_uV_K": -1.2497117674694134e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "fsd",
+  "parent_space_group": "P4/mmm",
+  "setting": "P 4/m m m",
+  "shape": [
+   16,
+   16,
+   8
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 7,
+  "Sa_z_uV_K": 3.4788719034236303e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "cds-a",
+  "parent_space_group": "P42/mmc",
+  "setting": "P 42/m m c",
+  "shape": [
+   16,
+   16,
+   28
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 12,
+  "Sa_z_uV_K": 1.20232867269402e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "noo",
+  "parent_space_group": "P4/mnc",
+  "setting": "P 4/m n c",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/m",
+  "order": 8,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4/m",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 6,
+  "struts": 20,
+  "Sa_z_uV_K": -4.1314363392843605,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "nou",
+  "parent_space_group": "P4/mbm",
+  "setting": "P 4/m b m",
+  "shape": [
+   16,
+   16,
+   8
+  ],
+  "colour_point_group": "4/m",
+  "order": 8,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4/m",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 4,
+  "struts": 16,
+  "Sa_z_uV_K": 5.9876437525529065,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "fsc",
+  "parent_space_group": "P4/mmm",
+  "setting": "P 4/m m m",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 5,
+  "Sa_z_uV_K": 9.151456321398897e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "fse",
+  "parent_space_group": "I-4m2",
+  "setting": "I -4 m 2",
+  "shape": [
+   16,
+   16,
+   8
+  ],
+  "colour_point_group": "-42m",
+  "order": 8,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "-42m",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 10,
+  "Sa_z_uV_K": -6.664293362641096e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "sve",
+  "parent_space_group": "P4/mbm",
+  "setting": "P 4/m b m",
+  "shape": [
+   16,
+   16,
+   8
+  ],
+  "colour_point_group": "4/m",
+  "order": 8,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4/m",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 4,
+  "struts": 14,
+  "Sa_z_uV_K": -2.686291556480292,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "svg",
+  "parent_space_group": "I4/mmm",
+  "setting": "I 4/m m m",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 28,
+  "Sa_z_uV_K": -5.84893965336403e-13,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "svi",
+  "parent_space_group": "I4/mcm",
+  "setting": "I 4/m c m",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "4/m",
+  "order": 8,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4/m",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 8,
+  "struts": 28,
+  "Sa_z_uV_K": 3.9803121797101806,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "svs",
+  "parent_space_group": "P4/mcc",
+  "setting": "P 4/m c c",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "4/m",
+  "order": 8,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4/m",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 6,
+  "struts": 28,
+  "Sa_z_uV_K": 5.886058644569799,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "eci",
+  "parent_space_group": "P41212",
+  "setting": "P 41 21 2",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 4,
+  "struts": 16,
+  "Sa_z_uV_K": -4.125779326152552,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "ncd",
+  "parent_space_group": "P42/mnm",
+  "setting": "P 42/m n m",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/m",
+  "order": 8,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4/m",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 8,
+  "struts": 18,
+  "Sa_z_uV_K": -9.921162427428483,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "ncf",
+  "parent_space_group": "I4/m",
+  "setting": "I 4/m",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/m",
+  "order": 8,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4/m",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 12,
+  "struts": 36,
+  "Sa_z_uV_K": -5.702202657292435,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "bct",
+  "parent_space_group": "I4/mmm",
+  "setting": "I 4/m m m",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 10,
+  "Sa_z_uV_K": 1.6263207571863152e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "ela",
+  "parent_space_group": "P42/mnm",
+  "setting": "P 42/m n m",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/m",
+  "order": 8,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4/m",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 8,
+  "struts": 22,
+  "Sa_z_uV_K": -0.7321641970557871,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "scu",
+  "parent_space_group": "P4/mmm",
+  "setting": "P 4/m m m",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 8,
+  "Sa_z_uV_K": 8.803738848196809e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "svf",
+  "parent_space_group": "I4/mcm",
+  "setting": "I 4/m c m",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 28,
+  "Sa_z_uV_K": 1.5329560335543768e-13,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "dmd",
+  "parent_space_group": "P42/mmc",
+  "setting": "P 42/m m c",
+  "shape": [
+   16,
+   16,
+   20
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 10,
+  "Sa_z_uV_K": 6.879953223295893e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "wfd",
+  "parent_space_group": "I4/m",
+  "setting": "I 4/m",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/m",
+  "order": 8,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4/m",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 8,
+  "struts": 32,
+  "Sa_z_uV_K": -2.0498045140969716,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "wfe",
+  "parent_space_group": "P42/n",
+  "setting": "P 42/n:2",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/m",
+  "order": 8,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4/m",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 12,
+  "struts": 32,
+  "Sa_z_uV_K": -6.8878697738889265,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "wff",
+  "parent_space_group": "I-42m",
+  "setting": "I -4 2 m",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "-4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "-4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 8,
+  "struts": 32,
+  "Sa_z_uV_K": 2.8439915683900074,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "wfs",
+  "parent_space_group": "I-42m",
+  "setting": "I -4 2 m",
+  "shape": [
+   16,
+   16,
+   20
+  ],
+  "colour_point_group": "-4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "-4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 8,
+  "struts": 28,
+  "Sa_z_uV_K": -22.730998862669026,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "wft",
+  "parent_space_group": "P-421c",
+  "setting": "P -4 21 c",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "-4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "-4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 10,
+  "struts": 28,
+  "Sa_z_uV_K": -7.544860791276136,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "wfu",
+  "parent_space_group": "P-421c",
+  "setting": "P -4 21 c",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "-4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "-4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 10,
+  "struts": 28,
+  "Sa_z_uV_K": -9.646194486515096,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "wfy",
+  "parent_space_group": "I-4",
+  "setting": "I -4",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "-4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "-4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 12,
+  "struts": 28,
+  "Sa_z_uV_K": -3.6233065642376054,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "upa",
+  "parent_space_group": "P42212",
+  "setting": "P 42 21 2",
+  "shape": [
+   16,
+   16,
+   24
+  ],
+  "colour_point_group": "4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 6,
+  "struts": 16,
+  "Sa_z_uV_K": -16.720402911041568,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "xft",
+  "parent_space_group": "I41md",
+  "setting": "I 41 m d",
+  "shape": [
+   16,
+   16,
+   20
+  ],
+  "colour_point_group": "4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 8,
+  "struts": 20,
+  "Sa_z_uV_K": 24.887667140379587,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "xfu",
+  "parent_space_group": "P42/n",
+  "setting": "P 42/n:2",
+  "shape": [
+   16,
+   16,
+   28
+  ],
+  "colour_point_group": "4/m",
+  "order": 8,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4/m",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 12,
+  "struts": 20,
+  "Sa_z_uV_K": 9.505750788228081,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "xfv-z",
+  "parent_space_group": "I-42m",
+  "setting": "I -4 2 m",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "-42m",
+  "order": 8,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "-42m",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 20,
+  "Sa_z_uV_K": -4.122850210781561e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "xfw",
+  "parent_space_group": "P-4c2",
+  "setting": "P -4 c 2",
+  "shape": [
+   16,
+   16,
+   28
+  ],
+  "colour_point_group": "-4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "-4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 8,
+  "struts": 20,
+  "Sa_z_uV_K": 5.555476172462819,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "xfx",
+  "parent_space_group": "I-4m2",
+  "setting": "I -4 m 2",
+  "shape": [
+   16,
+   16,
+   20
+  ],
+  "colour_point_group": "-42m",
+  "order": 8,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "-42m",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 20,
+  "Sa_z_uV_K": -9.915109368847699e-13,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "xfy",
+  "parent_space_group": "P-4n2",
+  "setting": "P -4 n 2",
+  "shape": [
+   16,
+   16,
+   28
+  ],
+  "colour_point_group": "-4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "-4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 8,
+  "struts": 20,
+  "Sa_z_uV_K": 1.2875886257700093,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "yfg",
+  "parent_space_group": "P4122",
+  "setting": "P 41 2 2",
+  "shape": [
+   16,
+   16,
+   20
+  ],
+  "colour_point_group": "4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 4,
+  "struts": 20,
+  "Sa_z_uV_K": -12.5325061784005,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "yfx",
+  "parent_space_group": "I4/m",
+  "setting": "I 4/m",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "4/m",
+  "order": 8,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4/m",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 12,
+  "struts": 20,
+  "Sa_z_uV_K": 10.514189822233968,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "zfa",
+  "parent_space_group": "P42212",
+  "setting": "P 42 21 2",
+  "shape": [
+   16,
+   16,
+   24
+  ],
+  "colour_point_group": "4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 4,
+  "struts": 20,
+  "Sa_z_uV_K": 14.48491867221552,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "zfb",
+  "parent_space_group": "P42/mbc",
+  "setting": "P 42/m b c",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "4/m",
+  "order": 8,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4/m",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 6,
+  "struts": 20,
+  "Sa_z_uV_K": -15.417887979812516,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "zfs",
+  "parent_space_group": "P4122",
+  "setting": "P 41 2 2",
+  "shape": [
+   16,
+   16,
+   20
+  ],
+  "colour_point_group": "4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 4,
+  "struts": 20,
+  "Sa_z_uV_K": 2.997174877044797,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "zfu",
+  "parent_space_group": "P41212",
+  "setting": "P 41 21 2",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 4,
+  "struts": 20,
+  "Sa_z_uV_K": -7.519540367928853,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "wgu",
+  "parent_space_group": "P42/mbc",
+  "setting": "P 42/m b c",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "4/m",
+  "order": 8,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4/m",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 6,
+  "struts": 20,
+  "Sa_z_uV_K": -9.341484606845617,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "wgv",
+  "parent_space_group": "P42/mnm",
+  "setting": "P 42/m n m",
+  "shape": [
+   16,
+   16,
+   24
+  ],
+  "colour_point_group": "4/m",
+  "order": 8,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4/m",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 8,
+  "struts": 24,
+  "Sa_z_uV_K": -9.524028090787057,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "wgw",
+  "parent_space_group": "P42/ncm",
+  "setting": "P 42/n c m:2",
+  "shape": [
+   16,
+   16,
+   24
+  ],
+  "colour_point_group": "4/m",
+  "order": 8,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4/m",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 8,
+  "struts": 24,
+  "Sa_z_uV_K": -3.5234056348243663,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "wha",
+  "parent_space_group": "P-421c",
+  "setting": "P -4 21 c",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "-4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "-4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 8,
+  "struts": 24,
+  "Sa_z_uV_K": -5.381719945873702,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "whb",
+  "parent_space_group": "P42/nmc",
+  "setting": "P 42/n m c:2",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 24,
+  "Sa_z_uV_K": -4.66196447450871e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "whc",
+  "parent_space_group": "P-4c2",
+  "setting": "P -4 c 2",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "-4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "-4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 6,
+  "struts": 24,
+  "Sa_z_uV_K": -1.2842605603736417,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "msw",
+  "parent_space_group": "P42/nnm",
+  "setting": "P 42/n n m:2",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 6,
+  "Sa_z_uV_K": -6.521975973346659e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "svi-x",
+  "parent_space_group": "I4/mcm",
+  "setting": "I 4/m c m",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "4/m",
+  "order": 8,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4/m",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 8,
+  "struts": 44,
+  "Sa_z_uV_K": -1.088035957155306,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "lsz",
+  "parent_space_group": "P42/nnm",
+  "setting": "P 42/n n m:2",
+  "shape": [
+   16,
+   16,
+   24
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 8,
+  "Sa_z_uV_K": -6.882106497410161e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "lvt-c",
+  "parent_space_group": "P42/nnm",
+  "setting": "P 42/n n m:2",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 8,
+  "Sa_z_uV_K": -4.82911830421579e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "lig-c",
+  "parent_space_group": "P42/nnm",
+  "setting": "P 42/n n m:2",
+  "shape": [
+   16,
+   16,
+   8
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 12,
+  "Sa_z_uV_K": 2.9470156315727598e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "fnx",
+  "parent_space_group": "P4122",
+  "setting": "P 41 2 2",
+  "shape": [
+   16,
+   16,
+   24
+  ],
+  "colour_point_group": "422",
+  "order": 8,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "422",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 20,
+  "Sa_z_uV_K": 5.743784927257835e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "srs-c*",
+  "parent_space_group": "P4222",
+  "setting": "P 42 2 2",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "422",
+  "order": 8,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "422",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 6,
+  "Sa_z_uV_K": 1.5878562207852288e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "unc-c",
+  "parent_space_group": "I4122",
+  "setting": "I 41 2 2",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "422",
+  "order": 8,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "422",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 16,
+  "Sa_z_uV_K": -2.0132347319515724e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "cap",
+  "parent_space_group": "I41/amd",
+  "setting": "I 41/a m d:2",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 12,
+  "Sa_z_uV_K": 8.08699604823058e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "xah",
+  "parent_space_group": "P4/mmm",
+  "setting": "P 4/m m m",
+  "shape": [
+   16,
+   16,
+   20
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 9,
+  "Sa_z_uV_K": 5.329956100798995e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "pts-x",
+  "parent_space_group": "P42/mmc",
+  "setting": "P 42/m m c",
+  "shape": [
+   16,
+   16,
+   20
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 10,
+  "Sa_z_uV_K": -3.6445030762508544e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "xal",
+  "parent_space_group": "P4/mmm",
+  "setting": "P 4/m m m",
+  "shape": [
+   16,
+   16,
+   24
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 10,
+  "Sa_z_uV_K": -1.1021667845886598e-10,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "ddi",
+  "parent_space_group": "I41/amd",
+  "setting": "I 41/a m d:2",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 16,
+  "Sa_z_uV_K": 1.0741524467022783e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "tty",
+  "parent_space_group": "P4/mmm",
+  "setting": "P 4/m m m",
+  "shape": [
+   16,
+   16,
+   20
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 10,
+  "Sa_z_uV_K": -3.971952197305612e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "cut",
+  "parent_space_group": "P4/mmm",
+  "setting": "P 4/m m m",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 10,
+  "Sa_z_uV_K": 6.124215159066579e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "deh-d",
+  "parent_space_group": "I41/amd",
+  "setting": "I 41/a m d:2",
+  "shape": [
+   16,
+   16,
+   8
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 20,
+  "Sa_z_uV_K": -5.383181253033909e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "tfn",
+  "parent_space_group": "P42/mnm",
+  "setting": "P 42/m n m",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/m",
+  "order": 8,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4/m",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 4,
+  "struts": 14,
+  "Sa_z_uV_K": 6.865073749633955,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "eft",
+  "parent_space_group": "P4/mmm",
+  "setting": "P 4/m m m",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 12,
+  "Sa_z_uV_K": -6.007368593406643e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "dnq",
+  "parent_space_group": "P-4m2",
+  "setting": "P -4 m 2",
+  "shape": [
+   16,
+   16,
+   24
+  ],
+  "colour_point_group": "-4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "-4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 4,
+  "struts": 12,
+  "Sa_z_uV_K": 7.714519794760267,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "tfv",
+  "parent_space_group": "P-4n2",
+  "setting": "P -4 n 2",
+  "shape": [
+   16,
+   16,
+   20
+  ],
+  "colour_point_group": "-4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "-4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 4,
+  "struts": 10,
+  "Sa_z_uV_K": 11.314589139915588,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "hcb-c",
+  "parent_space_group": "I4/mcm",
+  "setting": "I 4/m c m",
+  "shape": [
+   16,
+   16,
+   24
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 12,
+  "Sa_z_uV_K": -9.254545172692282e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "sql-c",
+  "parent_space_group": "P42/mmc",
+  "setting": "P 42/m m c",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 4,
+  "Sa_z_uV_K": -1.7861948799039453e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "bcu-c",
+  "parent_space_group": "I41/amd",
+  "setting": "I 41/a m d:2",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 16,
+  "Sa_z_uV_K": 2.01101589580924e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "ths-c3",
+  "parent_space_group": "I41/amd",
+  "setting": "I 41/a m d:2",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 12,
+  "Sa_z_uV_K": 1.4513021502367505e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "zll",
+  "parent_space_group": "I4/mmm",
+  "setting": "I 4/m m m",
+  "shape": [
+   16,
+   16,
+   8
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 18,
+  "Sa_z_uV_K": -3.333418711882096e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "asd",
+  "parent_space_group": "P4/mmm",
+  "setting": "P 4/m m m",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/m",
+  "order": 8,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4/m",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 4,
+  "struts": 16,
+  "Sa_z_uV_K": 12.275317692483547,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "scu-c",
+  "parent_space_group": "I4/mmm",
+  "setting": "I 4/m m m",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 16,
+  "Sa_z_uV_K": -9.759756954571638e-13,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "dia-b4*",
+  "parent_space_group": "P-42m",
+  "setting": "P -4 2 m",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "-42m",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 16,
+  "Sa_z_uV_K": 3.232711680923035e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "dia-w*",
+  "parent_space_group": "I4122",
+  "setting": "I 41 2 2",
+  "shape": [
+   16,
+   16,
+   24
+  ],
+  "colour_point_group": "422",
+  "order": 8,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "422",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 8,
+  "Sa_z_uV_K": 9.527835294356676e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "dia-w",
+  "parent_space_group": "I41/amd",
+  "setting": "I 41/a m d:2",
+  "shape": [
+   16,
+   16,
+   24
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 8,
+  "Sa_z_uV_K": 3.842659336545254e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "dia-w-c",
+  "parent_space_group": "P42/nnm",
+  "setting": "P 42/n n m:2",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 4,
+  "Sa_z_uV_K": -8.99848445567341e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "fsj",
+  "parent_space_group": "P4/mmm",
+  "setting": "P 4/m m m",
+  "shape": [
+   16,
+   16,
+   20
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 10,
+  "Sa_z_uV_K": 5.3116982969491555e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "cyc",
+  "parent_space_group": "P42/mmc",
+  "setting": "P 42/m m c",
+  "shape": [
+   16,
+   16,
+   24
+  ],
+  "colour_point_group": "4/m",
+  "order": 8,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4/m",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 8,
+  "struts": 16,
+  "Sa_z_uV_K": 53.34803683583467,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "trn",
+  "parent_space_group": "P42/mmc",
+  "setting": "P 42/m m c",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 10,
+  "Sa_z_uV_K": 1.5073270251850245e-10,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "cyg",
+  "parent_space_group": "P4/mmm",
+  "setting": "P 4/m m m",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "4/m",
+  "order": 8,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4/m",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 8,
+  "struts": 16,
+  "Sa_z_uV_K": 12.20506793642763,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "zlg",
+  "parent_space_group": "P42/mmc",
+  "setting": "P 42/m m c",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "4/m",
+  "order": 8,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4/m",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 4,
+  "struts": 16,
+  "Sa_z_uV_K": -6.193160647474627,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "sql-c*-w",
+  "parent_space_group": "P4/ncc",
+  "setting": "P 4/n c c:2",
+  "shape": [
+   16,
+   16,
+   24
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 8,
+  "Sa_z_uV_K": 6.30954792271315e-09,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "pll",
+  "parent_space_group": "P4122",
+  "setting": "P 41 2 2",
+  "shape": [
+   16,
+   16,
+   24
+  ],
+  "colour_point_group": "4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 4,
+  "struts": 28,
+  "Sa_z_uV_K": -5.74483938115651,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "boq",
+  "parent_space_group": "P-42m",
+  "setting": "P -4 2 m",
+  "shape": [
+   16,
+   16,
+   20
+  ],
+  "colour_point_group": "-4",
+  "order": 4,
+  "axial_z_allowed": true,
+  "continuous_colour_point_group": "-4",
+  "continuous_axial_z_allowed": true,
+  "n_type_struts": 4,
+  "struts": 16,
+  "Sa_z_uV_K": -3.035743399631602,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "bsa",
+  "parent_space_group": "I4/mmm",
+  "setting": "I 4/m m m",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 16,
+  "Sa_z_uV_K": 1.0033588785707622e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "bsd",
+  "parent_space_group": "P4/mmm",
+  "setting": "P 4/m m m",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 12,
+  "Sa_z_uV_K": -4.65047108398234e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "fuq",
+  "parent_space_group": "I4/mmm",
+  "setting": "I 4/m m m",
+  "shape": [
+   16,
+   16,
+   20
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 20,
+  "Sa_z_uV_K": -5.739931715477924e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "fwl",
+  "parent_space_group": "P4/mmm",
+  "setting": "P 4/m m m",
+  "shape": [
+   16,
+   16,
+   24
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 14,
+  "Sa_z_uV_K": -1.666396287746799e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "fwq",
+  "parent_space_group": "P4/mmm",
+  "setting": "P 4/m m m",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 16,
+  "Sa_z_uV_K": 9.954404790181108e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "fws",
+  "parent_space_group": "P4/mmm",
+  "setting": "P 4/m m m",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 16,
+  "Sa_z_uV_K": 2.036954556629977e-11,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "pcs",
+  "parent_space_group": "P4/mmm",
+  "setting": "P 4/m m m",
+  "shape": [
+   16,
+   16,
+   16
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 7,
+  "Sa_z_uV_K": 5.208497867041322e-13,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "psb",
+  "parent_space_group": "P42/mmc",
+  "setting": "P 42/m m c",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 16,
+  "Sa_z_uV_K": -1.5285971793496191e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "sub",
+  "parent_space_group": "P4/mmm",
+  "setting": "P 4/m m m",
+  "shape": [
+   16,
+   16,
+   20
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 16,
+  "Sa_z_uV_K": -9.008524573842157e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "sup",
+  "parent_space_group": "P4/mmm",
+  "setting": "P 4/m m m",
+  "shape": [
+   16,
+   16,
+   20
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 11,
+  "Sa_z_uV_K": 5.715945891893079e-12,
+  "matches_atlas_verdict": true
+ },
+ {
+  "name": "sfo",
+  "parent_space_group": "I4/mmm",
+  "setting": "I 4/m m m",
+  "shape": [
+   16,
+   16,
+   12
+  ],
+  "colour_point_group": "4/mmm",
+  "order": 16,
+  "axial_z_allowed": false,
+  "continuous_colour_point_group": "4/mmm",
+  "continuous_axial_z_allowed": false,
+  "n_type_struts": 0,
+  "struts": 24,
+  "Sa_z_uV_K": -4.229766737218379e-12,
+  "matches_atlas_verdict": true
+ }
+]

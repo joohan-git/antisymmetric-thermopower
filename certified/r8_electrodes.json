@@ -1,0 +1,4612 @@
+{
+  "number_type": "uniform_grid_point_estimate",
+  "cases": {
+    "A_8": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        256,
+        128
+      ],
+      "elements": 32768,
+      "nodes": 33153,
+      "box_m": [
+        0.008,
+        0.004
+      ],
+      "residual": 2.1484525741042007e-15,
+      "heat_input_W_per_m": 2.624270144538388,
+      "heat_output_W_per_m": 2.6242701445330674,
+      "seconds": 0.8816119999974035,
+      "floating_electrode_nodes": [],
+      "kind": "A",
+      "cells": [
+        8,
+        4
+      ],
+      "pixels_per_cell": 32,
+      "electrode": "point",
+      "mirror": false,
+      "periodic_same_grid": {
+        "N": 32,
+        "fractions": [
+          240,
+          384,
+          400
+        ],
+        "sigma": [
+          [
+            39118.02274908213,
+            -3.068969774491781e-12
+          ],
+          [
+            -2.2680154195681146e-12,
+            39118.02274908203
+          ]
+        ],
+        "alpha": [
+          [
+            -0.8615970470804497,
+            0.6164570745254165
+          ],
+          [
+            -0.6164570745254233,
+            -0.8615970470804561
+          ]
+        ],
+        "S_uV_K": [
+          [
+            -22.025577637373463,
+            15.7589016827258
+          ],
+          [
+            -15.758901682726012,
+            -22.025577637373683
+          ]
+        ],
+        "kappa_open_circuit": [
+          [
+            1.3243531801438253,
+            -5.688819095256136e-16
+          ],
+          [
+            -6.005348947820874e-16,
+            1.324353180143826
+          ]
+        ],
+        "Santi_main_uV_K": 15.758901682725908,
+        "a_cross_z_uV_K": -15.758901682725908,
+        "alpha_antisymmetric": 0.6164570745254199,
+        "scaled_effective_energy": [
+          [
+            0.39118022749082126,
+            -3.068969774491781e-17,
+            -0.04307985235402249,
+            0.03082285372627083
+          ],
+          [
+            -2.2680154195681146e-17,
+            0.3911802274908203,
+            -0.030822853726271162,
+            -0.043079852354022806
+          ],
+          [
+            -0.04307985235402265,
+            -0.03082285372627137,
+            1.1108006148902718,
+            -3.934230870770994e-16
+          ],
+          [
+            0.030822853726270742,
+            -0.04307985235402266,
+            -4.3242810726521266e-16,
+            1.1108006148902723
+          ]
+        ],
+        "onsager_relative": 2.698600475152441e-16,
+        "flux_energy_difference": 2.1884682267583976e-14,
+        "residual_relative": 1.4054374964225237e-14,
+        "seconds": 0.01895410002907738,
+        "Sa": 15.758901682725908,
+        "Sxx": -22.025577637373463,
+        "sigma_iso": 39118.02274908208
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": 22.75033895222512,
+          "deltaT_right_minus_left_K": -0.01570394970596506,
+          "V_temperature_corrected_uV": 22.404450388762978,
+          "ratio_to_A64_continuum_tensor_point": 0.22827749127871685,
+          "ratio_corrected_to_A64": 0.22480683645924593,
+          "ratio_to_same_grid_bulk_Sa": 0.7218250170683805
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": 40.72500627659553,
+          "deltaT_right_minus_left_K": 0.0026180894550562606,
+          "V_temperature_corrected_uV": 40.78267120914946,
+          "ratio_to_A64_continuum_tensor_point": 0.4086357695440824,
+          "ratio_corrected_to_A64": 0.4092143809733807,
+          "ratio_to_same_grid_bulk_Sa": 1.2921270497307618
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": 40.04604603243194,
+          "deltaT_right_minus_left_K": 0.002332383372978808,
+          "V_temperature_corrected_uV": 40.097418123493604,
+          "ratio_to_A64_continuum_tensor_point": 0.401823064839281,
+          "ratio_corrected_to_A64": 0.4023385337337852,
+          "ratio_to_same_grid_bulk_Sa": 1.270584931573256
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": 40.725006277285,
+          "deltaT_right_minus_left_K": 0.0026180894549913125,
+          "V_temperature_corrected_uV": 40.782671209837495,
+          "ratio_to_A64_continuum_tensor_point": 0.4086357695510005,
+          "ratio_corrected_to_A64": 0.4092143809802844,
+          "ratio_to_same_grid_bulk_Sa": 1.2921270497526371
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": 22.750338953461185,
+          "deltaT_right_minus_left_K": -0.015703949705880405,
+          "V_temperature_corrected_uV": 22.404450390000907,
+          "ratio_to_A64_continuum_tensor_point": 0.22827749129111954,
+          "ratio_corrected_to_A64": 0.22480683647166733,
+          "ratio_to_same_grid_bulk_Sa": 0.7218250171075985
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": 22.48598267455812,
+          "deltaT_right_minus_left_K": 0.10346504787868782,
+          "V_temperature_corrected_uV": 24.76486011936472,
+          "ratio_to_A64_continuum_tensor_point": 0.2256249335301783,
+          "ratio_corrected_to_A64": 0.2484912489342933,
+          "ratio_to_same_grid_bulk_Sa": 0.7134374947971814
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": 55.36377394813287,
+          "deltaT_right_minus_left_K": -0.09644267111698901,
+          "V_temperature_corrected_uV": 53.23956840788995,
+          "ratio_to_A64_continuum_tensor_point": 0.5555215441467367,
+          "ratio_corrected_to_A64": 0.5342072106458031,
+          "ratio_to_same_grid_bulk_Sa": 1.7565873264131016
+        }
+      ]
+    },
+    "gap_8": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        256,
+        128
+      ],
+      "elements": 32768,
+      "nodes": 33153,
+      "box_m": [
+        0.008,
+        0.004
+      ],
+      "residual": 2.325605577166026e-15,
+      "heat_input_W_per_m": 2.44326860012654,
+      "heat_output_W_per_m": 2.4432686001203154,
+      "seconds": 0.9620064000482671,
+      "floating_electrode_nodes": [],
+      "kind": "gap",
+      "cells": [
+        8,
+        4
+      ],
+      "pixels_per_cell": 32,
+      "electrode": "point",
+      "mirror": false,
+      "periodic_same_grid": {
+        "N": 32,
+        "fractions": [
+          256,
+          368,
+          400
+        ],
+        "sigma": [
+          [
+            32073.47640353479,
+            -6.400858575811297e-12
+          ],
+          [
+            -2.045923380798037e-11,
+            32073.47640353473
+          ]
+        ],
+        "alpha": [
+          [
+            0.018260177499044093,
+            1.5998458375988636
+          ],
+          [
+            -1.5998458375988691,
+            0.018260177499042737
+          ]
+        ],
+        "S_uV_K": [
+          [
+            0.5693233021984276,
+            49.880649589407966
+          ],
+          [
+            -49.880649589408236,
+            0.5693233021984282
+          ]
+        ],
+        "kappa_open_circuit": [
+          [
+            1.2220088775968474,
+            -3.164536318574711e-16
+          ],
+          [
+            -4.149660819177952e-16,
+            1.2220088775968494
+          ]
+        ],
+        "Santi_main_uV_K": 49.8806495894081,
+        "a_cross_z_uV_K": -49.8806495894081,
+        "alpha_antisymmetric": 1.5998458375988664,
+        "scaled_effective_energy": [
+          [
+            0.32073476403534795,
+            -6.400858575811297e-17,
+            0.0009130088749522046,
+            0.07999229187994318
+          ],
+          [
+            -2.045923380798037e-16,
+            0.3207347640353473,
+            -0.07999229187994346,
+            0.0009130088749521368
+          ],
+          [
+            0.0009130088749522227,
+            -0.07999229187994338,
+            1.03829366772243,
+            -2.560411192960299e-16
+          ],
+          [
+            0.07999229187994297,
+            0.0009130088749521385,
+            -3.350794576702232e-16,
+            1.0382936677224313
+          ]
+        ],
+        "onsager_relative": 2.533299083448088e-16,
+        "flux_energy_difference": 2.2638676073095407e-14,
+        "residual_relative": 1.6898457574662705e-14,
+        "seconds": 0.025118599995039403,
+        "Sa": 49.8806495894081,
+        "Sxx": 0.5693233021984276,
+        "sigma_iso": 32073.47640353476
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": 78.92616417534822,
+          "deltaT_right_minus_left_K": -0.01464689720445743,
+          "V_temperature_corrected_uV": 78.93450299523163,
+          "ratio_to_A64_continuum_tensor_point": 0.7919471789864673,
+          "ratio_corrected_to_A64": 0.7920308509215187,
+          "ratio_to_same_grid_bulk_Sa": 0.7911501235953008
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": 98.78379546559168,
+          "deltaT_right_minus_left_K": 0.006855473353639452,
+          "V_temperature_corrected_uV": 98.77989248486385,
+          "ratio_to_A64_continuum_tensor_point": 0.9911991665367964,
+          "ratio_corrected_to_A64": 0.9911600039269148,
+          "ratio_to_same_grid_bulk_Sa": 0.9902015739442968
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": 98.72292878793218,
+          "deltaT_right_minus_left_K": 0.00704975763206217,
+          "V_temperature_corrected_uV": 98.7189151966374,
+          "ratio_to_A64_continuum_tensor_point": 0.9905884287140431,
+          "ratio_corrected_to_A64": 0.9905481562348631,
+          "ratio_to_same_grid_bulk_Sa": 0.989591450798743
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": 98.78379546625014,
+          "deltaT_right_minus_left_K": 0.006855473353559627,
+          "V_temperature_corrected_uV": 98.77989248552235,
+          "ratio_to_A64_continuum_tensor_point": 0.9911991665434033,
+          "ratio_corrected_to_A64": 0.9911600039335223,
+          "ratio_to_same_grid_bulk_Sa": 0.9902015739508971
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": 78.92616417650297,
+          "deltaT_right_minus_left_K": -0.014646897204429798,
+          "V_temperature_corrected_uV": 78.93450299638636,
+          "ratio_to_A64_continuum_tensor_point": 0.791947178998054,
+          "ratio_corrected_to_A64": 0.7920308509331053,
+          "ratio_to_same_grid_bulk_Sa": 0.7911501236068759
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": 81.87514394853726,
+          "deltaT_right_minus_left_K": 0.10605188387399433,
+          "V_temperature_corrected_uV": 81.81476613980576,
+          "ratio_to_A64_continuum_tensor_point": 0.8215373185386269,
+          "ratio_corrected_to_A64": 0.8209314860393803,
+          "ratio_to_same_grid_bulk_Sa": 0.8207104821457961
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": 113.37032493071784,
+          "deltaT_right_minus_left_K": -0.0902838131707065,
+          "V_temperature_corrected_uV": 113.42172560936726,
+          "ratio_to_A64_continuum_tensor_point": 1.1375607816210591,
+          "ratio_corrected_to_A64": 1.1380765373641606,
+          "ratio_to_same_grid_bulk_Sa": 1.1364158833528046
+        }
+      ]
+    },
+    "homogeneous_8": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        256,
+        128
+      ],
+      "elements": 32768,
+      "nodes": 33153,
+      "box_m": [
+        0.008,
+        0.004
+      ],
+      "residual": 2.1933171074899653e-15,
+      "heat_input_W_per_m": 2.483535162038859,
+      "heat_output_W_per_m": 2.483535162034458,
+      "seconds": 0.8822589999763295,
+      "floating_electrode_nodes": [],
+      "kind": "homogeneous",
+      "cells": [
+        8,
+        4
+      ],
+      "pixels_per_cell": 32,
+      "electrode": "point",
+      "mirror": false,
+      "periodic_same_grid": {
+        "m": 4,
+        "radial_elements": 4,
+        "radius_per_pixel": 0.22,
+        "outer_gauss_order": 10,
+        "vertices": 585728,
+        "outer_elements": 524288,
+        "smallest_angular_exponent": 0.013031368994420624,
+        "sigma": [
+          [
+            32248.219736493276,
+            -2.0519116309132182e-08
+          ],
+          [
+            -2.1117000813793726e-08,
+            32248.2197364929
+          ]
+        ],
+        "alpha": [
+          [
+            0.2732556056623703,
+            1.6069432103371522
+          ],
+          [
+            -1.6069432103328558,
+            0.27325560566969387
+          ]
+        ],
+        "S_uV_K": [
+          [
+            8.473509790437259,
+            49.83044718337892
+          ],
+          [
+            -49.830447183235336,
+            8.473509790728794
+          ]
+        ],
+        "Santi_main_uV_K": 49.83044718330713,
+        "scaled_effective_energy": [
+          [
+            0.3224821973649328,
+            -2.0519116309132183e-13,
+            0.013662780283118514,
+            0.08034716051685761
+          ],
+          [
+            -2.111700081379373e-13,
+            0.32248219736492906,
+            -0.08034716051664278,
+            0.013662780283484693
+          ],
+          [
+            0.013662780283104428,
+            -0.08034716051664006,
+            1.0554038507201453,
+            1.0176965623247513e-13
+          ],
+          [
+            0.08034716051686308,
+            0.0136627802834733,
+            1.1309901696777958e-13,
+            1.0554038507197738
+          ]
+        ],
+        "residual_relative": 2.473058838861146e-11,
+        "onsager_relative": 2.0740932070523724e-14,
+        "seconds": 62.037868199986406,
+        "Sa": 49.83044718330713,
+        "Sxx": 8.473509790437259,
+        "sigma_iso": 32248.21973649309
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": 99.6608943664262,
+          "deltaT_right_minus_left_K": -1.5251688800788088e-14,
+          "V_temperature_corrected_uV": 99.66089436642633,
+          "ratio_to_A64_continuum_tensor_point": 0.9999999996631196,
+          "ratio_corrected_to_A64": 0.9999999996631209,
+          "ratio_to_same_grid_bulk_Sa": 0.9999999999981131
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": 99.66089436651771,
+          "deltaT_right_minus_left_K": -6.888933867799096e-14,
+          "V_temperature_corrected_uV": 99.66089436651829,
+          "ratio_to_A64_continuum_tensor_point": 0.9999999996640377,
+          "ratio_corrected_to_A64": 0.9999999996640436,
+          "ratio_to_same_grid_bulk_Sa": 0.9999999999990312
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": 99.6608943665908,
+          "deltaT_right_minus_left_K": -1.0808021144725899e-13,
+          "V_temperature_corrected_uV": 99.6608943665917,
+          "ratio_to_A64_continuum_tensor_point": 0.9999999996647712,
+          "ratio_corrected_to_A64": 0.9999999996647803,
+          "ratio_to_same_grid_bulk_Sa": 0.9999999999997646
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": 99.66089436663411,
+          "deltaT_right_minus_left_K": -9.670042544485113e-14,
+          "V_temperature_corrected_uV": 99.66089436663493,
+          "ratio_to_A64_continuum_tensor_point": 0.9999999996652058,
+          "ratio_corrected_to_A64": 0.999999999665214,
+          "ratio_to_same_grid_bulk_Sa": 1.0000000000001992
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": 99.66089436665013,
+          "deltaT_right_minus_left_K": -6.128431095930864e-14,
+          "V_temperature_corrected_uV": 99.66089436665065,
+          "ratio_to_A64_continuum_tensor_point": 0.9999999996653665,
+          "ratio_corrected_to_A64": 0.9999999996653718,
+          "ratio_to_same_grid_bulk_Sa": 1.00000000000036
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": 100.50824534565604,
+          "deltaT_right_minus_left_K": 0.0999999999998823,
+          "V_temperature_corrected_uV": 99.6608943666133,
+          "ratio_to_A64_continuum_tensor_point": 1.008502341372285,
+          "ratio_corrected_to_A64": 0.999999999664997,
+          "ratio_to_same_grid_bulk_Sa": 1.0085023417101264
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": 98.81354338752455,
+          "deltaT_right_minus_left_K": -0.10000000000009523,
+          "V_temperature_corrected_uV": 99.66089436656908,
+          "ratio_to_A64_continuum_tensor_point": 0.9914976579572473,
+          "ratio_corrected_to_A64": 0.9999999996645532,
+          "ratio_to_same_grid_bulk_Sa": 0.9914976582893925
+        }
+      ]
+    },
+    "two_phase_8": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        256,
+        128
+      ],
+      "elements": 32768,
+      "nodes": 33153,
+      "box_m": [
+        0.008,
+        0.004
+      ],
+      "residual": 2.048684978804844e-15,
+      "heat_input_W_per_m": 3.3061358224552624,
+      "heat_output_W_per_m": 3.306135822451932,
+      "seconds": 0.8338809999986552,
+      "floating_electrode_nodes": [],
+      "kind": "two_phase",
+      "cells": [
+        8,
+        4
+      ],
+      "pixels_per_cell": 32,
+      "electrode": "point",
+      "mirror": false,
+      "periodic_same_grid": {
+        "N": 32,
+        "fractions": [
+          0,
+          384,
+          640
+        ],
+        "sigma": [
+          [
+            74830.83763617967,
+            -1.106225029114116e-11
+          ],
+          [
+            -1.3400061225563031e-11,
+            74830.83763617973
+          ]
+        ],
+        "alpha": [
+          [
+            4.388346183577378,
+            -2.1358782797964437e-16
+          ],
+          [
+            -5.312590645178972e-16,
+            4.388346183577377
+          ]
+        ],
+        "S_uV_K": [
+          [
+            58.64355287472652,
+            5.815006829109251e-15
+          ],
+          [
+            3.401914805840696e-15,
+            58.64355287472646
+          ]
+        ],
+        "kappa_open_circuit": [
+          [
+            1.6831050837285864,
+            -2.515283453955845e-17
+          ],
+          [
+            5.556158840705751e-17,
+            1.6831050837285886
+          ]
+        ],
+        "Santi_main_uV_K": 1.2065460116342776e-15,
+        "a_cross_z_uV_K": -1.2065460116342776e-15,
+        "alpha_antisymmetric": 1.588356182691264e-16,
+        "scaled_effective_energy": [
+          [
+            0.7483083763617968,
+            -1.1062250291141162e-16,
+            0.21941730917886887,
+            -1.0679391398982219e-17
+          ],
+          [
+            -1.3400061225563031e-16,
+            0.7483083763617974,
+            -2.656295322589486e-17,
+            0.21941730917886884
+          ],
+          [
+            0.21941730917886873,
+            -2.2375222334669598e-17,
+            1.4669246226361279,
+            -2.1141942363467336e-17
+          ],
+          [
+            -1.7740258047294066e-17,
+            0.2194173091788687,
+            4.483175983227561e-17,
+            1.4669246226361299
+          ]
+        ],
+        "onsager_relative": 1.244406009629859e-16,
+        "flux_energy_difference": 1.0544253334592956e-14,
+        "residual_relative": 1.3843357199732741e-14,
+        "seconds": 0.019770899962168187,
+        "Sa": 1.2065460116342776e-15,
+        "Sxx": 58.64355287472652,
+        "sigma_iso": 74830.8376361797
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": -10.444054045423186,
+          "deltaT_right_minus_left_K": -0.03440318898203994,
+          "V_temperature_corrected_uV": -8.426528813295718,
+          "ratio_to_A64_continuum_tensor_point": -0.10479590925107317,
+          "ratio_corrected_to_A64": -0.0845520087294713,
+          "ratio_to_same_grid_bulk_Sa": null
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": 2.8959983432760446,
+          "deltaT_right_minus_left_K": 0.009479056056423546,
+          "V_temperature_corrected_uV": 2.3401128182286737,
+          "ratio_to_A64_continuum_tensor_point": 0.029058522509868668,
+          "ratio_corrected_to_A64": 0.023480752729715355,
+          "ratio_to_same_grid_bulk_Sa": null
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": 2.932841583176493,
+          "deltaT_right_minus_left_K": 0.010050424452121731,
+          "V_temperature_corrected_uV": 2.343448985405048,
+          "ratio_to_A64_continuum_tensor_point": 0.029428208534886407,
+          "ratio_corrected_to_A64": 0.02351422791771622,
+          "ratio_to_same_grid_bulk_Sa": null
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": 2.895998343630324,
+          "deltaT_right_minus_left_K": 0.009479056056537205,
+          "V_temperature_corrected_uV": 2.3401128185762876,
+          "ratio_to_A64_continuum_tensor_point": 0.02905852251342352,
+          "ratio_corrected_to_A64": 0.02348075273320332,
+          "ratio_to_same_grid_bulk_Sa": null
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": -10.44405404473816,
+          "deltaT_right_minus_left_K": -0.03440318898179928,
+          "V_temperature_corrected_uV": -8.426528812624804,
+          "ratio_to_A64_continuum_tensor_point": -0.10479590924419958,
+          "ratio_corrected_to_A64": -0.08455200872273934,
+          "ratio_to_same_grid_bulk_Sa": null
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": -1.1534779861288702,
+          "deltaT_right_minus_left_K": 0.09251635339903164,
+          "V_temperature_corrected_uV": -6.578965648461866,
+          "ratio_to_A64_continuum_tensor_point": -0.011574028038512868,
+          "ratio_corrected_to_A64": -0.06601351200056926,
+          "ratio_to_same_grid_bulk_Sa": null
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": 12.503343037455682,
+          "deltaT_right_minus_left_K": -0.0897015396001169,
+          "V_temperature_corrected_uV": 17.76376001793951,
+          "ratio_to_A64_continuum_tensor_point": 0.1254588684230761,
+          "ratio_corrected_to_A64": 0.1782420288808838,
+          "ratio_to_same_grid_bulk_Sa": null
+        }
+      ]
+    },
+    "mirror_symmetric_8": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        256,
+        128
+      ],
+      "elements": 32768,
+      "nodes": 33153,
+      "box_m": [
+        0.008,
+        0.004
+      ],
+      "residual": 1.8582685848428423e-15,
+      "heat_input_W_per_m": 2.313493583761508,
+      "heat_output_W_per_m": 2.3134935837557102,
+      "seconds": 1.0144460999872535,
+      "floating_electrode_nodes": [],
+      "kind": "mirror_symmetric",
+      "cells": [
+        8,
+        4
+      ],
+      "pixels_per_cell": 32,
+      "electrode": "point",
+      "mirror": false,
+      "periodic_same_grid": {
+        "N": 32,
+        "fractions": [
+          240,
+          384,
+          400
+        ],
+        "sigma": [
+          [
+            44996.46305107955,
+            -1.2450664346633049e-11
+          ],
+          [
+            -1.5161836816292773e-11,
+            39845.483377194665
+          ]
+        ],
+        "alpha": [
+          [
+            -5.404122134762096,
+            -8.117785889566291e-15
+          ],
+          [
+            -3.2700426906757427e-15,
+            2.7650699397571024
+          ]
+        ],
+        "S_uV_K": [
+          [
+            -120.10104280035053,
+            -1.6120765613963938e-13
+          ],
+          [
+            -1.2776843625882708e-13,
+            69.39481480452247
+          ]
+        ],
+        "kappa_open_circuit": [
+          [
+            1.399664932882302,
+            -6.828551903324812e-16
+          ],
+          [
+            -6.194908137407272e-16,
+            1.156749190640127
+          ]
+        ],
+        "Santi_main_uV_K": -1.6719609940406145e-14,
+        "a_cross_z_uV_K": 1.6719609940406145e-14,
+        "alpha_antisymmetric": -2.423871599445274e-15,
+        "scaled_effective_energy": [
+          [
+            0.44996463051079555,
+            -1.245066434663305e-16,
+            -0.2702061067381048,
+            -4.0588929447831455e-16
+          ],
+          [
+            -1.5161836816292773e-16,
+            0.3984548337719467,
+            -1.6350213453378715e-16,
+            0.13825349698785513
+          ],
+          [
+            -0.2702061067381043,
+            -1.4563037462143186e-16,
+            1.3286476200199309,
+            -4.017794906182367e-16
+          ],
+          [
+            -3.53499247899452e-16,
+            0.1382534969878555,
+            -3.922863688618841e-16,
+            1.0119280379645217
+          ]
+        ],
+        "onsager_relative": 4.796969662445422e-16,
+        "flux_energy_difference": 1.5457800930035768e-14,
+        "residual_relative": 1.6716887619841217e-14,
+        "seconds": 0.022773300006520003,
+        "Sa": -1.6719609940406145e-14,
+        "Sxx": -120.10104280035053,
+        "sigma_iso": 42420.973214137106
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": -1.6719854667446299e-09,
+          "deltaT_right_minus_left_K": -4.9002468749392847e-14,
+          "V_temperature_corrected_uV": -1.6778707143412235e-09,
+          "ratio_to_A64_continuum_tensor_point": -1.6776745551107856e-11,
+          "ratio_corrected_to_A64": -1.683579827817824e-11,
+          "ratio_to_same_grid_bulk_Sa": null
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": -1.1005585331957946e-09,
+          "deltaT_right_minus_left_K": 4.087286065157514e-13,
+          "V_temperature_corrected_uV": -1.0514698013309187e-09,
+          "ratio_to_A64_continuum_tensor_point": -1.104303287484639e-11,
+          "ratio_corrected_to_A64": -1.0550475265762e-11,
+          "ratio_to_same_grid_bulk_Sa": null
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": -7.554845637969265e-10,
+          "deltaT_right_minus_left_K": 4.153899446635023e-13,
+          "V_temperature_corrected_uV": -7.0559579827406e-10,
+          "ratio_to_A64_continuum_tensor_point": -7.580551713340097e-12,
+          "ratio_corrected_to_A64": -7.07996654577545e-12,
+          "ratio_to_same_grid_bulk_Sa": null
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": -5.977884853791693e-10,
+          "deltaT_right_minus_left_K": 2.5512925105886097e-13,
+          "V_temperature_corrected_uV": -5.671471962781277e-10,
+          "ratio_to_A64_continuum_tensor_point": -5.998225171248004e-12,
+          "ratio_corrected_to_A64": -5.69076968145419e-12,
+          "ratio_to_same_grid_bulk_Sa": null
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": -5.734634989096321e-10,
+          "deltaT_right_minus_left_K": 9.514611321037592e-14,
+          "V_temperature_corrected_uV": -5.620363514946658e-10,
+          "ratio_to_A64_continuum_tensor_point": -5.75414762592811e-12,
+          "ratio_corrected_to_A64": -5.639487332301783e-12,
+          "ratio_to_same_grid_bulk_Sa": null
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": -12.799926652840842,
+          "deltaT_right_minus_left_K": 0.08454558686629432,
+          "V_temperature_corrected_uV": -2.645913506031274,
+          "ratio_to_A64_continuum_tensor_point": -0.12843479611438086,
+          "ratio_corrected_to_A64": -0.026549164764783344,
+          "ratio_to_same_grid_bulk_Sa": null
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": 12.79992665132924,
+          "deltaT_right_minus_left_K": -0.08454558686548053,
+          "V_temperature_corrected_uV": 2.645913504617411,
+          "ratio_to_A64_continuum_tensor_point": 0.1284347960992134,
+          "ratio_corrected_to_A64": 0.02654916475059661,
+          "ratio_to_same_grid_bulk_Sa": null
+        }
+      ]
+    },
+    "A_8_middle_line": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        256,
+        128
+      ],
+      "elements": 32768,
+      "nodes": 33153,
+      "box_m": [
+        0.008,
+        0.004
+      ],
+      "residual": 2.1505287823317613e-15,
+      "heat_input_W_per_m": 2.6301550276397445,
+      "heat_output_W_per_m": 2.6301550276343657,
+      "seconds": 0.9021363999927416,
+      "floating_electrode_nodes": [
+        25,
+        25
+      ],
+      "kind": "A",
+      "cells": [
+        8,
+        4
+      ],
+      "pixels_per_cell": 32,
+      "electrode": "middle_line",
+      "mirror": false,
+      "periodic_same_grid": {
+        "N": 32,
+        "fractions": [
+          240,
+          384,
+          400
+        ],
+        "sigma": [
+          [
+            39118.02274908213,
+            -3.068969774491781e-12
+          ],
+          [
+            -2.2680154195681146e-12,
+            39118.02274908203
+          ]
+        ],
+        "alpha": [
+          [
+            -0.8615970470804497,
+            0.6164570745254165
+          ],
+          [
+            -0.6164570745254233,
+            -0.8615970470804561
+          ]
+        ],
+        "S_uV_K": [
+          [
+            -22.025577637373463,
+            15.7589016827258
+          ],
+          [
+            -15.758901682726012,
+            -22.025577637373683
+          ]
+        ],
+        "kappa_open_circuit": [
+          [
+            1.3243531801438253,
+            -5.688819095256136e-16
+          ],
+          [
+            -6.005348947820874e-16,
+            1.324353180143826
+          ]
+        ],
+        "Santi_main_uV_K": 15.758901682725908,
+        "a_cross_z_uV_K": -15.758901682725908,
+        "alpha_antisymmetric": 0.6164570745254199,
+        "scaled_effective_energy": [
+          [
+            0.39118022749082126,
+            -3.068969774491781e-17,
+            -0.04307985235402249,
+            0.03082285372627083
+          ],
+          [
+            -2.2680154195681146e-17,
+            0.3911802274908203,
+            -0.030822853726271162,
+            -0.043079852354022806
+          ],
+          [
+            -0.04307985235402265,
+            -0.03082285372627137,
+            1.1108006148902718,
+            -3.934230870770994e-16
+          ],
+          [
+            0.030822853726270742,
+            -0.04307985235402266,
+            -4.3242810726521266e-16,
+            1.1108006148902723
+          ]
+        ],
+        "onsager_relative": 2.698600475152441e-16,
+        "flux_energy_difference": 2.1884682267583976e-14,
+        "residual_relative": 1.4054374964225237e-14,
+        "seconds": 0.024556599964853376,
+        "Sa": 15.758901682725908,
+        "Sxx": -22.025577637373463,
+        "sigma_iso": 39118.02274908208
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": 22.9135392224424,
+          "deltaT_right_minus_left_K": -0.01569599527138138,
+          "V_temperature_corrected_uV": 22.56782585999674,
+          "ratio_to_A64_continuum_tensor_point": 0.22991504702412544,
+          "ratio_corrected_to_A64": 0.22644615017619932,
+          "ratio_to_same_grid_bulk_Sa": 0.7270030514740451
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": 41.00921530100688,
+          "deltaT_right_minus_left_K": 0.00268672544485421,
+          "V_temperature_corrected_uV": 41.06839198088283,
+          "ratio_to_A64_continuum_tensor_point": 0.41148753026851104,
+          "ratio_corrected_to_A64": 0.412081310609659,
+          "ratio_to_same_grid_bulk_Sa": 1.3011444619252577
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": 30.714165512856745,
+          "deltaT_right_minus_left_K": 0.01813192038065098,
+          "V_temperature_corrected_uV": 31.11353153291545,
+          "ratio_to_A64_continuum_tensor_point": 0.3081867336006644,
+          "ratio_corrected_to_A64": 0.31219398260703796,
+          "ratio_to_same_grid_bulk_Sa": 0.9745020982815071
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": 41.00921530168101,
+          "deltaT_right_minus_left_K": 0.002686725444806193,
+          "V_temperature_corrected_uV": 41.0683919815559,
+          "ratio_to_A64_continuum_tensor_point": 0.41148753027527524,
+          "ratio_corrected_to_A64": 0.4120813106164126,
+          "ratio_to_same_grid_bulk_Sa": 1.3011444619466466
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": 22.91353922366761,
+          "deltaT_right_minus_left_K": -0.015695995271284957,
+          "V_temperature_corrected_uV": 22.567825861224076,
+          "ratio_to_A64_continuum_tensor_point": 0.2299150470364192,
+          "ratio_corrected_to_A64": 0.2264461501885144,
+          "ratio_to_same_grid_bulk_Sa": 0.7270030515129187
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": 30.714165512856745,
+          "deltaT_right_minus_left_K": 0.08660689382282744,
+          "V_temperature_corrected_uV": 32.62173237668319,
+          "ratio_to_A64_continuum_tensor_point": 0.3081867336006644,
+          "ratio_corrected_to_A64": 0.3273273090019869,
+          "ratio_to_same_grid_bulk_Sa": 0.9745020982815071
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": 30.714165512856745,
+          "deltaT_right_minus_left_K": -0.06136294024889599,
+          "V_temperature_corrected_uV": 29.362611308347176,
+          "ratio_to_A64_continuum_tensor_point": 0.3081867336006644,
+          "ratio_corrected_to_A64": 0.2946252036480537,
+          "ratio_to_same_grid_bulk_Sa": 0.9745020982815071
+        }
+      ]
+    },
+    "A_8_full_line": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        256,
+        128
+      ],
+      "elements": 32768,
+      "nodes": 33153,
+      "box_m": [
+        0.008,
+        0.004
+      ],
+      "residual": 2.2498130209991906e-15,
+      "heat_input_W_per_m": 2.652439057198266,
+      "heat_output_W_per_m": 2.652439057192957,
+      "seconds": 0.786542100016959,
+      "floating_electrode_nodes": [
+        129,
+        129
+      ],
+      "kind": "A",
+      "cells": [
+        8,
+        4
+      ],
+      "pixels_per_cell": 32,
+      "electrode": "full_line",
+      "mirror": false,
+      "periodic_same_grid": {
+        "N": 32,
+        "fractions": [
+          240,
+          384,
+          400
+        ],
+        "sigma": [
+          [
+            39118.02274908213,
+            -3.068969774491781e-12
+          ],
+          [
+            -2.2680154195681146e-12,
+            39118.02274908203
+          ]
+        ],
+        "alpha": [
+          [
+            -0.8615970470804497,
+            0.6164570745254165
+          ],
+          [
+            -0.6164570745254233,
+            -0.8615970470804561
+          ]
+        ],
+        "S_uV_K": [
+          [
+            -22.025577637373463,
+            15.7589016827258
+          ],
+          [
+            -15.758901682726012,
+            -22.025577637373683
+          ]
+        ],
+        "kappa_open_circuit": [
+          [
+            1.3243531801438253,
+            -5.688819095256136e-16
+          ],
+          [
+            -6.005348947820874e-16,
+            1.324353180143826
+          ]
+        ],
+        "Santi_main_uV_K": 15.758901682725908,
+        "a_cross_z_uV_K": -15.758901682725908,
+        "alpha_antisymmetric": 0.6164570745254199,
+        "scaled_effective_energy": [
+          [
+            0.39118022749082126,
+            -3.068969774491781e-17,
+            -0.04307985235402249,
+            0.03082285372627083
+          ],
+          [
+            -2.2680154195681146e-17,
+            0.3911802274908203,
+            -0.030822853726271162,
+            -0.043079852354022806
+          ],
+          [
+            -0.04307985235402265,
+            -0.03082285372627137,
+            1.1108006148902718,
+            -3.934230870770994e-16
+          ],
+          [
+            0.030822853726270742,
+            -0.04307985235402266,
+            -4.3242810726521266e-16,
+            1.1108006148902723
+          ]
+        ],
+        "onsager_relative": 2.698600475152441e-16,
+        "flux_energy_difference": 2.1884682267583976e-14,
+        "residual_relative": 1.4054374964225237e-14,
+        "seconds": 0.02513979998184368,
+        "Sa": 15.758901682725908,
+        "Sxx": -22.025577637373463,
+        "sigma_iso": 39118.02274908208
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": 30.305995912161045,
+          "deltaT_right_minus_left_K": -0.029376580545869876,
+          "V_temperature_corrected_uV": 29.658959756627432,
+          "ratio_to_A64_continuum_tensor_point": 0.3040911492377801,
+          "ratio_corrected_to_A64": 0.2975987716665267,
+          "ratio_to_same_grid_bulk_Sa": 0.9615516525933056
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": 30.305995912161045,
+          "deltaT_right_minus_left_K": 0.02242215207434875,
+          "V_temperature_corrected_uV": 30.799856763471606,
+          "ratio_to_A64_continuum_tensor_point": 0.3040911492377801,
+          "ratio_corrected_to_A64": 0.3090465618324975,
+          "ratio_to_same_grid_bulk_Sa": 0.9615516525933056
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": 30.305995912161045,
+          "deltaT_right_minus_left_K": 0.022754908394671924,
+          "V_temperature_corrected_uV": 30.807185913639213,
+          "ratio_to_A64_continuum_tensor_point": 0.3040911492377801,
+          "ratio_corrected_to_A64": 0.3091201027154259,
+          "ratio_to_same_grid_bulk_Sa": 0.9615516525933056
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": 30.305995912161045,
+          "deltaT_right_minus_left_K": 0.022422152074365487,
+          "V_temperature_corrected_uV": 30.799856763471976,
+          "ratio_to_A64_continuum_tensor_point": 0.3040911492377801,
+          "ratio_corrected_to_A64": 0.30904656183250123,
+          "ratio_to_same_grid_bulk_Sa": 0.9615516525933056
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": 30.305995912161045,
+          "deltaT_right_minus_left_K": -0.029376580545895425,
+          "V_temperature_corrected_uV": 29.65895975662687,
+          "ratio_to_A64_continuum_tensor_point": 0.3040911492377801,
+          "ratio_corrected_to_A64": 0.2975987716665211,
+          "ratio_to_same_grid_bulk_Sa": 0.9615516525933056
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": 30.305995912161045,
+          "deltaT_right_minus_left_K": 0.09546995762890642,
+          "V_temperature_corrected_uV": 32.40877687595328,
+          "ratio_to_A64_continuum_tensor_point": 0.3040911492377801,
+          "ratio_corrected_to_A64": 0.3251905079827708,
+          "ratio_to_same_grid_bulk_Sa": 0.9615516525933056
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": 30.305995912161045,
+          "deltaT_right_minus_left_K": -0.061600082183573934,
+          "V_temperature_corrected_uV": 28.94921851955815,
+          "ratio_to_A64_continuum_tensor_point": 0.3040911492377801,
+          "ratio_corrected_to_A64": 0.29047720968033125,
+          "ratio_to_same_grid_bulk_Sa": 0.9615516525933056
+        }
+      ]
+    },
+    "A_8_mirror": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        256,
+        128
+      ],
+      "elements": 32768,
+      "nodes": 33153,
+      "box_m": [
+        0.008,
+        0.004
+      ],
+      "residual": 2.1790551880857336e-15,
+      "heat_input_W_per_m": 2.624270144537079,
+      "heat_output_W_per_m": 2.6242701445330554,
+      "seconds": 1.0808311000000685,
+      "floating_electrode_nodes": [],
+      "kind": "A",
+      "cells": [
+        8,
+        4
+      ],
+      "pixels_per_cell": 32,
+      "electrode": "point",
+      "mirror": true,
+      "periodic_same_grid": {
+        "N": 32,
+        "fractions": [
+          240,
+          384,
+          400
+        ],
+        "sigma": [
+          [
+            39118.022749082076,
+            -1.205836103711222e-11
+          ],
+          [
+            -8.896556451601367e-12,
+            39118.02274908203
+          ]
+        ],
+        "alpha": [
+          [
+            -0.8615970470804577,
+            -0.6164570745254301
+          ],
+          [
+            0.6164570745254216,
+            -0.8615970470804586
+          ]
+        ],
+        "S_uV_K": [
+          [
+            -22.02557763737369,
+            -15.758901682726176
+          ],
+          [
+            15.758901682725966,
+            -22.025577637373747
+          ]
+        ],
+        "kappa_open_circuit": [
+          [
+            1.3243531801438253,
+            -4.927429931763343e-16
+          ],
+          [
+            -4.293277161618585e-16,
+            1.3243531801438262
+          ]
+        ],
+        "Santi_main_uV_K": -15.758901682726071,
+        "a_cross_z_uV_K": 15.758901682726071,
+        "alpha_antisymmetric": -0.6164570745254259,
+        "scaled_effective_energy": [
+          [
+            0.3911802274908208,
+            -1.205836103711222e-16,
+            -0.04307985235402288,
+            -0.030822853726271505
+          ],
+          [
+            -8.896556451601367e-17,
+            0.3911802274908204,
+            0.030822853726271086,
+            -0.04307985235402293
+          ],
+          [
+            -0.04307985235402297,
+            0.030822853726271096,
+            1.1108006148902718,
+            -3.6596227892711497e-16
+          ],
+          [
+            -0.030822853726271377,
+            -0.04307985235402294,
+            -3.328348203599993e-16,
+            1.1108006148902725
+          ]
+        ],
+        "onsager_relative": 1.389087378801846e-16,
+        "flux_energy_difference": 2.0750817841702732e-14,
+        "residual_relative": 1.455193099683745e-14,
+        "seconds": 0.025364000000990927,
+        "Sa": -15.758901682726071,
+        "Sxx": -22.02557763737369,
+        "sigma_iso": 39118.022749082054
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": -22.750338957083844,
+          "deltaT_right_minus_left_K": 0.015703949704361897,
+          "V_temperature_corrected_uV": -22.404450393657008,
+          "ratio_to_A64_continuum_tensor_point": 0.2282774913274694,
+          "ratio_corrected_to_A64": 0.22480683650835273,
+          "ratio_to_same_grid_bulk_Sa": 0.7218250172225311
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": -40.72500627968274,
+          "deltaT_right_minus_left_K": -0.002618089455211886,
+          "V_temperature_corrected_uV": -40.782671212240096,
+          "ratio_to_A64_continuum_tensor_point": 0.4086357695750595,
+          "ratio_corrected_to_A64": 0.40921438100439217,
+          "ratio_to_same_grid_bulk_Sa": 1.2921270498286994
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": -40.04604603446993,
+          "deltaT_right_minus_left_K": -0.0023323833729441135,
+          "V_temperature_corrected_uV": -40.09741812553083,
+          "ratio_to_A64_continuum_tensor_point": 0.4018230648597303,
+          "ratio_corrected_to_A64": 0.40233853375422673,
+          "ratio_to_same_grid_bulk_Sa": 1.2705849316379045
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": -40.72500627887269,
+          "deltaT_right_minus_left_K": -0.002618089454969552,
+          "V_temperature_corrected_uV": -40.78267121142471,
+          "ratio_to_A64_continuum_tensor_point": 0.40863576956693143,
+          "ratio_corrected_to_A64": 0.4092143809962106,
+          "ratio_to_same_grid_bulk_Sa": 1.2921270498029982
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": -22.750338954953754,
+          "deltaT_right_minus_left_K": 0.015703949705827114,
+          "V_temperature_corrected_uV": -22.40445039149465,
+          "ratio_to_A64_continuum_tensor_point": 0.228277491306096,
+          "ratio_corrected_to_A64": 0.2248068364866556,
+          "ratio_to_same_grid_bulk_Sa": 0.7218250171549474
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": -55.36377395017404,
+          "deltaT_right_minus_left_K": 0.09644267111697302,
+          "V_temperature_corrected_uV": -53.23956840993146,
+          "ratio_to_A64_continuum_tensor_point": 0.5555215441672179,
+          "ratio_corrected_to_A64": 0.5342072106662877,
+          "ratio_to_same_grid_bulk_Sa": 1.756587326477846
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": -22.48598267659135,
+          "deltaT_right_minus_left_K": -0.10346504787865085,
+          "V_temperature_corrected_uV": -24.764860121397163,
+          "ratio_to_A64_continuum_tensor_point": 0.2256249335505798,
+          "ratio_corrected_to_A64": 0.2484912489546869,
+          "ratio_to_same_grid_bulk_Sa": 0.7134374948616846
+        }
+      ]
+    },
+    "A_16": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        512,
+        256
+      ],
+      "elements": 131072,
+      "nodes": 131841,
+      "box_m": [
+        0.016,
+        0.008
+      ],
+      "residual": 3.0238417910438605e-15,
+      "heat_input_W_per_m": 2.636757198302299,
+      "heat_output_W_per_m": 2.6367571982816473,
+      "seconds": 7.080746799998451,
+      "floating_electrode_nodes": [],
+      "kind": "A",
+      "cells": [
+        16,
+        8
+      ],
+      "pixels_per_cell": 32,
+      "electrode": "point",
+      "mirror": false,
+      "periodic_same_grid": {
+        "N": 32,
+        "fractions": [
+          240,
+          384,
+          400
+        ],
+        "sigma": [
+          [
+            39118.02274908213,
+            -3.068969774491781e-12
+          ],
+          [
+            -2.2680154195681146e-12,
+            39118.02274908203
+          ]
+        ],
+        "alpha": [
+          [
+            -0.8615970470804497,
+            0.6164570745254165
+          ],
+          [
+            -0.6164570745254233,
+            -0.8615970470804561
+          ]
+        ],
+        "S_uV_K": [
+          [
+            -22.025577637373463,
+            15.7589016827258
+          ],
+          [
+            -15.758901682726012,
+            -22.025577637373683
+          ]
+        ],
+        "kappa_open_circuit": [
+          [
+            1.3243531801438253,
+            -5.688819095256136e-16
+          ],
+          [
+            -6.005348947820874e-16,
+            1.324353180143826
+          ]
+        ],
+        "Santi_main_uV_K": 15.758901682725908,
+        "a_cross_z_uV_K": -15.758901682725908,
+        "alpha_antisymmetric": 0.6164570745254199,
+        "scaled_effective_energy": [
+          [
+            0.39118022749082126,
+            -3.068969774491781e-17,
+            -0.04307985235402249,
+            0.03082285372627083
+          ],
+          [
+            -2.2680154195681146e-17,
+            0.3911802274908203,
+            -0.030822853726271162,
+            -0.043079852354022806
+          ],
+          [
+            -0.04307985235402265,
+            -0.03082285372627137,
+            1.1108006148902718,
+            -3.934230870770994e-16
+          ],
+          [
+            0.030822853726270742,
+            -0.04307985235402266,
+            -4.3242810726521266e-16,
+            1.1108006148902723
+          ]
+        ],
+        "onsager_relative": 2.698600475152441e-16,
+        "flux_energy_difference": 2.1884682267583976e-14,
+        "residual_relative": 1.4054374964225237e-14,
+        "seconds": 0.019599699997343123,
+        "Sa": 15.758901682725908,
+        "Sxx": -22.025577637373463,
+        "sigma_iso": 39118.02274908208
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": 36.19646862102787,
+          "deltaT_right_minus_left_K": 0.0018089834413368977,
+          "V_temperature_corrected_uV": 36.23631252625976,
+          "ratio_to_A64_continuum_tensor_point": 0.3631963052202737,
+          "ratio_corrected_to_A64": 0.36359609999907605,
+          "ratio_to_same_grid_bulk_Sa": 1.1484451565779028
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": 36.04314516023715,
+          "deltaT_right_minus_left_K": 0.00116993785675934,
+          "V_temperature_corrected_uV": 36.06891371733211,
+          "ratio_to_A64_continuum_tensor_point": 0.361657853636894,
+          "ratio_corrected_to_A64": 0.3619164160073212,
+          "ratio_to_same_grid_bulk_Sa": 1.1435804945640906
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": 35.73166734016345,
+          "deltaT_right_minus_left_K": 0.0011654678201667434,
+          "V_temperature_corrected_uV": 35.75733744212039,
+          "ratio_to_A64_continuum_tensor_point": 0.3585324771093309,
+          "ratio_corrected_to_A64": 0.3587900515783489,
+          "ratio_to_same_grid_bulk_Sa": 1.133697895308613
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": 36.04314516303408,
+          "deltaT_right_minus_left_K": 0.001169937856202341,
+          "V_temperature_corrected_uV": 36.06891372011677,
+          "ratio_to_A64_continuum_tensor_point": 0.3616578536649585,
+          "ratio_corrected_to_A64": 0.36191641603526253,
+          "ratio_to_same_grid_bulk_Sa": 1.143580494652832
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": 36.19646862668068,
+          "deltaT_right_minus_left_K": 0.0018089834402497118,
+          "V_temperature_corrected_uV": 36.23631253188862,
+          "ratio_to_A64_continuum_tensor_point": 0.36319630527699415,
+          "ratio_corrected_to_A64": 0.3635961000555562,
+          "ratio_to_same_grid_bulk_Sa": 1.1484451567572558
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": 21.286347485653398,
+          "deltaT_right_minus_left_K": 0.09255467340096096,
+          "V_temperature_corrected_uV": 23.324917630348008,
+          "ratio_to_A64_continuum_tensor_point": 0.21358776292151554,
+          "ratio_corrected_to_A64": 0.2340428286418028,
+          "ratio_to_same_grid_bulk_Sa": 0.6753753502056044
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": 31.540299181453612,
+          "deltaT_right_minus_left_K": -0.1091083633721806,
+          "V_temperature_corrected_uV": 29.137124453112893,
+          "ratio_to_A64_continuum_tensor_point": 0.31647618026447905,
+          "ratio_corrected_to_A64": 0.2923626626926287,
+          "ratio_to_same_grid_bulk_Sa": 1.0007137494875817
+        }
+      ]
+    },
+    "gap_16": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        512,
+        256
+      ],
+      "elements": 131072,
+      "nodes": 131841,
+      "box_m": [
+        0.016,
+        0.008
+      ],
+      "residual": 3.2901091064801372e-15,
+      "heat_input_W_per_m": 2.443635035637471,
+      "heat_output_W_per_m": 2.443635035612734,
+      "seconds": 6.406278399983421,
+      "floating_electrode_nodes": [],
+      "kind": "gap",
+      "cells": [
+        16,
+        8
+      ],
+      "pixels_per_cell": 32,
+      "electrode": "point",
+      "mirror": false,
+      "periodic_same_grid": {
+        "N": 32,
+        "fractions": [
+          256,
+          368,
+          400
+        ],
+        "sigma": [
+          [
+            32073.47640353479,
+            -6.400858575811297e-12
+          ],
+          [
+            -2.045923380798037e-11,
+            32073.47640353473
+          ]
+        ],
+        "alpha": [
+          [
+            0.018260177499044093,
+            1.5998458375988636
+          ],
+          [
+            -1.5998458375988691,
+            0.018260177499042737
+          ]
+        ],
+        "S_uV_K": [
+          [
+            0.5693233021984276,
+            49.880649589407966
+          ],
+          [
+            -49.880649589408236,
+            0.5693233021984282
+          ]
+        ],
+        "kappa_open_circuit": [
+          [
+            1.2220088775968474,
+            -3.164536318574711e-16
+          ],
+          [
+            -4.149660819177952e-16,
+            1.2220088775968494
+          ]
+        ],
+        "Santi_main_uV_K": 49.8806495894081,
+        "a_cross_z_uV_K": -49.8806495894081,
+        "alpha_antisymmetric": 1.5998458375988664,
+        "scaled_effective_energy": [
+          [
+            0.32073476403534795,
+            -6.400858575811297e-17,
+            0.0009130088749522046,
+            0.07999229187994318
+          ],
+          [
+            -2.045923380798037e-16,
+            0.3207347640353473,
+            -0.07999229187994346,
+            0.0009130088749521368
+          ],
+          [
+            0.0009130088749522227,
+            -0.07999229187994338,
+            1.03829366772243,
+            -2.560411192960299e-16
+          ],
+          [
+            0.07999229187994297,
+            0.0009130088749521385,
+            -3.350794576702232e-16,
+            1.0382936677224313
+          ]
+        ],
+        "onsager_relative": 2.533299083448088e-16,
+        "flux_energy_difference": 2.2638676073095407e-14,
+        "residual_relative": 1.6898457574662705e-14,
+        "seconds": 0.01898990001063794,
+        "Sa": 49.8806495894081,
+        "Sxx": 0.5693233021984276,
+        "sigma_iso": 32073.47640353476
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": 98.82050318865451,
+          "deltaT_right_minus_left_K": 0.0037988914322805434,
+          "V_temperature_corrected_uV": 98.81834039123959,
+          "ratio_to_A64_continuum_tensor_point": 0.9915674927823497,
+          "ratio_corrected_to_A64": 0.991545791216977,
+          "ratio_to_same_grid_bulk_Sa": 0.9905695294878291
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": 99.2895815001738,
+          "deltaT_right_minus_left_K": 0.0036131549747280556,
+          "V_temperature_corrected_uV": 99.28752444685223,
+          "ratio_to_A64_continuum_tensor_point": 0.996274236729846,
+          "ratio_corrected_to_A64": 0.9962535962034496,
+          "ratio_to_same_grid_bulk_Sa": 0.995271536331971
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": 99.25098091192473,
+          "deltaT_right_minus_left_K": 0.0036777186622507507,
+          "V_temperature_corrected_uV": 99.24888710099138,
+          "ratio_to_A64_continuum_tensor_point": 0.9958869174259058,
+          "ratio_corrected_to_A64": 0.995865908072679,
+          "ratio_to_same_grid_bulk_Sa": 0.994884606845619
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": 99.28958150288346,
+          "deltaT_right_minus_left_K": 0.003613154974027477,
+          "V_temperature_corrected_uV": 99.2875244495623,
+          "ratio_to_A64_continuum_tensor_point": 0.996274236757035,
+          "ratio_corrected_to_A64": 0.9962535962306425,
+          "ratio_to_same_grid_bulk_Sa": 0.9952715363591325
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": 98.82050319397155,
+          "deltaT_right_minus_left_K": 0.003798891431108231,
+          "V_temperature_corrected_uV": 98.81834039655729,
+          "ratio_to_A64_continuum_tensor_point": 0.9915674928357009,
+          "ratio_corrected_to_A64": 0.9915457912703348,
+          "ratio_to_same_grid_bulk_Sa": 0.9905695295411266
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": 85.56531485147782,
+          "deltaT_right_minus_left_K": 0.09282304903044003,
+          "V_temperature_corrected_uV": 85.51246852668369,
+          "ratio_to_A64_continuum_tensor_point": 0.8585645891160878,
+          "ratio_corrected_to_A64": 0.8580343277220648,
+          "ratio_to_same_grid_bulk_Sa": 0.8577004866196367
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": 93.05497409714218,
+          "deltaT_right_minus_left_K": -0.10624167791754435,
+          "V_temperature_corrected_uV": 93.1154599600453,
+          "ratio_to_A64_continuum_tensor_point": 0.9337160242979133,
+          "ratio_corrected_to_A64": 0.9343229410155213,
+          "ratio_to_same_grid_bulk_Sa": 0.9327762856250165
+        }
+      ]
+    },
+    "homogeneous_16": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        512,
+        256
+      ],
+      "elements": 131072,
+      "nodes": 131841,
+      "box_m": [
+        0.016,
+        0.008
+      ],
+      "residual": 3.095195193600568e-15,
+      "heat_input_W_per_m": 2.4835351620479185,
+      "heat_output_W_per_m": 2.4835351620304036,
+      "seconds": 6.0677717999788,
+      "floating_electrode_nodes": [],
+      "kind": "homogeneous",
+      "cells": [
+        16,
+        8
+      ],
+      "pixels_per_cell": 32,
+      "electrode": "point",
+      "mirror": false,
+      "periodic_same_grid": {
+        "m": 4,
+        "radial_elements": 4,
+        "radius_per_pixel": 0.22,
+        "outer_gauss_order": 10,
+        "vertices": 585728,
+        "outer_elements": 524288,
+        "smallest_angular_exponent": 0.013031368994420624,
+        "sigma": [
+          [
+            32248.219736493276,
+            -2.0519116309132182e-08
+          ],
+          [
+            -2.1117000813793726e-08,
+            32248.2197364929
+          ]
+        ],
+        "alpha": [
+          [
+            0.2732556056623703,
+            1.6069432103371522
+          ],
+          [
+            -1.6069432103328558,
+            0.27325560566969387
+          ]
+        ],
+        "S_uV_K": [
+          [
+            8.473509790437259,
+            49.83044718337892
+          ],
+          [
+            -49.830447183235336,
+            8.473509790728794
+          ]
+        ],
+        "Santi_main_uV_K": 49.83044718330713,
+        "scaled_effective_energy": [
+          [
+            0.3224821973649328,
+            -2.0519116309132183e-13,
+            0.013662780283118514,
+            0.08034716051685761
+          ],
+          [
+            -2.111700081379373e-13,
+            0.32248219736492906,
+            -0.08034716051664278,
+            0.013662780283484693
+          ],
+          [
+            0.013662780283104428,
+            -0.08034716051664006,
+            1.0554038507201453,
+            1.0176965623247513e-13
+          ],
+          [
+            0.08034716051686308,
+            0.0136627802834733,
+            1.1309901696777958e-13,
+            1.0554038507197738
+          ]
+        ],
+        "residual_relative": 2.473058838861146e-11,
+        "onsager_relative": 2.0740932070523724e-14,
+        "seconds": 62.037868199986406,
+        "Sa": 49.83044718330713,
+        "Sxx": 8.473509790437259,
+        "sigma_iso": 32248.21973649309
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": 99.6608943654132,
+          "deltaT_right_minus_left_K": 1.4670209491640662e-13,
+          "V_temperature_corrected_uV": 99.66089436541196,
+          "ratio_to_A64_continuum_tensor_point": 0.999999999652955,
+          "ratio_corrected_to_A64": 0.9999999996529427,
+          "ratio_to_same_grid_bulk_Sa": 0.9999999999879485
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": 99.66089436578554,
+          "deltaT_right_minus_left_K": 6.458722445756848e-14,
+          "V_temperature_corrected_uV": 99.66089436578498,
+          "ratio_to_A64_continuum_tensor_point": 0.9999999996566912,
+          "ratio_corrected_to_A64": 0.9999999996566856,
+          "ratio_to_same_grid_bulk_Sa": 0.9999999999916847
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": 99.66089436608232,
+          "deltaT_right_minus_left_K": -1.7430501486614958e-14,
+          "V_temperature_corrected_uV": 99.66089436608246,
+          "ratio_to_A64_continuum_tensor_point": 0.999999999659669,
+          "ratio_corrected_to_A64": 0.9999999996596705,
+          "ratio_to_same_grid_bulk_Sa": 0.9999999999946625
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": 99.66089436625771,
+          "deltaT_right_minus_left_K": -5.4511950509095186e-14,
+          "V_temperature_corrected_uV": 99.66089436625818,
+          "ratio_to_A64_continuum_tensor_point": 0.9999999996614289,
+          "ratio_corrected_to_A64": 0.9999999996614336,
+          "ratio_to_same_grid_bulk_Sa": 0.9999999999964224
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": 99.6608943663205,
+          "deltaT_right_minus_left_K": -4.496403249731884e-14,
+          "V_temperature_corrected_uV": 99.66089436632089,
+          "ratio_to_A64_continuum_tensor_point": 0.999999999662059,
+          "ratio_corrected_to_A64": 0.9999999996620629,
+          "ratio_to_same_grid_bulk_Sa": 0.9999999999970525
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": 100.5082453451216,
+          "deltaT_right_minus_left_K": 0.09999999999993764,
+          "V_temperature_corrected_uV": 99.6608943660784,
+          "ratio_to_A64_continuum_tensor_point": 1.0085023413669223,
+          "ratio_corrected_to_A64": 0.9999999996596297,
+          "ratio_to_same_grid_bulk_Sa": 1.0085023417047638
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": 98.81354338703885,
+          "deltaT_right_minus_left_K": -0.09999999999997333,
+          "V_temperature_corrected_uV": 99.66089436608235,
+          "ratio_to_A64_continuum_tensor_point": 0.9914976579523738,
+          "ratio_corrected_to_A64": 0.9999999996596693,
+          "ratio_to_same_grid_bulk_Sa": 0.991497658284519
+        }
+      ]
+    },
+    "two_phase_16": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        512,
+        256
+      ],
+      "elements": 131072,
+      "nodes": 131841,
+      "box_m": [
+        0.016,
+        0.008
+      ],
+      "residual": 2.8845683703001463e-15,
+      "heat_input_W_per_m": 3.3359678687187047,
+      "heat_output_W_per_m": 3.335967868705146,
+      "seconds": 5.721593199996278,
+      "floating_electrode_nodes": [],
+      "kind": "two_phase",
+      "cells": [
+        16,
+        8
+      ],
+      "pixels_per_cell": 32,
+      "electrode": "point",
+      "mirror": false,
+      "periodic_same_grid": {
+        "N": 32,
+        "fractions": [
+          0,
+          384,
+          640
+        ],
+        "sigma": [
+          [
+            74830.83763617967,
+            -1.106225029114116e-11
+          ],
+          [
+            -1.3400061225563031e-11,
+            74830.83763617973
+          ]
+        ],
+        "alpha": [
+          [
+            4.388346183577378,
+            -2.1358782797964437e-16
+          ],
+          [
+            -5.312590645178972e-16,
+            4.388346183577377
+          ]
+        ],
+        "S_uV_K": [
+          [
+            58.64355287472652,
+            5.815006829109251e-15
+          ],
+          [
+            3.401914805840696e-15,
+            58.64355287472646
+          ]
+        ],
+        "kappa_open_circuit": [
+          [
+            1.6831050837285864,
+            -2.515283453955845e-17
+          ],
+          [
+            5.556158840705751e-17,
+            1.6831050837285886
+          ]
+        ],
+        "Santi_main_uV_K": 1.2065460116342776e-15,
+        "a_cross_z_uV_K": -1.2065460116342776e-15,
+        "alpha_antisymmetric": 1.588356182691264e-16,
+        "scaled_effective_energy": [
+          [
+            0.7483083763617968,
+            -1.1062250291141162e-16,
+            0.21941730917886887,
+            -1.0679391398982219e-17
+          ],
+          [
+            -1.3400061225563031e-16,
+            0.7483083763617974,
+            -2.656295322589486e-17,
+            0.21941730917886884
+          ],
+          [
+            0.21941730917886873,
+            -2.2375222334669598e-17,
+            1.4669246226361279,
+            -2.1141942363467336e-17
+          ],
+          [
+            -1.7740258047294066e-17,
+            0.2194173091788687,
+            4.483175983227561e-17,
+            1.4669246226361299
+          ]
+        ],
+        "onsager_relative": 1.244406009629859e-16,
+        "flux_energy_difference": 1.0544253334592956e-14,
+        "residual_relative": 1.3843357199732741e-14,
+        "seconds": 0.019262599991634488,
+        "Sa": 1.2065460116342776e-15,
+        "Sxx": 58.64355287472652,
+        "sigma_iso": 74830.8376361797
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": 2.8304356023146986,
+          "deltaT_right_minus_left_K": 0.000337201087451916,
+          "V_temperature_corrected_uV": 2.8106609325132967,
+          "ratio_to_A64_continuum_tensor_point": 0.028400664266110563,
+          "ratio_corrected_to_A64": 0.028202244716291614,
+          "ratio_to_same_grid_bulk_Sa": null
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": 1.4767091863512216,
+          "deltaT_right_minus_left_K": 0.005257732917583052,
+          "V_temperature_corrected_uV": 1.1683770479977498,
+          "ratio_to_A64_continuum_tensor_point": 0.014817338287415787,
+          "ratio_corrected_to_A64": 0.011723525611844697,
+          "ratio_to_same_grid_bulk_Sa": null
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": 1.4891388934595295,
+          "deltaT_right_minus_left_K": 0.005410326659936515,
+          "V_temperature_corrected_uV": 1.171858115908,
+          "ratio_to_A64_continuum_tensor_point": 0.014942058291015392,
+          "ratio_corrected_to_A64": 0.01175845473756856,
+          "ratio_to_same_grid_bulk_Sa": null
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": 1.4767091877142369,
+          "deltaT_right_minus_left_K": 0.00525773291771281,
+          "V_temperature_corrected_uV": 1.1683770493531556,
+          "ratio_to_A64_continuum_tensor_point": 0.014817338301092317,
+          "ratio_corrected_to_A64": 0.011723525625444873,
+          "ratio_to_same_grid_bulk_Sa": null
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": 2.8304356051388035,
+          "deltaT_right_minus_left_K": 0.00033720108767199,
+          "V_temperature_corrected_uV": 2.810660935324496,
+          "ratio_to_A64_continuum_tensor_point": 0.02840066429444771,
+          "ratio_corrected_to_A64": 0.028202244744499262,
+          "ratio_to_same_grid_bulk_Sa": null
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": -1.2922458785809665,
+          "deltaT_right_minus_left_K": 0.08319061025920682,
+          "V_temperature_corrected_uV": -6.170838829997528,
+          "ratio_to_A64_continuum_tensor_point": -0.012966428671554913,
+          "ratio_corrected_to_A64": -0.06191835691570442,
+          "ratio_to_same_grid_bulk_Sa": null
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": -8.801227948929386,
+          "deltaT_right_minus_left_K": -0.1128932779974463,
+          "V_temperature_corrected_uV": -2.1807650314849436,
+          "ratio_to_A64_continuum_tensor_point": -0.08831174957756936,
+          "ratio_corrected_to_A64": -0.021881852903428724,
+          "ratio_to_same_grid_bulk_Sa": null
+        }
+      ]
+    },
+    "mirror_symmetric_16": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        512,
+        256
+      ],
+      "elements": 131072,
+      "nodes": 131841,
+      "box_m": [
+        0.016,
+        0.008
+      ],
+      "residual": 2.645481479939104e-15,
+      "heat_input_W_per_m": 2.3134959825342842,
+      "heat_output_W_per_m": 2.31349598251068,
+      "seconds": 5.670202100009192,
+      "floating_electrode_nodes": [],
+      "kind": "mirror_symmetric",
+      "cells": [
+        16,
+        8
+      ],
+      "pixels_per_cell": 32,
+      "electrode": "point",
+      "mirror": false,
+      "periodic_same_grid": {
+        "N": 32,
+        "fractions": [
+          240,
+          384,
+          400
+        ],
+        "sigma": [
+          [
+            44996.46305107955,
+            -1.2450664346633049e-11
+          ],
+          [
+            -1.5161836816292773e-11,
+            39845.483377194665
+          ]
+        ],
+        "alpha": [
+          [
+            -5.404122134762096,
+            -8.117785889566291e-15
+          ],
+          [
+            -3.2700426906757427e-15,
+            2.7650699397571024
+          ]
+        ],
+        "S_uV_K": [
+          [
+            -120.10104280035053,
+            -1.6120765613963938e-13
+          ],
+          [
+            -1.2776843625882708e-13,
+            69.39481480452247
+          ]
+        ],
+        "kappa_open_circuit": [
+          [
+            1.399664932882302,
+            -6.828551903324812e-16
+          ],
+          [
+            -6.194908137407272e-16,
+            1.156749190640127
+          ]
+        ],
+        "Santi_main_uV_K": -1.6719609940406145e-14,
+        "a_cross_z_uV_K": 1.6719609940406145e-14,
+        "alpha_antisymmetric": -2.423871599445274e-15,
+        "scaled_effective_energy": [
+          [
+            0.44996463051079555,
+            -1.245066434663305e-16,
+            -0.2702061067381048,
+            -4.0588929447831455e-16
+          ],
+          [
+            -1.5161836816292773e-16,
+            0.3984548337719467,
+            -1.6350213453378715e-16,
+            0.13825349698785513
+          ],
+          [
+            -0.2702061067381043,
+            -1.4563037462143186e-16,
+            1.3286476200199309,
+            -4.017794906182367e-16
+          ],
+          [
+            -3.53499247899452e-16,
+            0.1382534969878555,
+            -3.922863688618841e-16,
+            1.0119280379645217
+          ]
+        ],
+        "onsager_relative": 4.796969662445422e-16,
+        "flux_energy_difference": 1.5457800930035768e-14,
+        "residual_relative": 1.6716887619841217e-14,
+        "seconds": 0.024700199952349067,
+        "Sa": -1.6719609940406145e-14,
+        "Sxx": -120.10104280035053,
+        "sigma_iso": 42420.973214137106
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": -6.3813801465251174e-09,
+          "deltaT_right_minus_left_K": 1.845343322592896e-12,
+          "V_temperature_corrected_uV": -6.159752489157047e-09,
+          "ratio_to_A64_continuum_tensor_point": -6.403093394800115e-11,
+          "ratio_corrected_to_A64": -6.180711628408833e-11,
+          "ratio_to_same_grid_bulk_Sa": null
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": -4.6581821733227e-09,
+          "deltaT_right_minus_left_K": 2.1038171205134404e-12,
+          "V_temperature_corrected_uV": -4.405511543287805e-09,
+          "ratio_to_A64_continuum_tensor_point": -4.674032077844467e-11,
+          "ratio_corrected_to_A64": -4.420501712141774e-11,
+          "ratio_to_same_grid_bulk_Sa": null
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": -3.0818458895964795e-09,
+          "deltaT_right_minus_left_K": 1.8566259640806493e-12,
+          "V_temperature_corrected_uV": -2.8588631752201876e-09,
+          "ratio_to_A64_continuum_tensor_point": -3.092332161125457e-11,
+          "ratio_corrected_to_A64": -2.8685907270165814e-11,
+          "ratio_to_same_grid_bulk_Sa": null
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": -2.3988810937680682e-09,
+          "deltaT_right_minus_left_K": 1.16950893414014e-12,
+          "V_temperature_corrected_uV": -2.258421851213511e-09,
+          "ratio_to_A64_continuum_tensor_point": -2.4070435131154795e-11,
+          "ratio_corrected_to_A64": -2.266106344730447e-11,
+          "ratio_to_same_grid_bulk_Sa": null
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": -2.237565688290033e-09,
+          "deltaT_right_minus_left_K": 5.291322935363496e-13,
+          "V_temperature_corrected_uV": -2.1740163480569763e-09,
+          "ratio_to_A64_continuum_tensor_point": -2.2451792167440482e-11,
+          "ratio_corrected_to_A64": -2.181413643882546e-11,
+          "ratio_to_same_grid_bulk_Sa": null
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": 3.506863644596414,
+          "deltaT_right_minus_left_K": 0.09786011695621794,
+          "V_temperature_corrected_uV": 15.259965739602453,
+          "ratio_to_A64_continuum_tensor_point": 0.03518796079153404,
+          "ratio_corrected_to_A64": 0.15311889213390856,
+          "ratio_to_same_grid_bulk_Sa": null
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": -3.506863650806885,
+          "deltaT_right_minus_left_K": -0.0978601169525784,
+          "V_temperature_corrected_uV": -15.259965745375812,
+          "ratio_to_A64_continuum_tensor_point": -0.035187960853850064,
+          "ratio_corrected_to_A64": -0.1531188921918386,
+          "ratio_to_same_grid_bulk_Sa": null
+        }
+      ]
+    },
+    "A_16_middle_line": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        512,
+        256
+      ],
+      "elements": 131072,
+      "nodes": 131841,
+      "box_m": [
+        0.016,
+        0.008
+      ],
+      "residual": 3.0357534660675523e-15,
+      "heat_input_W_per_m": 2.638848159754276,
+      "heat_output_W_per_m": 2.6388481597334517,
+      "seconds": 3.497273699962534,
+      "floating_electrode_nodes": [
+        51,
+        51
+      ],
+      "kind": "A",
+      "cells": [
+        16,
+        8
+      ],
+      "pixels_per_cell": 32,
+      "electrode": "middle_line",
+      "mirror": false,
+      "periodic_same_grid": {
+        "N": 32,
+        "fractions": [
+          240,
+          384,
+          400
+        ],
+        "sigma": [
+          [
+            39118.02274908213,
+            -3.068969774491781e-12
+          ],
+          [
+            -2.2680154195681146e-12,
+            39118.02274908203
+          ]
+        ],
+        "alpha": [
+          [
+            -0.8615970470804497,
+            0.6164570745254165
+          ],
+          [
+            -0.6164570745254233,
+            -0.8615970470804561
+          ]
+        ],
+        "S_uV_K": [
+          [
+            -22.025577637373463,
+            15.7589016827258
+          ],
+          [
+            -15.758901682726012,
+            -22.025577637373683
+          ]
+        ],
+        "kappa_open_circuit": [
+          [
+            1.3243531801438253,
+            -5.688819095256136e-16
+          ],
+          [
+            -6.005348947820874e-16,
+            1.324353180143826
+          ]
+        ],
+        "Santi_main_uV_K": 15.758901682725908,
+        "a_cross_z_uV_K": -15.758901682725908,
+        "alpha_antisymmetric": 0.6164570745254199,
+        "scaled_effective_energy": [
+          [
+            0.39118022749082126,
+            -3.068969774491781e-17,
+            -0.04307985235402249,
+            0.03082285372627083
+          ],
+          [
+            -2.2680154195681146e-17,
+            0.3911802274908203,
+            -0.030822853726271162,
+            -0.043079852354022806
+          ],
+          [
+            -0.04307985235402265,
+            -0.03082285372627137,
+            1.1108006148902718,
+            -3.934230870770994e-16
+          ],
+          [
+            0.030822853726270742,
+            -0.04307985235402266,
+            -4.3242810726521266e-16,
+            1.1108006148902723
+          ]
+        ],
+        "onsager_relative": 2.698600475152441e-16,
+        "flux_energy_difference": 2.1884682267583976e-14,
+        "residual_relative": 1.4054374964225237e-14,
+        "seconds": 0.018622700008563697,
+        "Sa": 15.758901682725908,
+        "Sxx": -22.025577637373463,
+        "sigma_iso": 39118.02274908208
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": 36.267534804668955,
+          "deltaT_right_minus_left_K": 0.0018468247107487068,
+          "V_temperature_corrected_uV": 36.30821218571817,
+          "ratio_to_A64_continuum_tensor_point": 0.363909385150661,
+          "ratio_corrected_to_A64": 0.36431754304743796,
+          "ratio_to_same_grid_bulk_Sa": 1.1506999515208456
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": 36.14802079267159,
+          "deltaT_right_minus_left_K": 0.0013083258853586188,
+          "V_temperature_corrected_uV": 36.17683742603454,
+          "ratio_to_A64_continuum_tensor_point": 0.3627101784536221,
+          "ratio_corrected_to_A64": 0.36299932530040124,
+          "ratio_to_same_grid_bulk_Sa": 1.1469079990611013
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": 28.231076985304743,
+          "deltaT_right_minus_left_K": 0.011750983237698687,
+          "V_temperature_corrected_uV": 28.489899178922148,
+          "ratio_to_A64_continuum_tensor_point": 0.2832713588942539,
+          "ratio_corrected_to_A64": 0.2858683874998632,
+          "ratio_to_same_grid_bulk_Sa": 0.8957184185066077
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": 36.148020795326644,
+          "deltaT_right_minus_left_K": 0.0013083258848032298,
+          "V_temperature_corrected_uV": 36.176837428677366,
+          "ratio_to_A64_continuum_tensor_point": 0.362710178480263,
+          "ratio_corrected_to_A64": 0.3629993253269195,
+          "ratio_to_same_grid_bulk_Sa": 1.146907999145341
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": 36.26753481018584,
+          "deltaT_right_minus_left_K": 0.001846824709659356,
+          "V_temperature_corrected_uV": 36.30821219121106,
+          "ratio_to_A64_continuum_tensor_point": 0.3639093852060176,
+          "ratio_corrected_to_A64": 0.36431754310255376,
+          "ratio_to_same_grid_bulk_Sa": 1.150699951695886
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": 28.231076985304743,
+          "deltaT_right_minus_left_K": 0.0789297078349599,
+          "V_temperature_corrected_uV": 29.969549393118857,
+          "ratio_to_A64_continuum_tensor_point": 0.2832713588942539,
+          "ratio_corrected_to_A64": 0.3007152361369823,
+          "ratio_to_same_grid_bulk_Sa": 0.8957184185066077
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": 28.231076985304743,
+          "deltaT_right_minus_left_K": -0.1049801312971686,
+          "V_temperature_corrected_uV": 25.918828953037295,
+          "ratio_to_A64_continuum_tensor_point": 0.2832713588942539,
+          "ratio_corrected_to_A64": 0.2600702021497942,
+          "ratio_to_same_grid_bulk_Sa": 0.8957184185066077
+        }
+      ]
+    },
+    "A_16_full_line": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        512,
+        256
+      ],
+      "elements": 131072,
+      "nodes": 131841,
+      "box_m": [
+        0.016,
+        0.008
+      ],
+      "residual": 3.990092051539275e-15,
+      "heat_input_W_per_m": 2.6521512148447726,
+      "heat_output_W_per_m": 2.6521512148236797,
+      "seconds": 3.931316100002732,
+      "floating_electrode_nodes": [
+        257,
+        257
+      ],
+      "kind": "A",
+      "cells": [
+        16,
+        8
+      ],
+      "pixels_per_cell": 32,
+      "electrode": "full_line",
+      "mirror": false,
+      "periodic_same_grid": {
+        "N": 32,
+        "fractions": [
+          240,
+          384,
+          400
+        ],
+        "sigma": [
+          [
+            39118.02274908213,
+            -3.068969774491781e-12
+          ],
+          [
+            -2.2680154195681146e-12,
+            39118.02274908203
+          ]
+        ],
+        "alpha": [
+          [
+            -0.8615970470804497,
+            0.6164570745254165
+          ],
+          [
+            -0.6164570745254233,
+            -0.8615970470804561
+          ]
+        ],
+        "S_uV_K": [
+          [
+            -22.025577637373463,
+            15.7589016827258
+          ],
+          [
+            -15.758901682726012,
+            -22.025577637373683
+          ]
+        ],
+        "kappa_open_circuit": [
+          [
+            1.3243531801438253,
+            -5.688819095256136e-16
+          ],
+          [
+            -6.005348947820874e-16,
+            1.324353180143826
+          ]
+        ],
+        "Santi_main_uV_K": 15.758901682725908,
+        "a_cross_z_uV_K": -15.758901682725908,
+        "alpha_antisymmetric": 0.6164570745254199,
+        "scaled_effective_energy": [
+          [
+            0.39118022749082126,
+            -3.068969774491781e-17,
+            -0.04307985235402249,
+            0.03082285372627083
+          ],
+          [
+            -2.2680154195681146e-17,
+            0.3911802274908203,
+            -0.030822853726271162,
+            -0.043079852354022806
+          ],
+          [
+            -0.04307985235402265,
+            -0.03082285372627137,
+            1.1108006148902718,
+            -3.934230870770994e-16
+          ],
+          [
+            0.030822853726270742,
+            -0.04307985235402266,
+            -4.3242810726521266e-16,
+            1.1108006148902723
+          ]
+        ],
+        "onsager_relative": 2.698600475152441e-16,
+        "flux_energy_difference": 2.1884682267583976e-14,
+        "residual_relative": 1.4054374964225237e-14,
+        "seconds": 0.01868019998073578,
+        "Sa": 15.758901682725908,
+        "Sxx": -22.025577637373463,
+        "sigma_iso": 39118.02274908208
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": 30.879808141953674,
+          "deltaT_right_minus_left_K": 0.007908905935343713,
+          "V_temperature_corrected_uV": 31.054006363659273,
+          "ratio_to_A64_continuum_tensor_point": 0.3098487960384356,
+          "ratio_corrected_to_A64": 0.3115967055144076,
+          "ratio_to_same_grid_bulk_Sa": 0.9797576240926269
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": 30.879808141953674,
+          "deltaT_right_minus_left_K": 0.010952014123859155,
+          "V_temperature_corrected_uV": 31.121032579324346,
+          "ratio_to_A64_continuum_tensor_point": 0.3098487960384356,
+          "ratio_corrected_to_A64": 0.3122692483013111,
+          "ratio_to_same_grid_bulk_Sa": 0.9797576240926269
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": 30.879808141953674,
+          "deltaT_right_minus_left_K": 0.010731907547674613,
+          "V_temperature_corrected_uV": 31.116184604842097,
+          "ratio_to_A64_continuum_tensor_point": 0.3098487960384356,
+          "ratio_corrected_to_A64": 0.3122206035995809,
+          "ratio_to_same_grid_bulk_Sa": 0.9797576240926269
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": 30.879808141953674,
+          "deltaT_right_minus_left_K": 0.01095201412389657,
+          "V_temperature_corrected_uV": 31.12103257932517,
+          "ratio_to_A64_continuum_tensor_point": 0.3098487960384356,
+          "ratio_corrected_to_A64": 0.31226924830131936,
+          "ratio_to_same_grid_bulk_Sa": 0.9797576240926269
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": 30.879808141953674,
+          "deltaT_right_minus_left_K": 0.007908905935350763,
+          "V_temperature_corrected_uV": 31.054006363659425,
+          "ratio_to_A64_continuum_tensor_point": 0.3098487960384356,
+          "ratio_corrected_to_A64": 0.3115967055144091,
+          "ratio_to_same_grid_bulk_Sa": 0.9797576240926269
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": 30.879808141953674,
+          "deltaT_right_minus_left_K": 0.08105040308935929,
+          "V_temperature_corrected_uV": 32.66499008773877,
+          "ratio_to_A64_continuum_tensor_point": 0.3098487960384356,
+          "ratio_corrected_to_A64": 0.3277613579969916,
+          "ratio_to_same_grid_bulk_Sa": 0.9797576240926269
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": 30.879808141953674,
+          "deltaT_right_minus_left_K": -0.11041587905590766,
+          "V_temperature_corrected_uV": 28.44783462540894,
+          "ratio_to_A64_continuum_tensor_point": 0.3098487960384356,
+          "ratio_corrected_to_A64": 0.2854463106785939,
+          "ratio_to_same_grid_bulk_Sa": 0.9797576240926269
+        }
+      ]
+    },
+    "A_16_mirror": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        512,
+        256
+      ],
+      "elements": 131072,
+      "nodes": 131841,
+      "box_m": [
+        0.016,
+        0.008
+      ],
+      "residual": 3.1229689169216334e-15,
+      "heat_input_W_per_m": 2.6367571982975253,
+      "heat_output_W_per_m": 2.636757198281527,
+      "seconds": 5.4672964999917895,
+      "floating_electrode_nodes": [],
+      "kind": "A",
+      "cells": [
+        16,
+        8
+      ],
+      "pixels_per_cell": 32,
+      "electrode": "point",
+      "mirror": true,
+      "periodic_same_grid": {
+        "N": 32,
+        "fractions": [
+          240,
+          384,
+          400
+        ],
+        "sigma": [
+          [
+            39118.022749082076,
+            -1.205836103711222e-11
+          ],
+          [
+            -8.896556451601367e-12,
+            39118.02274908203
+          ]
+        ],
+        "alpha": [
+          [
+            -0.8615970470804577,
+            -0.6164570745254301
+          ],
+          [
+            0.6164570745254216,
+            -0.8615970470804586
+          ]
+        ],
+        "S_uV_K": [
+          [
+            -22.02557763737369,
+            -15.758901682726176
+          ],
+          [
+            15.758901682725966,
+            -22.025577637373747
+          ]
+        ],
+        "kappa_open_circuit": [
+          [
+            1.3243531801438253,
+            -4.927429931763343e-16
+          ],
+          [
+            -4.293277161618585e-16,
+            1.3243531801438262
+          ]
+        ],
+        "Santi_main_uV_K": -15.758901682726071,
+        "a_cross_z_uV_K": 15.758901682726071,
+        "alpha_antisymmetric": -0.6164570745254259,
+        "scaled_effective_energy": [
+          [
+            0.3911802274908208,
+            -1.205836103711222e-16,
+            -0.04307985235402288,
+            -0.030822853726271505
+          ],
+          [
+            -8.896556451601367e-17,
+            0.3911802274908204,
+            0.030822853726271086,
+            -0.04307985235402293
+          ],
+          [
+            -0.04307985235402297,
+            0.030822853726271096,
+            1.1108006148902718,
+            -3.6596227892711497e-16
+          ],
+          [
+            -0.030822853726271377,
+            -0.04307985235402294,
+            -3.328348203599993e-16,
+            1.1108006148902725
+          ]
+        ],
+        "onsager_relative": 1.389087378801846e-16,
+        "flux_energy_difference": 2.0750817841702732e-14,
+        "residual_relative": 1.455193099683745e-14,
+        "seconds": 0.02298840001458302,
+        "Sa": -15.758901682726071,
+        "Sxx": -22.02557763737369,
+        "sigma_iso": 39118.022749082054
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": -36.19646863899778,
+          "deltaT_right_minus_left_K": -0.001808983441674905,
+          "V_temperature_corrected_uV": -36.236312544237116,
+          "ratio_to_A64_continuum_tensor_point": 0.36319630540058423,
+          "ratio_corrected_to_A64": 0.3635961001794613,
+          "ratio_to_same_grid_bulk_Sa": 1.148445157148042
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": -36.04314517268713,
+          "deltaT_right_minus_left_K": -0.0011699378565456497,
+          "V_temperature_corrected_uV": -36.06891372977738,
+          "ratio_to_A64_continuum_tensor_point": 0.36165785376181747,
+          "ratio_corrected_to_A64": 0.3619164161321973,
+          "ratio_to_same_grid_bulk_Sa": 1.143580494959093
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": -35.73166734840815,
+          "deltaT_right_minus_left_K": -0.0011654678199670143,
+          "V_temperature_corrected_uV": -35.757337450360694,
+          "ratio_to_A64_continuum_tensor_point": 0.3585324771920585,
+          "ratio_corrected_to_A64": 0.3587900516610324,
+          "ratio_to_same_grid_bulk_Sa": 1.1336978955701902
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": -36.04314516946977,
+          "deltaT_right_minus_left_K": -0.0011699378561158547,
+          "V_temperature_corrected_uV": -36.06891372655055,
+          "ratio_to_A64_continuum_tensor_point": 0.3616578537295343,
+          "ratio_corrected_to_A64": 0.3619164160998193,
+          "ratio_to_same_grid_bulk_Sa": 1.143580494857012
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": -36.196468632679576,
+          "deltaT_right_minus_left_K": -0.0018089834402723604,
+          "V_temperature_corrected_uV": -36.23631253788802,
+          "ratio_to_A64_continuum_tensor_point": 0.3631963053371872,
+          "ratio_corrected_to_A64": 0.3635961001157543,
+          "ratio_to_same_grid_bulk_Sa": 1.1484451569475775
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": -31.540299189851385,
+          "deltaT_right_minus_left_K": 0.10910836337214547,
+          "V_temperature_corrected_uV": -29.137124461511416,
+          "ratio_to_A64_continuum_tensor_point": 0.31647618034874253,
+          "ratio_corrected_to_A64": 0.2923626627768997,
+          "ratio_to_same_grid_bulk_Sa": 1.0007137497540168
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": -21.286347493882882,
+          "deltaT_right_minus_left_K": -0.09255467340073525,
+          "V_temperature_corrected_uV": -23.324917638572543,
+          "ratio_to_A64_continuum_tensor_point": 0.2135877630040904,
+          "ratio_corrected_to_A64": 0.23404282872432802,
+          "ratio_to_same_grid_bulk_Sa": 0.6753753504667033
+        }
+      ]
+    },
+    "A_8_N64": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        512,
+        256
+      ],
+      "elements": 131072,
+      "nodes": 131841,
+      "box_m": [
+        0.008,
+        0.004
+      ],
+      "residual": 3.1332206299582783e-15,
+      "heat_input_W_per_m": 2.624114801022316,
+      "heat_output_W_per_m": 2.6241148010022273,
+      "seconds": 5.379833700018935,
+      "floating_electrode_nodes": [],
+      "kind": "A",
+      "cells": [
+        8,
+        4
+      ],
+      "pixels_per_cell": 64,
+      "electrode": "point",
+      "mirror": false,
+      "periodic_same_grid": {
+        "N": 64,
+        "fractions": [
+          924,
+          1408,
+          1764
+        ],
+        "sigma": [
+          [
+            37933.08772265739,
+            6.444972051704301e-11
+          ],
+          [
+            5.4146242340052235e-11,
+            37933.087722657205
+          ]
+        ],
+        "alpha": [
+          [
+            -0.3091923067360917,
+            0.7172804708249914
+          ],
+          [
+            -0.7172804708249838,
+            -0.30919230673612136
+          ]
+        ],
+        "S_uV_K": [
+          [
+            -8.150992320918034,
+            18.909097937644585
+          ],
+          [
+            -18.90909793764445,
+            -8.150992320918911
+          ]
+        ],
+        "kappa_open_circuit": [
+          [
+            1.3238936550375178,
+            5.317195654484418e-16
+          ],
+          [
+            5.034311598083828e-16,
+            1.3238936550375144
+          ]
+        ],
+        "Santi_main_uV_K": 18.909097937644518,
+        "a_cross_z_uV_K": -18.909097937644518,
+        "alpha_antisymmetric": 0.7172804708249876,
+        "scaled_effective_energy": [
+          [
+            0.3793308772265739,
+            6.444972051704301e-16,
+            -0.015459615336804587,
+            0.03586402354124957
+          ],
+          [
+            5.414624234005225e-16,
+            0.37933087722657205,
+            -0.03586402354124919,
+            -0.015459615336806067
+          ],
+          [
+            -0.015459615336804443,
+            -0.03586402354124941,
+            1.1072655502286355,
+            6.005505947680352e-16
+          ],
+          [
+            0.03586402354124952,
+            -0.01545961533680592,
+            5.437714352147377e-16,
+            1.1072655502286326
+          ]
+        ],
+        "onsager_relative": 2.764673110804944e-16,
+        "flux_energy_difference": 1.2830380641381095e-14,
+        "residual_relative": 3.533227579930585e-14,
+        "seconds": 0.0999982999637723,
+        "Sa": 18.909097937644518,
+        "Sxx": -8.150992320918034,
+        "sigma_iso": 37933.08772265729
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": 27.640006115328696,
+          "deltaT_right_minus_left_K": -0.017105970001840595,
+          "V_temperature_corrected_uV": 27.50057548520184,
+          "ratio_to_A64_continuum_tensor_point": 0.27734053845024187,
+          "ratio_corrected_to_A64": 0.2759414878901773,
+          "ratio_to_same_grid_bulk_Sa": 0.7308652746544444
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": 46.53080526940736,
+          "deltaT_right_minus_left_K": 0.003817373845807631,
+          "V_temperature_corrected_uV": 46.56192065431061,
+          "ratio_to_A64_continuum_tensor_point": 0.46689130726291533,
+          "ratio_corrected_to_A64": 0.4672035198422884,
+          "ratio_to_same_grid_bulk_Sa": 1.2303814127688537
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": 45.9160914674886,
+          "deltaT_right_minus_left_K": 0.003589042402361464,
+          "V_temperature_corrected_uV": 45.945345724549696,
+          "ratio_to_A64_continuum_tensor_point": 0.46072325302640066,
+          "ratio_corrected_to_A64": 0.4610167910007207,
+          "ratio_to_same_grid_bulk_Sa": 1.2141269673176251
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": 46.53080527208192,
+          "deltaT_right_minus_left_K": 0.0038173738455539175,
+          "V_temperature_corrected_uV": 46.561920656983105,
+          "ratio_to_A64_continuum_tensor_point": 0.4668913072897519,
+          "ratio_corrected_to_A64": 0.4672035198691043,
+          "ratio_to_same_grid_bulk_Sa": 1.2303814128395754
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": 27.640006120034016,
+          "deltaT_right_minus_left_K": -0.01710597000158165,
+          "V_temperature_corrected_uV": 27.50057548990927,
+          "ratio_to_A64_continuum_tensor_point": 0.27734053849745516,
+          "ratio_corrected_to_A64": 0.2759414879374118,
+          "ratio_to_same_grid_bulk_Sa": 0.7308652747788639
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": 28.599613787526305,
+          "deltaT_right_minus_left_K": 0.10506750277315213,
+          "V_temperature_corrected_uV": 29.4560181958083,
+          "ratio_to_A64_continuum_tensor_point": 0.28696926672902007,
+          "ratio_corrected_to_A64": 0.29556245078017584,
+          "ratio_to_same_grid_bulk_Sa": 0.756239506554931
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": 58.40519593255572,
+          "deltaT_right_minus_left_K": -0.0980985064152069,
+          "V_temperature_corrected_uV": 57.60559576007184,
+          "ratio_to_A64_continuum_tensor_point": 0.5860392512447261,
+          "ratio_corrected_to_A64": 0.578016042369291,
+          "ratio_to_same_grid_bulk_Sa": 1.5443675876330878
+        }
+      ]
+    },
+    "gap4pct_8": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        400,
+        200
+      ],
+      "elements": 80000,
+      "nodes": 80601,
+      "box_m": [
+        0.008,
+        0.004
+      ],
+      "residual": 2.8706660849586523e-15,
+      "heat_input_W_per_m": 2.4598120417250677,
+      "heat_output_W_per_m": 2.459812041710024,
+      "seconds": 2.2914096000022255,
+      "floating_electrode_nodes": [],
+      "kind": "gap4pct",
+      "cells": [
+        8,
+        4
+      ],
+      "base_pixels_per_cell": 50,
+      "fixed_geometry_refinement": 1,
+      "pixels_per_cell": 50,
+      "electrode": "point",
+      "mirror": false,
+      "periodic_same_grid": {
+        "N": 50,
+        "fractions": [
+          580,
+          896,
+          1024
+        ],
+        "sigma": [
+          [
+            32033.35327054401,
+            1.3008982779894038e-10
+          ],
+          [
+            1.2509368541024912e-10,
+            32033.353270543925
+          ]
+        ],
+        "alpha": [
+          [
+            0.16069443709562573,
+            1.6549049644966418
+          ],
+          [
+            -1.6549049644966698,
+            0.1606944370955642
+          ]
+        ],
+        "S_uV_K": [
+          [
+            5.016472541555542,
+            51.6619334391818
+          ],
+          [
+            -51.66193343918285,
+            5.016472541553223
+          ]
+        ],
+        "kappa_open_circuit": [
+          [
+            1.2304016911163458,
+            -3.1899023005604474e-15
+          ],
+          [
+            -3.3894364062234534e-15,
+            1.2304016911163456
+          ]
+        ],
+        "Santi_main_uV_K": 51.661933439182334,
+        "a_cross_z_uV_K": -51.661933439182334,
+        "alpha_antisymmetric": 1.6549049644966558,
+        "scaled_effective_energy": [
+          [
+            0.32033353270544007,
+            1.300898277989404e-15,
+            0.008034721854781286,
+            0.08274524822483209
+          ],
+          [
+            1.2509368541024912e-15,
+            0.3203335327054393,
+            -0.08274524822483349,
+            0.00803472185477821
+          ],
+          [
+            0.008034721854781266,
+            -0.08274524822483288,
+            1.0469101699357724,
+            -1.811442662535967e-15
+          ],
+          [
+            0.0827452482248317,
+            0.008034721854778288,
+            -2.0145704549001663e-15,
+            1.0469101699357712
+          ]
+        ],
+        "onsager_relative": 6.880950335337104e-16,
+        "flux_energy_difference": 8.987370100373896e-15,
+        "residual_relative": 3.2218162171154484e-14,
+        "seconds": 0.04392660001758486,
+        "Sa": 51.661933439182334,
+        "Sxx": 5.016472541555542,
+        "sigma_iso": 32033.353270543965
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": 81.31267677587846,
+          "deltaT_right_minus_left_K": -0.014941538668548776,
+          "V_temperature_corrected_uV": 81.38763059433782,
+          "ratio_to_A64_continuum_tensor_point": 0.815893508335587,
+          "ratio_corrected_to_A64": 0.8166455968946013,
+          "ratio_to_same_grid_bulk_Sa": 0.786968966924183
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": 102.24570849054561,
+          "deltaT_right_minus_left_K": 0.007547587310341886,
+          "V_temperature_corrected_uV": 102.20784622604829,
+          "ratio_to_A64_continuum_tensor_point": 1.0259360916446443,
+          "ratio_corrected_to_A64": 1.025556180700384,
+          "ratio_to_same_grid_bulk_Sa": 0.9895652532140682
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": 102.18618001802442,
+          "deltaT_right_minus_left_K": 0.007769629782967358,
+          "V_temperature_corrected_uV": 102.14720388356011,
+          "ratio_to_A64_continuum_tensor_point": 1.025338781406967,
+          "ratio_corrected_to_A64": 1.02494769386256,
+          "ratio_to_same_grid_bulk_Sa": 0.9889891184417288
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": 102.24570849216707,
+          "deltaT_right_minus_left_K": 0.007547587310128723,
+          "V_temperature_corrected_uV": 102.20784622767081,
+          "ratio_to_A64_continuum_tensor_point": 1.025936091660914,
+          "ratio_corrected_to_A64": 1.0255561807166644,
+          "ratio_to_same_grid_bulk_Sa": 0.9895652532297612
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": 81.31267677866452,
+          "deltaT_right_minus_left_K": -0.014941538668509335,
+          "V_temperature_corrected_uV": 81.38763059712369,
+          "ratio_to_A64_continuum_tensor_point": 0.8158935083635425,
+          "ratio_corrected_to_A64": 0.8166455969225547,
+          "ratio_to_same_grid_bulk_Sa": 0.7869689669511475
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": 85.28939817990691,
+          "deltaT_right_minus_left_K": 0.10738760852927437,
+          "V_temperature_corrected_uV": 84.75069119041649,
+          "ratio_to_A64_continuum_tensor_point": 0.855796034075196,
+          "ratio_corrected_to_A64": 0.850390634166499,
+          "ratio_to_same_grid_bulk_Sa": 0.8254568935201742
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": 115.3855689937718,
+          "deltaT_right_minus_left_K": -0.09132443910936583,
+          "V_temperature_corrected_uV": 115.8436955349369,
+          "ratio_to_A64_continuum_tensor_point": 1.157781792832995,
+          "ratio_corrected_to_A64": 1.1623786464326262,
+          "ratio_to_same_grid_bulk_Sa": 1.1167368438659624
+        }
+      ]
+    },
+    "gap4pct_8_line": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        400,
+        200
+      ],
+      "elements": 80000,
+      "nodes": 80601,
+      "box_m": [
+        0.008,
+        0.004
+      ],
+      "residual": 2.9270578534073094e-15,
+      "heat_input_W_per_m": 2.465076272244375,
+      "heat_output_W_per_m": 2.4650762722291204,
+      "seconds": 2.7287820000201464,
+      "floating_electrode_nodes": [
+        41,
+        41
+      ],
+      "kind": "gap4pct",
+      "cells": [
+        8,
+        4
+      ],
+      "base_pixels_per_cell": 50,
+      "fixed_geometry_refinement": 1,
+      "pixels_per_cell": 50,
+      "electrode": "middle_line",
+      "mirror": false,
+      "periodic_same_grid": {
+        "N": 50,
+        "fractions": [
+          580,
+          896,
+          1024
+        ],
+        "sigma": [
+          [
+            32033.35327054401,
+            1.3008982779894038e-10
+          ],
+          [
+            1.2509368541024912e-10,
+            32033.353270543925
+          ]
+        ],
+        "alpha": [
+          [
+            0.16069443709562573,
+            1.6549049644966418
+          ],
+          [
+            -1.6549049644966698,
+            0.1606944370955642
+          ]
+        ],
+        "S_uV_K": [
+          [
+            5.016472541555542,
+            51.6619334391818
+          ],
+          [
+            -51.66193343918285,
+            5.016472541553223
+          ]
+        ],
+        "kappa_open_circuit": [
+          [
+            1.2304016911163458,
+            -3.1899023005604474e-15
+          ],
+          [
+            -3.3894364062234534e-15,
+            1.2304016911163456
+          ]
+        ],
+        "Santi_main_uV_K": 51.661933439182334,
+        "a_cross_z_uV_K": -51.661933439182334,
+        "alpha_antisymmetric": 1.6549049644966558,
+        "scaled_effective_energy": [
+          [
+            0.32033353270544007,
+            1.300898277989404e-15,
+            0.008034721854781286,
+            0.08274524822483209
+          ],
+          [
+            1.2509368541024912e-15,
+            0.3203335327054393,
+            -0.08274524822483349,
+            0.00803472185477821
+          ],
+          [
+            0.008034721854781266,
+            -0.08274524822483288,
+            1.0469101699357724,
+            -1.811442662535967e-15
+          ],
+          [
+            0.0827452482248317,
+            0.008034721854778288,
+            -2.0145704549001663e-15,
+            1.0469101699357712
+          ]
+        ],
+        "onsager_relative": 6.880950335337104e-16,
+        "flux_energy_difference": 8.987370100373896e-15,
+        "residual_relative": 3.2218162171154484e-14,
+        "seconds": 0.051788499986287206,
+        "Sa": 51.661933439182334,
+        "Sxx": 5.016472541555542,
+        "sigma_iso": 32033.353270543965
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": 81.45361778444327,
+          "deltaT_right_minus_left_K": -0.015084630420931666,
+          "V_temperature_corrected_uV": 81.52928941874939,
+          "ratio_to_A64_continuum_tensor_point": 0.817307714072083,
+          "ratio_corrected_to_A64": 0.8180670052139265,
+          "ratio_to_same_grid_bulk_Sa": 0.788333037131996
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": 102.47106482520776,
+          "deltaT_right_minus_left_K": 0.007084832171219163,
+          "V_temperature_corrected_uV": 102.43552395915931,
+          "ratio_to_A64_continuum_tensor_point": 1.0281973229532622,
+          "ratio_corrected_to_A64": 1.0278407049812641,
+          "ratio_to_same_grid_bulk_Sa": 0.9917463207783266
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": 91.97964518544231,
+          "deltaT_right_minus_left_K": 0.021168956978798337,
+          "V_temperature_corrected_uV": 91.8734516940248,
+          "ratio_to_A64_continuum_tensor_point": 0.9229261460997114,
+          "ratio_corrected_to_A64": 0.9218605978517567,
+          "ratio_to_same_grid_bulk_Sa": 0.8902071512066322
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": 102.47106482676452,
+          "deltaT_right_minus_left_K": 0.007084832171054156,
+          "V_temperature_corrected_uV": 102.43552396071689,
+          "ratio_to_A64_continuum_tensor_point": 1.0281973229688828,
+          "ratio_corrected_to_A64": 1.0278407049968927,
+          "ratio_to_same_grid_bulk_Sa": 0.9917463207933933
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": 81.45361778716098,
+          "deltaT_right_minus_left_K": -0.015084630420884482,
+          "V_temperature_corrected_uV": 81.52928942146686,
+          "ratio_to_A64_continuum_tensor_point": 0.8173077140993527,
+          "ratio_corrected_to_A64": 0.8180670052411937,
+          "ratio_to_same_grid_bulk_Sa": 0.7883330371582988
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": 91.97964518544231,
+          "deltaT_right_minus_left_K": 0.09061448207053069,
+          "V_temperature_corrected_uV": 91.52508012426821,
+          "ratio_to_A64_continuum_tensor_point": 0.9229261460997114,
+          "ratio_corrected_to_A64": 0.9183650284827086,
+          "ratio_to_same_grid_bulk_Sa": 0.8902071512066322
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": 91.97964518544231,
+          "deltaT_right_minus_left_K": -0.06567517963814379,
+          "V_temperature_corrected_uV": 92.30910292075879,
+          "ratio_to_A64_continuum_tensor_point": 0.9229261460997114,
+          "ratio_corrected_to_A64": 0.9262319335632893,
+          "ratio_to_same_grid_bulk_Sa": 0.8902071512066322
+        }
+      ]
+    },
+    "gap4pct_16": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        800,
+        400
+      ],
+      "elements": 320000,
+      "nodes": 321201,
+      "box_m": [
+        0.016,
+        0.008
+      ],
+      "residual": 4.083520880742696e-15,
+      "heat_input_W_per_m": 2.4602978181431,
+      "heat_output_W_per_m": 2.4602978180829367,
+      "seconds": 22.778063800011296,
+      "floating_electrode_nodes": [],
+      "kind": "gap4pct",
+      "cells": [
+        16,
+        8
+      ],
+      "base_pixels_per_cell": 50,
+      "fixed_geometry_refinement": 1,
+      "pixels_per_cell": 50,
+      "electrode": "point",
+      "mirror": false,
+      "periodic_same_grid": {
+        "N": 50,
+        "fractions": [
+          580,
+          896,
+          1024
+        ],
+        "sigma": [
+          [
+            32033.35327054401,
+            1.3008982779894038e-10
+          ],
+          [
+            1.2509368541024912e-10,
+            32033.353270543925
+          ]
+        ],
+        "alpha": [
+          [
+            0.16069443709562573,
+            1.6549049644966418
+          ],
+          [
+            -1.6549049644966698,
+            0.1606944370955642
+          ]
+        ],
+        "S_uV_K": [
+          [
+            5.016472541555542,
+            51.6619334391818
+          ],
+          [
+            -51.66193343918285,
+            5.016472541553223
+          ]
+        ],
+        "kappa_open_circuit": [
+          [
+            1.2304016911163458,
+            -3.1899023005604474e-15
+          ],
+          [
+            -3.3894364062234534e-15,
+            1.2304016911163456
+          ]
+        ],
+        "Santi_main_uV_K": 51.661933439182334,
+        "a_cross_z_uV_K": -51.661933439182334,
+        "alpha_antisymmetric": 1.6549049644966558,
+        "scaled_effective_energy": [
+          [
+            0.32033353270544007,
+            1.300898277989404e-15,
+            0.008034721854781286,
+            0.08274524822483209
+          ],
+          [
+            1.2509368541024912e-15,
+            0.3203335327054393,
+            -0.08274524822483349,
+            0.00803472185477821
+          ],
+          [
+            0.008034721854781266,
+            -0.08274524822483288,
+            1.0469101699357724,
+            -1.811442662535967e-15
+          ],
+          [
+            0.0827452482248317,
+            0.008034721854778288,
+            -2.0145704549001663e-15,
+            1.0469101699357712
+          ]
+        ],
+        "onsager_relative": 6.880950335337104e-16,
+        "flux_energy_difference": 8.987370100373896e-15,
+        "residual_relative": 3.2218162171154484e-14,
+        "seconds": 0.05281140003353357,
+        "Sa": 51.661933439182334,
+        "Sxx": 5.016472541555542,
+        "sigma_iso": 32033.353270543965
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": 101.96230965003627,
+          "deltaT_right_minus_left_K": 0.003850532832464726,
+          "V_temperature_corrected_uV": 101.94299355781186,
+          "ratio_to_A64_continuum_tensor_point": 1.0230924603265077,
+          "ratio_corrected_to_A64": 1.0228986421559936,
+          "ratio_to_same_grid_bulk_Sa": 0.9868224325176365
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": 102.80533778657994,
+          "deltaT_right_minus_left_K": 0.0039836878641071605,
+          "V_temperature_corrected_uV": 102.78535372579552,
+          "ratio_to_A64_continuum_tensor_point": 1.0315514265200085,
+          "ratio_corrected_to_A64": 1.0313509059356336,
+          "ratio_to_same_grid_bulk_Sa": 0.9949815167835796
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": 102.76620609071895,
+          "deltaT_right_minus_left_K": 0.004056060509981363,
+          "V_temperature_corrected_uV": 102.74585897454374,
+          "ratio_to_A64_continuum_tensor_point": 1.0311587780685114,
+          "ratio_corrected_to_A64": 1.0309546145769262,
+          "ratio_to_same_grid_bulk_Sa": 0.9946027882570229
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": 102.80533779324095,
+          "deltaT_right_minus_left_K": 0.003983687862333829,
+          "V_temperature_corrected_uV": 102.78535373246542,
+          "ratio_to_A64_continuum_tensor_point": 1.0315514265868453,
+          "ratio_corrected_to_A64": 1.0313509060025596,
+          "ratio_to_same_grid_bulk_Sa": 0.9949815168480469
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": 101.96230966315059,
+          "deltaT_right_minus_left_K": 0.003850532829467457,
+          "V_temperature_corrected_uV": 101.94299357094121,
+          "ratio_to_A64_continuum_tensor_point": 1.023092460458097,
+          "ratio_corrected_to_A64": 1.0228986422877338,
+          "ratio_to_same_grid_bulk_Sa": 0.9868224326445608
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": 89.407528838184,
+          "deltaT_right_minus_left_K": 0.0935791739914289,
+          "V_temperature_corrected_uV": 88.93809148139455,
+          "ratio_to_A64_continuum_tensor_point": 0.8971174639406407,
+          "ratio_corrected_to_A64": 0.8924071173235884,
+          "ratio_to_same_grid_bulk_Sa": 0.8653134221489861
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": 95.19525498290756,
+          "deltaT_right_minus_left_K": -0.10710344015124168,
+          "V_temperature_corrected_uV": 95.7325364495324,
+          "ratio_to_A64_continuum_tensor_point": 0.9551916582328761,
+          "ratio_corrected_to_A64": 0.9605827544081563,
+          "ratio_to_same_grid_bulk_Sa": 0.921328806779693
+        }
+      ]
+    },
+    "gap4pct_16_line": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        800,
+        400
+      ],
+      "elements": 320000,
+      "nodes": 321201,
+      "box_m": [
+        0.016,
+        0.008
+      ],
+      "residual": 4.108292721205618e-15,
+      "heat_input_W_per_m": 2.462287950595058,
+      "heat_output_W_per_m": 2.4622879505354924,
+      "seconds": 22.6200070999912,
+      "floating_electrode_nodes": [
+        81,
+        81
+      ],
+      "kind": "gap4pct",
+      "cells": [
+        16,
+        8
+      ],
+      "base_pixels_per_cell": 50,
+      "fixed_geometry_refinement": 1,
+      "pixels_per_cell": 50,
+      "electrode": "middle_line",
+      "mirror": false,
+      "periodic_same_grid": {
+        "N": 50,
+        "fractions": [
+          580,
+          896,
+          1024
+        ],
+        "sigma": [
+          [
+            32033.35327054401,
+            1.3008982779894038e-10
+          ],
+          [
+            1.2509368541024912e-10,
+            32033.353270543925
+          ]
+        ],
+        "alpha": [
+          [
+            0.16069443709562573,
+            1.6549049644966418
+          ],
+          [
+            -1.6549049644966698,
+            0.1606944370955642
+          ]
+        ],
+        "S_uV_K": [
+          [
+            5.016472541555542,
+            51.6619334391818
+          ],
+          [
+            -51.66193343918285,
+            5.016472541553223
+          ]
+        ],
+        "kappa_open_circuit": [
+          [
+            1.2304016911163458,
+            -3.1899023005604474e-15
+          ],
+          [
+            -3.3894364062234534e-15,
+            1.2304016911163456
+          ]
+        ],
+        "Santi_main_uV_K": 51.661933439182334,
+        "a_cross_z_uV_K": -51.661933439182334,
+        "alpha_antisymmetric": 1.6549049644966558,
+        "scaled_effective_energy": [
+          [
+            0.32033353270544007,
+            1.300898277989404e-15,
+            0.008034721854781286,
+            0.08274524822483209
+          ],
+          [
+            1.2509368541024912e-15,
+            0.3203335327054393,
+            -0.08274524822483349,
+            0.00803472185477821
+          ],
+          [
+            0.008034721854781266,
+            -0.08274524822483288,
+            1.0469101699357724,
+            -1.811442662535967e-15
+          ],
+          [
+            0.0827452482248317,
+            0.008034721854778288,
+            -2.0145704549001663e-15,
+            1.0469101699357712
+          ]
+        ],
+        "onsager_relative": 6.880950335337104e-16,
+        "flux_energy_difference": 8.987370100373896e-15,
+        "residual_relative": 3.2218162171154484e-14,
+        "seconds": 0.05164299998432398,
+        "Sa": 51.661933439182334,
+        "Sxx": 5.016472541555542,
+        "sigma_iso": 32033.353270543965
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": 102.13623367935732,
+          "deltaT_right_minus_left_K": 0.0039222883345312876,
+          "V_temperature_corrected_uV": 102.11655762762707,
+          "ratio_to_A64_continuum_tensor_point": 1.0248376185489794,
+          "ratio_corrected_to_A64": 1.024640188535445,
+          "ratio_to_same_grid_bulk_Sa": 0.9885057224928926
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": 103.05315375442439,
+          "deltaT_right_minus_left_K": 0.004254547638647382,
+          "V_temperature_corrected_uV": 103.03181093301838,
+          "ratio_to_A64_continuum_tensor_point": 1.0340380183706679,
+          "ratio_corrected_to_A64": 1.0338238639469643,
+          "ratio_to_same_grid_bulk_Sa": 0.9973799555502605
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": 93.10331034929611,
+          "deltaT_right_minus_left_K": 0.013184764179379138,
+          "V_temperature_corrected_uV": 93.03716934182337,
+          "ratio_to_A64_continuum_tensor_point": 0.9342010315060558,
+          "ratio_corrected_to_A64": 0.93353737092112,
+          "ratio_to_same_grid_bulk_Sa": 0.9010823264957704
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": 103.05315376075215,
+          "deltaT_right_minus_left_K": 0.004254547636853623,
+          "V_temperature_corrected_uV": 103.03181093935514,
+          "ratio_to_A64_continuum_tensor_point": 1.0340380184341607,
+          "ratio_corrected_to_A64": 1.0338238640105475,
+          "ratio_to_same_grid_bulk_Sa": 0.9973799556115026
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": 102.1362336922588,
+          "deltaT_right_minus_left_K": 0.003922288331508983,
+          "V_temperature_corrected_uV": 102.11655764054372,
+          "ratio_to_A64_continuum_tensor_point": 1.0248376186784331,
+          "ratio_corrected_to_A64": 1.024640188665051,
+          "ratio_to_same_grid_bulk_Sa": 0.988505722617757
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": 93.10331034929611,
+          "deltaT_right_minus_left_K": 0.08021798968993382,
+          "V_temperature_corrected_uV": 92.70089900667777,
+          "ratio_to_A64_continuum_tensor_point": 0.9342010315060558,
+          "ratio_corrected_to_A64": 0.9301632256541115,
+          "ratio_to_same_grid_bulk_Sa": 0.9010823264957704
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": 93.10331034929611,
+          "deltaT_right_minus_left_K": -0.10348737885402093,
+          "V_temperature_corrected_uV": 93.62245194371486,
+          "ratio_to_A64_continuum_tensor_point": 0.9342010315060558,
+          "ratio_corrected_to_A64": 0.9394101117330015,
+          "ratio_to_same_grid_bulk_Sa": 0.9010823264957704
+        }
+      ]
+    },
+    "gap4pct_8_refine2": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        800,
+        400
+      ],
+      "elements": 320000,
+      "nodes": 321201,
+      "box_m": [
+        0.008,
+        0.004
+      ],
+      "residual": 4.085636211326143e-15,
+      "heat_input_W_per_m": 2.4574204513161133,
+      "heat_output_W_per_m": 2.457420451255294,
+      "seconds": 22.84997320000548,
+      "floating_electrode_nodes": [],
+      "kind": "gap4pct",
+      "cells": [
+        8,
+        4
+      ],
+      "base_pixels_per_cell": 50,
+      "fixed_geometry_refinement": 2,
+      "pixels_per_cell": 100,
+      "electrode": "point",
+      "mirror": false,
+      "periodic_same_grid": {
+        "N": 100,
+        "fractions": [
+          2320,
+          3584,
+          4096
+        ],
+        "sigma": [
+          [
+            31900.939226141832,
+            2.2463836346631183e-11
+          ],
+          [
+            5.2032510244881536e-11,
+            31900.93922614173
+          ]
+        ],
+        "alpha": [
+          [
+            0.15876597862368544,
+            1.65154713807323
+          ],
+          [
+            -1.6515471380732891,
+            0.1587659786236709
+          ]
+        ],
+        "S_uV_K": [
+          [
+            4.976843393174542,
+            51.77111326928701
+          ],
+          [
+            -51.77111326928904,
+            4.976843393173982
+          ]
+        ],
+        "kappa_open_circuit": [
+          [
+            1.2291905945543347,
+            -1.6483798196437283e-15
+          ],
+          [
+            -1.7221208378648875e-15,
+            1.229190594554346
+          ]
+        ],
+        "Santi_main_uV_K": 51.77111326928802,
+        "a_cross_z_uV_K": -51.77111326928802,
+        "alpha_antisymmetric": 1.6515471380732596,
+        "scaled_effective_energy": [
+          [
+            0.3190093922614184,
+            2.2463836346631185e-16,
+            0.007938298931184272,
+            0.08257735690366151
+          ],
+          [
+            5.203251024488154e-16,
+            0.31900939226141733,
+            -0.08257735690366447,
+            0.007938298931183545
+          ],
+          [
+            0.007938298931184386,
+            -0.0825773569036646,
+            1.0458986423035797,
+            -1.2051595832396345e-15
+          ],
+          [
+            0.08257735690366112,
+            0.00793829893118342,
+            -1.2893720813256237e-15,
+            1.0458986423035874
+          ]
+        ],
+        "onsager_relative": 4.926065667332268e-16,
+        "flux_energy_difference": 1.0023121675892302e-13,
+        "residual_relative": 8.362215196489933e-14,
+        "seconds": 0.3475013999850489,
+        "Sa": 51.77111326928802,
+        "Sxx": 4.976843393174542,
+        "sigma_iso": 31900.93922614178
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": 81.52174898818394,
+          "deltaT_right_minus_left_K": -0.01484097424916446,
+          "V_temperature_corrected_uV": 81.59561019282417,
+          "ratio_to_A64_continuum_tensor_point": 0.8179913443380049,
+          "ratio_corrected_to_A64": 0.8187324695816112,
+          "ratio_to_same_grid_bulk_Sa": 0.7873285297550746
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": 102.49260919692269,
+          "deltaT_right_minus_left_K": 0.007487188159359809,
+          "V_temperature_corrected_uV": 102.45534663399832,
+          "ratio_to_A64_continuum_tensor_point": 1.0284134997379943,
+          "ratio_corrected_to_A64": 1.0280396062148758,
+          "ratio_to_same_grid_bulk_Sa": 0.9898629054373067
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": 102.43175137354041,
+          "deltaT_right_minus_left_K": 0.007705877053071131,
+          "V_temperature_corrected_uV": 102.39340043024022,
+          "ratio_to_A64_continuum_tensor_point": 1.0278028507592885,
+          "ratio_corrected_to_A64": 1.027418036399242,
+          "ratio_to_same_grid_bulk_Sa": 0.9892751469409254
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": 102.49260920358468,
+          "deltaT_right_minus_left_K": 0.007487188158526781,
+          "V_temperature_corrected_uV": 102.45534664066446,
+          "ratio_to_A64_continuum_tensor_point": 1.0284134998048409,
+          "ratio_corrected_to_A64": 1.028039606281764,
+          "ratio_to_same_grid_bulk_Sa": 0.9898629055016475
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": 81.52174899961526,
+          "deltaT_right_minus_left_K": -0.01484097424896691,
+          "V_temperature_corrected_uV": 81.5956102042545,
+          "ratio_to_A64_continuum_tensor_point": 0.8179913444527069,
+          "ratio_corrected_to_A64": 0.8187324696963034,
+          "ratio_to_same_grid_bulk_Sa": 0.787328529865477
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": 85.50342969016285,
+          "deltaT_right_minus_left_K": 0.10733043750410337,
+          "V_temperature_corrected_uV": 84.96926291138402,
+          "ratio_to_A64_continuum_tensor_point": 0.8579436318019121,
+          "ratio_corrected_to_A64": 0.8525837884852859,
+          "ratio_to_same_grid_bulk_Sa": 0.8257831857450679
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": 115.61450970784306,
+          "deltaT_right_minus_left_K": -0.09127291896622919,
+          "V_temperature_corrected_uV": 116.06876073157589,
+          "ratio_to_A64_continuum_tensor_point": 1.1600789898975967,
+          "ratio_corrected_to_A64": 1.1646369564547665,
+          "ratio_to_same_grid_bulk_Sa": 1.1165928488583285
+        }
+      ]
+    },
+    "gap4pct_8_shortline": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        400,
+        200
+      ],
+      "elements": 80000,
+      "nodes": 80601,
+      "box_m": [
+        0.008,
+        0.004
+      ],
+      "residual": 2.8881875038437087e-15,
+      "heat_input_W_per_m": 2.460024392936843,
+      "heat_output_W_per_m": 2.460024392921794,
+      "seconds": 1.7045666999765672,
+      "floating_electrode_nodes": [
+        5,
+        5
+      ],
+      "kind": "gap4pct",
+      "cells": [
+        8,
+        4
+      ],
+      "base_pixels_per_cell": 50,
+      "fixed_geometry_refinement": 1,
+      "pixels_per_cell": 50,
+      "electrode": "short_line",
+      "mirror": false,
+      "periodic_same_grid": {
+        "N": 50,
+        "fractions": [
+          580,
+          896,
+          1024
+        ],
+        "sigma": [
+          [
+            32033.35327054401,
+            1.3008982779894038e-10
+          ],
+          [
+            1.2509368541024912e-10,
+            32033.353270543925
+          ]
+        ],
+        "alpha": [
+          [
+            0.16069443709562573,
+            1.6549049644966418
+          ],
+          [
+            -1.6549049644966698,
+            0.1606944370955642
+          ]
+        ],
+        "S_uV_K": [
+          [
+            5.016472541555542,
+            51.6619334391818
+          ],
+          [
+            -51.66193343918285,
+            5.016472541553223
+          ]
+        ],
+        "kappa_open_circuit": [
+          [
+            1.2304016911163458,
+            -3.1899023005604474e-15
+          ],
+          [
+            -3.3894364062234534e-15,
+            1.2304016911163456
+          ]
+        ],
+        "Santi_main_uV_K": 51.661933439182334,
+        "a_cross_z_uV_K": -51.661933439182334,
+        "alpha_antisymmetric": 1.6549049644966558,
+        "scaled_effective_energy": [
+          [
+            0.32033353270544007,
+            1.300898277989404e-15,
+            0.008034721854781286,
+            0.08274524822483209
+          ],
+          [
+            1.2509368541024912e-15,
+            0.3203335327054393,
+            -0.08274524822483349,
+            0.00803472185477821
+          ],
+          [
+            0.008034721854781266,
+            -0.08274524822483288,
+            1.0469101699357724,
+            -1.811442662535967e-15
+          ],
+          [
+            0.0827452482248317,
+            0.008034721854778288,
+            -2.0145704549001663e-15,
+            1.0469101699357712
+          ]
+        ],
+        "onsager_relative": 6.880950335337104e-16,
+        "flux_energy_difference": 8.987370100373896e-15,
+        "residual_relative": 3.2218162171154484e-14,
+        "seconds": 0.04485679999925196,
+        "Sa": 51.661933439182334,
+        "Sxx": 5.016472541555542,
+        "sigma_iso": 32033.353270543965
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": 81.31838661051675,
+          "deltaT_right_minus_left_K": -0.014945029551093017,
+          "V_temperature_corrected_uV": 81.39335794089254,
+          "ratio_to_A64_continuum_tensor_point": 0.8159508009644829,
+          "ratio_corrected_to_A64": 0.8167030652385209,
+          "ratio_to_same_grid_bulk_Sa": 0.7870242284509803
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": 102.25440287726516,
+          "deltaT_right_minus_left_K": 0.007539485923742151,
+          "V_temperature_corrected_uV": 102.21658125315126,
+          "ratio_to_A64_continuum_tensor_point": 1.0260233313465543,
+          "ratio_corrected_to_A64": 1.0256438281889557,
+          "ratio_to_same_grid_bulk_Sa": 0.9896494001491591
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": 102.05783224132676,
+          "deltaT_right_minus_left_K": 0.007744032900927511,
+          "V_temperature_corrected_uV": 102.01898451291837,
+          "ratio_to_A64_continuum_tensor_point": 1.0240509364857433,
+          "ratio_corrected_to_A64": 1.0236611373710325,
+          "ratio_to_same_grid_bulk_Sa": 0.9877469293853635
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": 102.25440287887176,
+          "deltaT_right_minus_left_K": 0.007539485923537925,
+          "V_temperature_corrected_uV": 102.21658125475889,
+          "ratio_to_A64_continuum_tensor_point": 1.026023331362675,
+          "ratio_corrected_to_A64": 1.0256438282050868,
+          "ratio_to_same_grid_bulk_Sa": 0.9896494001647083
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": 81.31838661327541,
+          "deltaT_right_minus_left_K": -0.014945029551050482,
+          "V_temperature_corrected_uV": 81.39335794365098,
+          "ratio_to_A64_continuum_tensor_point": 0.8159508009921633,
+          "ratio_corrected_to_A64": 0.8167030652661992,
+          "ratio_to_same_grid_bulk_Sa": 0.7870242284776794
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": 85.7046124837755,
+          "deltaT_right_minus_left_K": 0.10643704344307042,
+          "V_temperature_corrected_uV": 85.17067397793899,
+          "ratio_to_A64_continuum_tensor_point": 0.8599623051724841,
+          "ratio_corrected_to_A64": 0.8546047523524832,
+          "ratio_to_same_grid_bulk_Sa": 0.8294754646055691
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": 114.7045843459031,
+          "deltaT_right_minus_left_K": -0.0903786180931948,
+          "V_temperature_corrected_uV": 115.15796620191135,
+          "ratio_to_A64_continuum_tensor_point": 1.1509487752088958,
+          "ratio_corrected_to_A64": 1.1554980205145675,
+          "ratio_to_same_grid_bulk_Sa": 1.1101460660675435
+        }
+      ]
+    },
+    "gap4pct_16_shortline": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        800,
+        400
+      ],
+      "elements": 320000,
+      "nodes": 321201,
+      "box_m": [
+        0.016,
+        0.008
+      ],
+      "residual": 4.089928544071843e-15,
+      "heat_input_W_per_m": 2.460351039415927,
+      "heat_output_W_per_m": 2.460351039355977,
+      "seconds": 10.210383400029968,
+      "floating_electrode_nodes": [
+        5,
+        5
+      ],
+      "kind": "gap4pct",
+      "cells": [
+        16,
+        8
+      ],
+      "base_pixels_per_cell": 50,
+      "fixed_geometry_refinement": 1,
+      "pixels_per_cell": 50,
+      "electrode": "short_line",
+      "mirror": false,
+      "periodic_same_grid": {
+        "N": 50,
+        "fractions": [
+          580,
+          896,
+          1024
+        ],
+        "sigma": [
+          [
+            32033.35327054401,
+            1.3008982779894038e-10
+          ],
+          [
+            1.2509368541024912e-10,
+            32033.353270543925
+          ]
+        ],
+        "alpha": [
+          [
+            0.16069443709562573,
+            1.6549049644966418
+          ],
+          [
+            -1.6549049644966698,
+            0.1606944370955642
+          ]
+        ],
+        "S_uV_K": [
+          [
+            5.016472541555542,
+            51.6619334391818
+          ],
+          [
+            -51.66193343918285,
+            5.016472541553223
+          ]
+        ],
+        "kappa_open_circuit": [
+          [
+            1.2304016911163458,
+            -3.1899023005604474e-15
+          ],
+          [
+            -3.3894364062234534e-15,
+            1.2304016911163456
+          ]
+        ],
+        "Santi_main_uV_K": 51.661933439182334,
+        "a_cross_z_uV_K": -51.661933439182334,
+        "alpha_antisymmetric": 1.6549049644966558,
+        "scaled_effective_energy": [
+          [
+            0.32033353270544007,
+            1.300898277989404e-15,
+            0.008034721854781286,
+            0.08274524822483209
+          ],
+          [
+            1.2509368541024912e-15,
+            0.3203335327054393,
+            -0.08274524822483349,
+            0.00803472185477821
+          ],
+          [
+            0.008034721854781266,
+            -0.08274524822483288,
+            1.0469101699357724,
+            -1.811442662535967e-15
+          ],
+          [
+            0.0827452482248317,
+            0.008034721854778288,
+            -2.0145704549001663e-15,
+            1.0469101699357712
+          ]
+        ],
+        "onsager_relative": 6.880950335337104e-16,
+        "flux_energy_difference": 8.987370100373896e-15,
+        "residual_relative": 3.2218162171154484e-14,
+        "seconds": 0.041779100021813065,
+        "Sa": 51.661933439182334,
+        "Sxx": 5.016472541555542,
+        "sigma_iso": 32033.353270543965
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": 101.9642946513152,
+          "deltaT_right_minus_left_K": 0.003850486317104468,
+          "V_temperature_corrected_uV": 101.94497879243382,
+          "ratio_to_A64_continuum_tensor_point": 1.023112377880839,
+          "ratio_corrected_to_A64": 1.022918562051695,
+          "ratio_to_same_grid_bulk_Sa": 0.9868416439674099
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": 102.80764463535475,
+          "deltaT_right_minus_left_K": 0.003982261381653057,
+          "V_temperature_corrected_uV": 102.7876677304804,
+          "ratio_to_A64_continuum_tensor_point": 1.0315745735004636,
+          "ratio_corrected_to_A64": 1.0313741247186758,
+          "ratio_to_same_grid_bulk_Sa": 0.9950038431719012
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": 102.69991081358394,
+          "deltaT_right_minus_left_K": 0.0040426132607453424,
+          "V_temperature_corrected_uV": 102.67963115516528,
+          "ratio_to_A64_continuum_tensor_point": 1.030493569537782,
+          "ratio_corrected_to_A64": 1.030290082919076,
+          "ratio_to_same_grid_bulk_Sa": 0.993961162279038
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": 102.80764464199979,
+          "deltaT_right_minus_left_K": 0.003982261379870011,
+          "V_temperature_corrected_uV": 102.78766773713437,
+          "ratio_to_A64_continuum_tensor_point": 1.0315745735671402,
+          "ratio_corrected_to_A64": 1.031374124785442,
+          "ratio_to_same_grid_bulk_Sa": 0.9950038432362138
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": 101.96429466440362,
+          "deltaT_right_minus_left_K": 0.0038504863140972345,
+          "V_temperature_corrected_uV": 101.94497880553732,
+          "ratio_to_A64_continuum_tensor_point": 1.0231123780121687,
+          "ratio_corrected_to_A64": 1.0229185621831758,
+          "ratio_to_same_grid_bulk_Sa": 0.9868416440940837
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": 89.52551084399983,
+          "deltaT_right_minus_left_K": 0.09338189132956037,
+          "V_temperature_corrected_uV": 89.05706315026656,
+          "ratio_to_A64_continuum_tensor_point": 0.8983012984479077,
+          "ratio_corrected_to_A64": 0.8936008821356369,
+          "ratio_to_same_grid_bulk_Sa": 0.8664552881029066
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": 95.07346376315452,
+          "deltaT_right_minus_left_K": -0.10691575671046505,
+          "V_temperature_corrected_uV": 95.6098037209522,
+          "ratio_to_A64_continuum_tensor_point": 0.9539696019741372,
+          "ratio_corrected_to_A64": 0.9593512510254192,
+          "ratio_to_same_grid_bulk_Sa": 0.9201500740876963
+        }
+      ]
+    },
+    "homogeneous_8_fullline": {
+      "number_type": "uniform_grid_point_estimate",
+      "grid_shape": [
+        256,
+        128
+      ],
+      "elements": 32768,
+      "nodes": 33153,
+      "box_m": [
+        0.008,
+        0.004
+      ],
+      "residual": 2.2607284339555732e-15,
+      "heat_input_W_per_m": 2.4839037100260795,
+      "heat_output_W_per_m": 2.4839037100217065,
+      "seconds": 0.49619609996443614,
+      "floating_electrode_nodes": [
+        129,
+        129
+      ],
+      "kind": "homogeneous",
+      "cells": [
+        8,
+        4
+      ],
+      "base_pixels_per_cell": 32,
+      "fixed_geometry_refinement": 1,
+      "pixels_per_cell": 32,
+      "electrode": "full_line",
+      "mirror": false,
+      "periodic_same_grid": {
+        "m": 4,
+        "radial_elements": 4,
+        "radius_per_pixel": 0.22,
+        "outer_gauss_order": 10,
+        "vertices": 585728,
+        "outer_elements": 524288,
+        "smallest_angular_exponent": 0.013031368994420624,
+        "sigma": [
+          [
+            32248.219736493276,
+            -2.0519116309132182e-08
+          ],
+          [
+            -2.1117000813793726e-08,
+            32248.2197364929
+          ]
+        ],
+        "alpha": [
+          [
+            0.2732556056623703,
+            1.6069432103371522
+          ],
+          [
+            -1.6069432103328558,
+            0.27325560566969387
+          ]
+        ],
+        "S_uV_K": [
+          [
+            8.473509790437259,
+            49.83044718337892
+          ],
+          [
+            -49.830447183235336,
+            8.473509790728794
+          ]
+        ],
+        "Santi_main_uV_K": 49.83044718330713,
+        "scaled_effective_energy": [
+          [
+            0.3224821973649328,
+            -2.0519116309132183e-13,
+            0.013662780283118514,
+            0.08034716051685761
+          ],
+          [
+            -2.111700081379373e-13,
+            0.32248219736492906,
+            -0.08034716051664278,
+            0.013662780283484693
+          ],
+          [
+            0.013662780283104428,
+            -0.08034716051664006,
+            1.0554038507201453,
+            1.0176965623247513e-13
+          ],
+          [
+            0.08034716051686308,
+            0.0136627802834733,
+            1.1309901696777958e-13,
+            1.0554038507197738
+          ]
+        ],
+        "residual_relative": 2.473058838861146e-11,
+        "onsager_relative": 2.0740932070523724e-14,
+        "seconds": 62.037868199986406,
+        "Sa": 49.83044718330713,
+        "Sxx": 8.473509790437259,
+        "sigma_iso": 32248.21973649309
+      },
+      "aligned_probes": [
+        {
+          "left_y_over_H": 0.1,
+          "right_y_over_H": 0.1,
+          "V_left_minus_right_uV": 99.67567893217914,
+          "deltaT_right_minus_left_K": 0.001167096882693855,
+          "V_temperature_corrected_uV": 99.66578952531724,
+          "ratio_to_A64_continuum_tensor_point": 1.0001483483794535,
+          "ratio_corrected_to_A64": 1.0000491178144317,
+          "ratio_to_same_grid_bulk_Sa": 1.0001483487144966
+        },
+        {
+          "left_y_over_H": 0.25,
+          "right_y_over_H": 0.25,
+          "V_left_minus_right_uV": 99.67567893217914,
+          "deltaT_right_minus_left_K": 0.0019622045120228915,
+          "V_temperature_corrected_uV": 99.65905217303568,
+          "ratio_to_A64_continuum_tensor_point": 1.0001483483794535,
+          "ratio_corrected_to_A64": 0.9999815150468454,
+          "ratio_to_same_grid_bulk_Sa": 1.0001483487144966
+        },
+        {
+          "left_y_over_H": 0.5,
+          "right_y_over_H": 0.5,
+          "V_left_minus_right_uV": 99.67567893217914,
+          "deltaT_right_minus_left_K": 0.002385768386099163,
+          "V_temperature_corrected_uV": 99.65546310040182,
+          "ratio_to_A64_continuum_tensor_point": 1.0001483483794535,
+          "ratio_corrected_to_A64": 0.9999455021989229,
+          "ratio_to_same_grid_bulk_Sa": 1.0001483487144966
+        },
+        {
+          "left_y_over_H": 0.75,
+          "right_y_over_H": 0.75,
+          "V_left_minus_right_uV": 99.67567893217914,
+          "deltaT_right_minus_left_K": 0.0019622045120224474,
+          "V_temperature_corrected_uV": 99.65905217303568,
+          "ratio_to_A64_continuum_tensor_point": 1.0001483483794535,
+          "ratio_corrected_to_A64": 0.9999815150468454,
+          "ratio_to_same_grid_bulk_Sa": 1.0001483487144966
+        },
+        {
+          "left_y_over_H": 0.9,
+          "right_y_over_H": 0.9,
+          "V_left_minus_right_uV": 99.67567893217914,
+          "deltaT_right_minus_left_K": 0.0011670968826937855,
+          "V_temperature_corrected_uV": 99.66578952531725,
+          "ratio_to_A64_continuum_tensor_point": 1.0001483483794535,
+          "ratio_corrected_to_A64": 1.0000491178144317,
+          "ratio_to_same_grid_bulk_Sa": 1.0001483487144966
+        }
+      ],
+      "misaligned_probes": [
+        {
+          "left_y_over_H": 0.45,
+          "right_y_over_H": 0.55,
+          "V_left_minus_right_uV": 99.67567893217914,
+          "deltaT_right_minus_left_K": 0.10234246737151198,
+          "V_temperature_corrected_uV": 98.80847903292913,
+          "ratio_to_A64_continuum_tensor_point": 1.0001483483794535,
+          "ratio_corrected_to_A64": 0.9914468420918479,
+          "ratio_to_same_grid_bulk_Sa": 1.0001483487144966
+        },
+        {
+          "left_y_over_H": 0.55,
+          "right_y_over_H": 0.45,
+          "V_left_minus_right_uV": 99.67567893217915,
+          "deltaT_right_minus_left_K": -0.0976032044378416,
+          "V_temperature_corrected_uV": 100.50272064056125,
+          "ratio_to_A64_continuum_tensor_point": 1.0001483483794538,
+          "ratio_corrected_to_A64": 1.0084469063380315,
+          "ratio_to_same_grid_bulk_Sa": 1.0001483487144969
+        }
+      ]
+    }
+  }
+}
