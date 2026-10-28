@@ -6,10 +6,10 @@ authors:
     given-names: Joohan
     orcid: "https://orcid.org/0000-0001-5123-418X"
     affiliation: "Technische Universität Dresden"
-version: 1.0.0
-doi: 10.5281/zenodo.23668925
+version: 1.1.0
+doi: 10.5281/zenodo.23738657
 repository-code: "https://github.com/joohan-git/antisymmetric-thermopower"
-date-released: 2026-10-26
+date-released: 2026-10-28
 license: MIT
 keywords:
   - thermoelectric composites

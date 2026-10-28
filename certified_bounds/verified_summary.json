@@ -1,0 +1,749 @@
+{
+  "classification_legend": {
+    "C": "floating-point variational continuum enclosure",
+    "P": "uniform-grid point estimate or computational timing",
+    "V": "ball-arithmetic verified continuum enclosure"
+  },
+  "bulk_Sa_uV_K_C": {
+    "A_gap4pct": [
+      51.554477350127335,
+      52.17343646750079
+    ],
+    "Fig2b_pinwheel": [
+      -15.645599581832435,
+      -15.430611906820522
+    ]
+  },
+  "finite_cases_P": {
+    "A_gap4pct_N4_shift0_0": {
+      "cells_per_side": 4,
+      "base_pixels_per_cell": 50,
+      "termination_shift_fraction_cell": [
+        0.0,
+        0.0
+      ],
+      "measurements": {
+        "midpoint": {
+          "Sxy_uV_K_P": 50.11454950410757,
+          "Syx_uV_K_P": -50.114549505158834,
+          "half_difference_Sa_uV_K_P": 50.1145495046332,
+          "half_sum_symmetric_uV_K_P": -5.256310942058917e-10,
+          "half_difference_temperature_corrected_uV_K_P": 50.074901125669115,
+          "half_sum_temperature_corrected_uV_K_P": -5.251656887139688e-10,
+          "ratio_to_bulk_C_interval_P": [
+            0.960537639414454,
+            0.9720697809481221
+          ],
+          "ratio_to_same_grid_bulk_P": 0.9700478895864254
+        },
+        "matched_tilt": {
+          "Sxy_uV_K_P": 38.93728551975888,
+          "Syx_uV_K_P": -61.13826965895397,
+          "half_difference_Sa_uV_K_P": 50.03777758935642,
+          "half_sum_symmetric_uV_K_P": -11.100492069597546,
+          "half_difference_temperature_corrected_uV_K_P": 49.99156736472674,
+          "half_sum_temperature_corrected_uV_K_P": -11.413496575194301,
+          "ratio_to_bulk_C_interval_P": [
+            0.9590661642639797,
+            0.9705806393793813
+          ],
+          "ratio_to_same_grid_bulk_P": 0.9685618454110335
+        },
+        "one_axis_tilt": {
+          "Sxy_uV_K_P": 38.93728551975888,
+          "Syx_uV_K_P": -50.114549505158834,
+          "half_difference_Sa_uV_K_P": 44.52591751245886,
+          "half_sum_symmetric_uV_K_P": -5.588631992699977,
+          "half_difference_temperature_corrected_uV_K_P": 44.326485957863355,
+          "half_sum_temperature_corrected_uV_K_P": -5.748415168330919,
+          "ratio_to_bulk_C_interval_P": [
+            0.8534212144564097,
+            0.8636673243735035
+          ],
+          "ratio_to_same_grid_bulk_P": 0.8618709085844771
+        },
+        "opposed_tilt": {
+          "Sxy_uV_K_P": 38.93728551975888,
+          "Syx_uV_K_P": -38.937285520798454,
+          "half_difference_Sa_uV_K_P": 38.937285520278664,
+          "half_sum_symmetric_uV_K_P": -5.197868802042649e-10,
+          "half_difference_temperature_corrected_uV_K_P": 38.57807079005179,
+          "half_sum_temperature_corrected_uV_K_P": -5.193498964217724e-10,
+          "ratio_to_bulk_C_interval_P": [
+            0.7463047894982532,
+            0.7552648677987711
+          ],
+          "ratio_to_same_grid_bulk_P": 0.7536939275824156
+        },
+        "common_shift": {
+          "Sxy_uV_K_P": 43.68527746497141,
+          "Syx_uV_K_P": -43.68527746586032,
+          "half_difference_Sa_uV_K_P": 43.685277465415865,
+          "half_sum_symmetric_uV_K_P": -4.4445158664530027e-10,
+          "half_difference_temperature_corrected_uV_K_P": 43.668944706438296,
+          "half_sum_temperature_corrected_uV_K_P": -4.4359538264870935e-10,
+          "ratio_to_bulk_C_interval_P": [
+            0.837308799711281,
+            0.8473614652075988
+          ],
+          "ratio_to_same_grid_bulk_P": 0.8455989653744419
+        }
+      }
+    },
+    "A_gap4pct_N8_shift0_0": {
+      "cells_per_side": 8,
+      "base_pixels_per_cell": 50,
+      "termination_shift_fraction_cell": [
+        0.0,
+        0.0
+      ],
+      "measurements": {
+        "midpoint": {
+          "Sxy_uV_K_P": 50.89863880510449,
+          "Syx_uV_K_P": -50.89863880934137,
+          "half_difference_Sa_uV_K_P": 50.89863880722293,
+          "half_sum_symmetric_uV_K_P": -2.118440534104593e-09,
+          "half_difference_temperature_corrected_uV_K_P": 50.87812721061052,
+          "half_sum_temperature_corrected_uV_K_P": -2.1171828734622977e-09,
+          "ratio_to_bulk_C_interval_P": [
+            0.9755661549901559,
+            0.9872787277339592
+          ],
+          "ratio_to_same_grid_bulk_P": 0.9852252019785909
+        },
+        "matched_tilt": {
+          "Sxy_uV_K_P": 45.29971045962402,
+          "Syx_uV_K_P": -56.41612591231372,
+          "half_difference_Sa_uV_K_P": 50.85791818596887,
+          "half_sum_symmetric_uV_K_P": -5.558207726344847,
+          "half_difference_temperature_corrected_uV_K_P": 50.8341089166795,
+          "half_sum_temperature_corrected_uV_K_P": -5.714726160192473,
+          "ratio_to_bulk_C_interval_P": [
+            0.9747856692868723,
+            0.9864888715789348
+          ],
+          "ratio_to_same_grid_bulk_P": 0.9844369887131699
+        },
+        "one_axis_tilt": {
+          "Sxy_uV_K_P": 45.29971045962402,
+          "Syx_uV_K_P": -50.89863880934137,
+          "half_difference_Sa_uV_K_P": 48.099174634482694,
+          "half_sum_symmetric_uV_K_P": -2.7994641748586737,
+          "half_difference_temperature_corrected_uV_K_P": 47.998754984607366,
+          "half_sum_temperature_corrected_uV_K_P": -2.8793722281203387,
+          "ratio_to_bulk_C_interval_P": [
+            0.9219092682239556,
+            0.9329776404835165
+          ],
+          "ratio_to_same_grid_bulk_P": 0.9310370602197108
+        },
+        "opposed_tilt": {
+          "Sxy_uV_K_P": 45.29971045962402,
+          "Syx_uV_K_P": -45.29971046383263,
+          "half_difference_Sa_uV_K_P": 45.299710461728324,
+          "half_sum_symmetric_uV_K_P": -2.104304286376646e-09,
+          "half_difference_temperature_corrected_uV_K_P": 45.119382758590135,
+          "half_sum_temperature_corrected_uV_K_P": -2.10310702186689e-09,
+          "ratio_to_bulk_C_interval_P": [
+            0.8682523814574844,
+            0.8786765532327996
+          ],
+          "ratio_to_same_grid_bulk_P": 0.8768489184605572
+        },
+        "common_shift": {
+          "Sxy_uV_K_P": 47.68625550732168,
+          "Syx_uV_K_P": -47.68625551120804,
+          "half_difference_Sa_uV_K_P": 47.68625550926486,
+          "half_sum_symmetric_uV_K_P": -1.9431780629020068e-09,
+          "half_difference_temperature_corrected_uV_K_P": 47.677327481621276,
+          "half_sum_temperature_corrected_uV_K_P": -1.941053540122084e-09,
+          "ratio_to_bulk_C_interval_P": [
+            0.9139949126979391,
+            0.9249682658095472
+          ],
+          "ratio_to_same_grid_bulk_P": 0.9230443449315009
+        }
+      }
+    },
+    "A_gap4pct_N8_shift12_0": {
+      "cells_per_side": 8,
+      "base_pixels_per_cell": 50,
+      "termination_shift_fraction_cell": [
+        0.24,
+        0.0
+      ],
+      "measurements": {
+        "midpoint": {
+          "Sxy_uV_K_P": 52.333496603154764,
+          "Syx_uV_K_P": -47.23982911966014,
+          "half_difference_Sa_uV_K_P": 49.78666286140745,
+          "half_sum_symmetric_uV_K_P": 2.54683374174731,
+          "half_difference_temperature_corrected_uV_K_P": 49.788951199971834,
+          "half_sum_temperature_corrected_uV_K_P": 2.5605274301914704,
+          "ratio_to_bulk_C_interval_P": [
+            0.9542530880138578,
+            0.9657097777034196
+          ],
+          "ratio_to_same_grid_bulk_P": 0.9637011150582954
+        },
+        "matched_tilt": {
+          "Sxy_uV_K_P": 42.28428401696631,
+          "Syx_uV_K_P": -45.07095195109479,
+          "half_difference_Sa_uV_K_P": 43.67761798403055,
+          "half_sum_symmetric_uV_K_P": -1.3933339670642404,
+          "half_difference_temperature_corrected_uV_K_P": 43.67978217214443,
+          "half_sum_temperature_corrected_uV_K_P": -1.5494656738578172,
+          "ratio_to_bulk_C_interval_P": [
+            0.8371619916437294,
+            0.8472128945736013
+          ],
+          "ratio_to_same_grid_bulk_P": 0.8454507037652566
+        },
+        "one_axis_tilt": {
+          "Sxy_uV_K_P": 42.28428401696631,
+          "Syx_uV_K_P": -47.23982911966014,
+          "half_difference_Sa_uV_K_P": 44.76205656831323,
+          "half_sum_symmetric_uV_K_P": -2.4777725513469164,
+          "half_difference_temperature_corrected_uV_K_P": 44.67937013403349,
+          "half_sum_temperature_corrected_uV_K_P": -2.5490536357468763,
+          "ratio_to_bulk_C_interval_P": [
+            0.857947254369488,
+            0.8682477035760827
+          ],
+          "ratio_to_same_grid_bulk_P": 0.8664417606632588
+        },
+        "opposed_tilt": {
+          "Sxy_uV_K_P": 42.28428401696631,
+          "Syx_uV_K_P": -46.267591037212284,
+          "half_difference_Sa_uV_K_P": 44.2759375270893,
+          "half_sum_symmetric_uV_K_P": -1.9916535101229869,
+          "half_difference_temperature_corrected_uV_K_P": 44.120051481213096,
+          "half_sum_temperature_corrected_uV_K_P": -1.989734982926489,
+          "ratio_to_bulk_C_interval_P": [
+            0.8486298876377272,
+            0.8588184732509938
+          ],
+          "ratio_to_same_grid_bulk_P": 0.857032143003552
+        },
+        "common_shift": {
+          "Sxy_uV_K_P": 49.511378885408256,
+          "Syx_uV_K_P": -50.053505543578446,
+          "half_difference_Sa_uV_K_P": 49.78244221449335,
+          "half_sum_symmetric_uV_K_P": -0.271063329085095,
+          "half_difference_temperature_corrected_uV_K_P": 49.77426923517488,
+          "half_sum_temperature_corrected_uV_K_P": -0.25893185203666746,
+          "ratio_to_bulk_C_interval_P": [
+            0.954172191542399,
+            0.9656279099951033
+          ],
+          "ratio_to_same_grid_bulk_P": 0.9636194176336516
+        }
+      }
+    },
+    "Fig2b_pinwheel_N4_shift0_0": {
+      "cells_per_side": 4,
+      "base_pixels_per_cell": 24,
+      "termination_shift_fraction_cell": [
+        0.0,
+        0.0
+      ],
+      "measurements": {
+        "midpoint": {
+          "Sxy_uV_K_P": -11.263648293973603,
+          "Syx_uV_K_P": 11.263648293984849,
+          "half_difference_Sa_uV_K_P": -11.263648293979227,
+          "half_sum_symmetric_uV_K_P": 5.623057575121493e-12,
+          "half_difference_temperature_corrected_uV_K_P": -11.877728136162883,
+          "half_sum_temperature_corrected_uV_K_P": 5.575095940457686e-12,
+          "ratio_to_bulk_C_interval_P": [
+            0.7199243618032063,
+            0.7299547394488325
+          ],
+          "ratio_to_same_grid_bulk_P": 0.725206084173718
+        },
+        "matched_tilt": {
+          "Sxy_uV_K_P": -12.237842216911494,
+          "Syx_uV_K_P": 12.600967426507076,
+          "half_difference_Sa_uV_K_P": -12.419404821709286,
+          "half_sum_symmetric_uV_K_P": 0.18156260479779096,
+          "half_difference_temperature_corrected_uV_K_P": -12.950197812679964,
+          "half_sum_temperature_corrected_uV_K_P": 0.7431480168968587,
+          "ratio_to_bulk_C_interval_P": [
+            0.7937953899913567,
+            0.804854978966826
+          ],
+          "ratio_to_same_grid_bulk_P": 0.7996190668821138
+        },
+        "one_axis_tilt": {
+          "Sxy_uV_K_P": -12.237842216911494,
+          "Syx_uV_K_P": 11.263648293984849,
+          "half_difference_Sa_uV_K_P": -11.750745255448171,
+          "half_sum_symmetric_uV_K_P": -0.4870969614633225,
+          "half_difference_temperature_corrected_uV_K_P": -12.042388965975782,
+          "half_sum_temperature_corrected_uV_K_P": -0.16466082980732377,
+          "ratio_to_bulk_C_interval_P": [
+            0.7510575222117443,
+            0.7615216639758917
+          ],
+          "ratio_to_same_grid_bulk_P": 0.7565676528964054
+        },
+        "opposed_tilt": {
+          "Sxy_uV_K_P": -12.237842216911494,
+          "Syx_uV_K_P": 12.237842216922362,
+          "half_difference_Sa_uV_K_P": -12.237842216916928,
+          "half_sum_symmetric_uV_K_P": 5.433875571725366e-12,
+          "half_difference_temperature_corrected_uV_K_P": -12.207049795788487,
+          "half_sum_temperature_corrected_uV_K_P": 5.382361223382759e-12,
+          "ratio_to_bulk_C_interval_P": [
+            0.7821906826202703,
+            0.7930885885029387
+          ],
+          "ratio_to_same_grid_bulk_P": 0.7879292216190805
+        },
+        "common_shift": {
+          "Sxy_uV_K_P": -20.57061822847918,
+          "Syx_uV_K_P": 20.570618228488026,
+          "half_difference_Sa_uV_K_P": -20.570618228483603,
+          "half_sum_symmetric_uV_K_P": 4.423128530106624e-12,
+          "half_difference_temperature_corrected_uV_K_P": -20.03709511538574,
+          "half_sum_temperature_corrected_uV_K_P": 4.39825953435502e-12,
+          "ratio_to_bulk_C_interval_P": [
+            1.3147861877003466,
+            1.333104503742404
+          ],
+          "ratio_to_same_grid_bulk_P": 1.3244321116174413
+        }
+      }
+    },
+    "Fig2b_pinwheel_N8_shift0_0": {
+      "cells_per_side": 8,
+      "base_pixels_per_cell": 24,
+      "termination_shift_fraction_cell": [
+        0.0,
+        0.0
+      ],
+      "measurements": {
+        "midpoint": {
+          "Sxy_uV_K_P": -13.270861138239939,
+          "Syx_uV_K_P": 13.270861138229595,
+          "half_difference_Sa_uV_K_P": -13.270861138234768,
+          "half_sum_symmetric_uV_K_P": -5.171862937913829e-12,
+          "half_difference_temperature_corrected_uV_K_P": -13.603419130922706,
+          "half_sum_temperature_corrected_uV_K_P": -5.219824572577636e-12,
+          "ratio_to_bulk_C_interval_P": [
+            0.8482168464572494,
+            0.8600346647542139
+          ],
+          "ratio_to_same_grid_bulk_P": 0.8544397861585215
+        },
+        "matched_tilt": {
+          "Sxy_uV_K_P": -13.768848834737351,
+          "Syx_uV_K_P": 13.929098315719509,
+          "half_difference_Sa_uV_K_P": -13.848973575228431,
+          "half_sum_symmetric_uV_K_P": 0.08012474049107876,
+          "half_difference_temperature_corrected_uV_K_P": -14.139889687097845,
+          "half_sum_temperature_corrected_uV_K_P": 0.3606166135889559,
+          "ratio_to_bulk_C_interval_P": [
+            0.8851673278990065,
+            0.8974999603941185
+          ],
+          "ratio_to_same_grid_bulk_P": 0.8916613546682913
+        },
+        "one_axis_tilt": {
+          "Sxy_uV_K_P": -13.768848834737351,
+          "Syx_uV_K_P": 13.270861138229595,
+          "half_difference_Sa_uV_K_P": -13.519854986483473,
+          "half_sum_symmetric_uV_K_P": -0.24899384825387827,
+          "half_difference_temperature_corrected_uV_K_P": -13.691346102213188,
+          "half_sum_temperature_corrected_uV_K_P": -0.08792697129570204,
+          "ratio_to_bulk_C_interval_P": [
+            0.8641314713296534,
+            0.8761710208334337
+          ],
+          "ratio_to_same_grid_bulk_P": 0.870471168616398
+        },
+        "opposed_tilt": {
+          "Sxy_uV_K_P": -13.768848834737351,
+          "Syx_uV_K_P": 13.768848834727176,
+          "half_difference_Sa_uV_K_P": -13.768848834732264,
+          "half_sum_symmetric_uV_K_P": -5.087485988042317e-12,
+          "half_difference_temperature_corrected_uV_K_P": -13.779273073503749,
+          "half_sum_temperature_corrected_uV_K_P": -5.140776693224325e-12,
+          "ratio_to_bulk_C_interval_P": [
+            0.880046096202063,
+            0.892307376912659
+          ],
+          "ratio_to_same_grid_bulk_P": 0.8865025510742799
+        },
+        "common_shift": {
+          "Sxy_uV_K_P": -18.088321799149764,
+          "Syx_uV_K_P": 18.088321799137653,
+          "half_difference_Sa_uV_K_P": -18.088321799143706,
+          "half_sum_symmetric_uV_K_P": -6.055600465515454e-12,
+          "half_difference_temperature_corrected_uV_K_P": -17.847839895132573,
+          "half_sum_temperature_corrected_uV_K_P": -6.10178574333986e-12,
+          "ratio_to_bulk_C_interval_P": [
+            1.156128386421684,
+            1.1722361957109715
+          ],
+          "ratio_to_same_grid_bulk_P": 1.1646103179768994
+        }
+      }
+    },
+    "Fig2b_pinwheel_N8_shift6_0": {
+      "cells_per_side": 8,
+      "base_pixels_per_cell": 24,
+      "termination_shift_fraction_cell": [
+        0.25,
+        0.0
+      ],
+      "measurements": {
+        "midpoint": {
+          "Sxy_uV_K_P": -15.228825052093825,
+          "Syx_uV_K_P": 16.629209267643517,
+          "half_difference_Sa_uV_K_P": -15.929017159868671,
+          "half_sum_symmetric_uV_K_P": 0.7001921077748463,
+          "half_difference_temperature_corrected_uV_K_P": -15.927732091077068,
+          "half_sum_temperature_corrected_uV_K_P": 0.4924361929112484,
+          "ratio_to_bulk_C_interval_P": [
+            1.0181148428702815,
+            1.0322997724301424
+          ],
+          "ratio_to_same_grid_bulk_P": 1.025584238582727
+        },
+        "matched_tilt": {
+          "Sxy_uV_K_P": -23.88016051708343,
+          "Syx_uV_K_P": 10.139839003739745,
+          "half_difference_Sa_uV_K_P": -17.00999976041159,
+          "half_sum_symmetric_uV_K_P": -6.870160756671842,
+          "half_difference_temperature_corrected_uV_K_P": -16.98803641384336,
+          "half_sum_temperature_corrected_uV_K_P": -6.199960595154051,
+          "ratio_to_bulk_C_interval_P": [
+            1.087206640528081,
+            1.1023541945794748
+          ],
+          "ratio_to_same_grid_bulk_P": 1.0951829279539753
+        },
+        "one_axis_tilt": {
+          "Sxy_uV_K_P": -23.88016051708343,
+          "Syx_uV_K_P": 16.629209267643517,
+          "half_difference_Sa_uV_K_P": -20.25468489236347,
+          "half_sum_symmetric_uV_K_P": -3.6254756247199555,
+          "half_difference_temperature_corrected_uV_K_P": -19.804082646492866,
+          "half_sum_temperature_corrected_uV_K_P": -3.3839143625045462,
+          "ratio_to_bulk_C_interval_P": [
+            1.2945930762463762,
+            1.3126300508802669
+          ],
+          "ratio_to_same_grid_bulk_P": 1.3040908534772977
+        },
+        "opposed_tilt": {
+          "Sxy_uV_K_P": -23.88016051708343,
+          "Syx_uV_K_P": 16.258928474130975,
+          "half_difference_Sa_uV_K_P": -20.069544495607204,
+          "half_sum_symmetric_uV_K_P": -3.8106160214762266,
+          "half_difference_temperature_corrected_uV_K_P": -19.484978718608993,
+          "half_sum_temperature_corrected_uV_K_P": -3.7030182903884157,
+          "ratio_to_bulk_C_interval_P": [
+            1.2827596916715052,
+            1.3006317971574552
+          ],
+          "ratio_to_same_grid_bulk_P": 1.2921706533210349
+        },
+        "common_shift": {
+          "Sxy_uV_K_P": -21.563909266135784,
+          "Syx_uV_K_P": 11.997387803150522,
+          "half_difference_Sa_uV_K_P": -16.780648534643152,
+          "half_sum_symmetric_uV_K_P": -4.783260731492631,
+          "half_difference_temperature_corrected_uV_K_P": -16.930069595225863,
+          "half_sum_temperature_corrected_uV_K_P": -4.570780420245811,
+          "ratio_to_bulk_C_interval_P": [
+            1.0725474883128625,
+            1.0874908030851258
+          ],
+          "ratio_to_same_grid_bulk_P": 1.0804162289237085
+        }
+      }
+    },
+    "A_gap4pct_N16_shift0_0": {
+      "cells_per_side": 16,
+      "base_pixels_per_cell": 50,
+      "termination_shift_fraction_cell": [
+        0.0,
+        0.0
+      ],
+      "measurements": {
+        "midpoint": {
+          "Sxy_uV_K_P": 51.28207143005727,
+          "Syx_uV_K_P": -51.28207144699033,
+          "half_difference_Sa_uV_K_P": 51.2820714385238,
+          "half_sum_symmetric_uV_K_P": -8.466528811368335e-09,
+          "half_difference_temperature_corrected_uV_K_P": 51.27162988545078,
+          "half_sum_temperature_corrected_uV_K_P": -8.462020417709937e-09,
+          "ratio_to_bulk_C_interval_P": [
+            0.982915347553688,
+            0.9947161541420833
+          ],
+          "ratio_to_same_grid_bulk_P": 0.9926471586452389
+        },
+        "matched_tilt": {
+          "Sxy_uV_K_P": 48.479941953943985,
+          "Syx_uV_K_P": -54.04238385267347,
+          "half_difference_Sa_uV_K_P": 51.26116290330873,
+          "half_sum_symmetric_uV_K_P": -2.781220949364741,
+          "half_difference_temperature_corrected_uV_K_P": 51.2490694128752,
+          "half_sum_temperature_corrected_uV_K_P": -2.859487660352805,
+          "ratio_to_bulk_C_interval_P": [
+            0.9825145969681272,
+            0.9943105921756011
+          ],
+          "ratio_to_same_grid_bulk_P": 0.9922424402418969
+        },
+        "one_axis_tilt": {
+          "Sxy_uV_K_P": 48.479941953943985,
+          "Syx_uV_K_P": -51.28207144699033,
+          "half_difference_Sa_uV_K_P": 49.881006700467154,
+          "half_sum_symmetric_uV_K_P": -1.401064746523172,
+          "half_difference_temperature_corrected_uV_K_P": 49.830605823217596,
+          "half_sum_temperature_corrected_uV_K_P": -1.441024070695203,
+          "ratio_to_bulk_C_interval_P": [
+            0.9560613614466126,
+            0.9675397611288935
+          ],
+          "ratio_to_same_grid_bulk_P": 0.9655272921441911
+        },
+        "opposed_tilt": {
+          "Sxy_uV_K_P": 48.479941953943985,
+          "Syx_uV_K_P": -48.47994197082447,
+          "half_difference_Sa_uV_K_P": 48.47994196238423,
+          "half_sum_symmetric_uV_K_P": -8.44024228285889e-09,
+          "half_difference_temperature_corrected_uV_K_P": 48.38958176095829,
+          "half_sum_temperature_corrected_uV_K_P": -8.435897314029717e-09,
+          "ratio_to_bulk_C_interval_P": [
+            0.9292073753390335,
+            0.9403633681151942
+          ],
+          "ratio_to_same_grid_bulk_P": 0.9384074256426346
+        },
+        "common_shift": {
+          "Sxy_uV_K_P": 49.67621317560599,
+          "Syx_uV_K_P": -49.67621319182018,
+          "half_difference_Sa_uV_K_P": 49.67621318371309,
+          "half_sum_symmetric_uV_K_P": -8.107097215770409e-09,
+          "half_difference_temperature_corrected_uV_K_P": 49.67155041177119,
+          "half_sum_temperature_corrected_uV_K_P": -8.10087286140515e-09,
+          "ratio_to_bulk_C_interval_P": [
+            0.9521361165208421,
+            0.9635673900123515
+          ],
+          "ratio_to_same_grid_bulk_P": 0.9615631835032484
+        }
+      }
+    },
+    "Fig2b_pinwheel_N16_shift0_0": {
+      "cells_per_side": 16,
+      "base_pixels_per_cell": 24,
+      "termination_shift_fraction_cell": [
+        0.0,
+        0.0
+      ],
+      "measurements": {
+        "midpoint": {
+          "Sxy_uV_K_P": -14.371100847048796,
+          "Syx_uV_K_P": 14.37110084702683,
+          "half_difference_Sa_uV_K_P": -14.371100847037813,
+          "half_sum_symmetric_uV_K_P": -1.0983214338011749e-11,
+          "half_difference_temperature_corrected_uV_K_P": -14.543940381559825,
+          "half_sum_temperature_corrected_uV_K_P": -1.1241674258144485e-11,
+          "ratio_to_bulk_C_interval_P": [
+            0.9185394763474222,
+            0.9313370677598085
+          ],
+          "ratio_to_same_grid_bulk_P": 0.925278337758183
+        },
+        "matched_tilt": {
+          "Sxy_uV_K_P": -14.622750184256217,
+          "Syx_uV_K_P": 14.698077068039616,
+          "half_difference_Sa_uV_K_P": -14.660413626147918,
+          "half_sum_symmetric_uV_K_P": 0.037663441891699456,
+          "half_difference_temperature_corrected_uV_K_P": -14.812413759782107,
+          "half_sum_temperature_corrected_uV_K_P": 0.17785311309730467,
+          "ratio_to_bulk_C_interval_P": [
+            0.9370311153285229,
+            0.9500863423094604
+          ],
+          "ratio_to_same_grid_bulk_P": 0.9439056405790645
+        },
+        "one_axis_tilt": {
+          "Sxy_uV_K_P": -14.622750184256217,
+          "Syx_uV_K_P": 14.37110084702683,
+          "half_difference_Sa_uV_K_P": -14.496925515641523,
+          "half_sum_symmetric_uV_K_P": -0.125824668614694,
+          "half_difference_temperature_corrected_uV_K_P": -14.589250514116692,
+          "half_sum_temperature_corrected_uV_K_P": -0.04531013256810912,
+          "ratio_to_bulk_C_interval_P": [
+            0.9265816525481871,
+            0.9394912919320914
+          ],
+          "ratio_to_same_grid_bulk_P": 0.9333795153543735
+        },
+        "opposed_tilt": {
+          "Sxy_uV_K_P": -14.622750184256217,
+          "Syx_uV_K_P": 14.622750184233782,
+          "half_difference_Sa_uV_K_P": -14.622750184245,
+          "half_sum_symmetric_uV_K_P": -1.1217693440812582e-11,
+          "half_difference_temperature_corrected_uV_K_P": -14.634560646673322,
+          "half_sum_temperature_corrected_uV_K_P": -1.1479706074624119e-11,
+          "ratio_to_bulk_C_interval_P": [
+            0.9346238287489371,
+            0.947645516104359
+          ],
+          "ratio_to_same_grid_bulk_P": 0.9414806929505488
+        },
+        "common_shift": {
+          "Sxy_uV_K_P": -16.818747648210287,
+          "Syx_uV_K_P": 16.81874764818548,
+          "half_difference_Sa_uV_K_P": -16.818747648197885,
+          "half_sum_symmetric_uV_K_P": -1.2404299809531949e-11,
+          "half_difference_temperature_corrected_uV_K_P": -16.70509374112177,
+          "half_sum_temperature_corrected_uV_K_P": -1.2670753335441987e-11,
+          "ratio_to_bulk_C_interval_P": [
+            1.0749826211663822,
+            1.08995986353359
+          ],
+          "ratio_to_same_grid_bulk_P": 1.0828692271202418
+        }
+      }
+    }
+  },
+  "verified_cases": [
+    {
+      "geometry": "Fig2b fixed cell(24,15,6,3)",
+      "k": 1,
+      "shape": [
+        24,
+        24
+      ],
+      "Sa_interval_uV_K_V_decimal": [
+        "-50.68847791",
+        "20.35402347"
+      ],
+      "solver_seconds_P": 0.023690600006375462,
+      "verification_seconds_P": 0.036911799979861826,
+      "total_seconds_P": 0.060602999990805984,
+      "trial_archive": "certified_bounds/trials_2d_k1.npz",
+      "trial_sha256": "a287ff7237690aefc6ca6d0a6886ec8494cc48685e07bcf78dac14ad70b26dac"
+    },
+    {
+      "geometry": "Fig2b fixed cell(24,15,6,3)",
+      "k": 2,
+      "shape": [
+        48,
+        48
+      ],
+      "Sa_interval_uV_K_V_decimal": [
+        "-36.49847592",
+        "5.94147860"
+      ],
+      "solver_seconds_P": 0.08672800002386793,
+      "verification_seconds_P": 0.050245099992025644,
+      "total_seconds_P": 0.13697400002274662,
+      "trial_archive": "certified_bounds/trials_2d_k2.npz",
+      "trial_sha256": "f91ae0efb8276524cad1b15e949c30d3568657b7ad4de0e05ca573327f5280c3"
+    },
+    {
+      "geometry": "Fig2b fixed cell(24,15,6,3)",
+      "k": 4,
+      "shape": [
+        96,
+        96
+      ],
+      "Sa_interval_uV_K_V_decimal": [
+        "-28.82680994",
+        "-1.94975169"
+      ],
+      "solver_seconds_P": 0.4980098000378348,
+      "verification_seconds_P": 0.16062849998706952,
+      "total_seconds_P": 0.6586385000264272,
+      "trial_archive": "certified_bounds/trials_2d_k4.npz",
+      "trial_sha256": "69ad1e1b842d5bd2bdc14601f1854b759d266ad7ae95a99f0a2c85d428c8c880"
+    },
+    {
+      "geometry": "Fig2b fixed cell(24,15,6,3)",
+      "k": 8,
+      "shape": [
+        192,
+        192
+      ],
+      "Sa_interval_uV_K_V_decimal": [
+        "-24.35828325",
+        "-6.55156653"
+      ],
+      "solver_seconds_P": 4.387520299991593,
+      "verification_seconds_P": 0.6602363000274636,
+      "total_seconds_P": 5.047757200023625,
+      "trial_archive": "certified_bounds/trials_2d_k8.npz",
+      "trial_sha256": "3314a3a90e6478c639ec3c5fafefa31f7eec2bbb45fb8e1ef7a2f0948bda3353"
+    },
+    {
+      "geometry": "Fig2b fixed cell(24,15,6,3)",
+      "k": 16,
+      "shape": [
+        384,
+        384
+      ],
+      "Sa_interval_uV_K_V_decimal": [
+        "-21.57143316",
+        "-9.41359556"
+      ],
+      "solver_seconds_P": 37.9929016000242,
+      "verification_seconds_P": 2.699942099978216,
+      "total_seconds_P": 40.69284440000774,
+      "trial_archive": "certified_bounds/trials_2d_k16.npz",
+      "trial_sha256": "40b296d40cba6247badd84e93e45c1835427318f1571381a0f33dc7534d7e609"
+    },
+    {
+      "geometry": "junction W2_split_clear fixed 24 cubed raster",
+      "k": 1,
+      "shape": [
+        24,
+        24,
+        24
+      ],
+      "Sa_interval_uV_K_V_decimal": [
+        "66.52727197",
+        "93.89094952"
+      ],
+      "solver_seconds_P": 2.836730199982412,
+      "verification_seconds_P": 0.7889168999972753,
+      "total_seconds_P": 3.6256479999865405,
+      "trial_archive": "certified_bounds/trials_3d_k1.npz",
+      "trial_sha256": "231bd3c93bbe5fbefc78eac7bff1b5e11016a422493e3603324f8274f6b90e09"
+    },
+    {
+      "geometry": "junction W2_split_clear fixed 24 cubed raster",
+      "k": 2,
+      "shape": [
+        48,
+        48,
+        48
+      ],
+      "Sa_interval_uV_K_V_decimal": [
+        "74.37638194",
+        "85.91202949"
+      ],
+      "solver_seconds_P": 30.563480900018476,
+      "verification_seconds_P": 7.041428399970755,
+      "total_seconds_P": 37.60490969999228,
+      "trial_archive": "certified_bounds/trials_3d_k2.npz",
+      "trial_sha256": "bcb4dcb7d173268e2ff1a9c79fda7008c9c618d43dda6edb29884d545d81562f"
+    }
+  ],
+  "check_all_passed": true,
+  "scope_limitations": [
+    "Finite samples use passive point probes and unrefined within-cell rasters.",
+    "C enclosures are not relabelled as V.",
+    "V assumes exact decimal materials, the recorded fixed raster, ideal interfaces, and the linear model at 300 K.",
+    "Nonpolynomial sector quadrature is not verified here."
+  ]
+}

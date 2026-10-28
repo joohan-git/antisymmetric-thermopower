@@ -5,18 +5,21 @@
 3. Its mirror image reverses the sign of S_a exactly.
 4. A p4mm (mirror-symmetric) three-phase cell gives S_a = 0.
 5. Three-dimensional 4_1 helix: two phases give zero axial z component, three phases do not, and the mirror image reverses it.
-6. Weak-contrast cubic term (analytic/c3.py) on the 24 x 24 pinwheel: the closed form equals the general contraction
+6. Weak-contrast cubic term (weak_contrast/c3.py) on the 24 x 24 pinwheel: the closed form equals the general contraction
    to 1e-12, and the geometry factor G vanishes for two phases and for the p4mm cell and reverses sign for the mirror image.
 """
-import os, sys
+
+from pathlib import Path as _Path
+import sys as _sys
+RELEASE_ROOT = _Path(__file__).resolve().parent
+if str(RELEASE_ROOT) not in _sys.path:
+    _sys.path.insert(0, str(RELEASE_ROOT))
+import os; import sys
 import numpy as np
-HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(HERE, 'solvers', 'fv2d'))
-sys.path.insert(0, os.path.join(HERE, 'solvers', 'fv3d'))
-sys.path.insert(0, os.path.join(HERE, 'analytic'))
-import homog2 as H
-import homog3d as H3
-import c3 as C3
+HERE = str(RELEASE_ROOT)
+from common import homog2 as H
+from common import homog3d as H3
+from weak_contrast import c3 as C3
 
 
 def pinwheel(N, alpha, period, nph):
