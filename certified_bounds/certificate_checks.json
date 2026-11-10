@@ -1,0 +1,97 @@
+{
+  "records": [
+    {
+      "file": "certified_bounds/verified_2d_k1.json",
+      "classification": "V",
+      "all_exact_integer_moments_match": true,
+      "divergence_check": "identically zero by rotated gradient of Q1",
+      "rechecked_ratio_functionals_ball": [
+        "[-1.61487450483072853080307219844325069571069035789041213537871e-13 +/- 8.21e-57]",
+        "[-6.19929326085214697798337386389210308671488693381171039361635e-14 +/- 8.68e-57]"
+      ],
+      "exact_fourfold_label_symmetry_rechecked": true,
+      "reported_endpoints_enclose_exact_values": true,
+      "check_seconds_P": 0.006731899979058653
+    },
+    {
+      "file": "certified_bounds/verified_2d_k16.json",
+      "classification": "V",
+      "all_exact_integer_moments_match": true,
+      "divergence_check": "identically zero by rotated gradient of Q1",
+      "rechecked_ratio_functionals_ball": [
+        "[-2.40767137271029019556087876171069623987255360078572185135991e-13 +/- 1.79e-56]",
+        "[-2.09304270362469477100420368367634369464140468632238967769197e-13 +/- 1.85e-56]"
+      ],
+      "exact_fourfold_label_symmetry_rechecked": true,
+      "reported_endpoints_enclose_exact_values": true,
+      "check_seconds_P": 1.312628899991978
+    },
+    {
+      "file": "certified_bounds/verified_2d_k2.json",
+      "classification": "V",
+      "all_exact_integer_moments_match": true,
+      "divergence_check": "identically zero by rotated gradient of Q1",
+      "rechecked_ratio_functionals_ball": [
+        "[-8.09151326053715613466429288246033733626577470297345335748722e-14 +/- 9.95e-57]",
+        "[-1.51924965765555478590924538372123904076013224795138820822723e-13 +/- 1.06e-56]"
+      ],
+      "exact_fourfold_label_symmetry_rechecked": true,
+      "reported_endpoints_enclose_exact_values": true,
+      "check_seconds_P": 0.01531689998228103
+    },
+    {
+      "file": "certified_bounds/verified_2d_k4.json",
+      "classification": "V",
+      "all_exact_integer_moments_match": true,
+      "divergence_check": "identically zero by rotated gradient of Q1",
+      "rechecked_ratio_functionals_ball": [
+        "[-2.91142714578846481826408198642006690457706252203821334851310e-13 +/- 1.21e-56]",
+        "[-1.89697398581544207377922437812604309041965037019938668430322e-14 +/- 1.27e-56]"
+      ],
+      "exact_fourfold_label_symmetry_rechecked": true,
+      "reported_endpoints_enclose_exact_values": true,
+      "check_seconds_P": 0.06314460001885891
+    },
+    {
+      "file": "certified_bounds/verified_2d_k8.json",
+      "classification": "V",
+      "all_exact_integer_moments_match": true,
+      "divergence_check": "identically zero by rotated gradient of Q1",
+      "rechecked_ratio_functionals_ball": [
+        "[-2.55833929854732634210045732535439712223058670651572415073895e-13 +/- 1.48e-56]",
+        "[-1.81560177583390282268112054319399576139774515506729418478611e-13 +/- 1.56e-56]"
+      ],
+      "exact_fourfold_label_symmetry_rechecked": true,
+      "reported_endpoints_enclose_exact_values": true,
+      "check_seconds_P": 0.30561219999799505
+    },
+    {
+      "file": "certified_bounds/verified_3d_k1.json",
+      "classification": "V",
+      "all_exact_integer_moments_match": true,
+      "divergence_check": 0,
+      "rechecked_ratio_functionals_ball": [
+        "[-4.03270524537688736651086732568121736379297310659519555041538e-14 +/- 5.88e-57]",
+        "[-5.72490442851737579501599365859279605086016951240187813819054e-14 +/- 4.97e-57]"
+      ],
+      "exact_fourfold_label_symmetry_rechecked": true,
+      "reported_endpoints_enclose_exact_values": true,
+      "check_seconds_P": 0.4098775000311434
+    },
+    {
+      "file": "certified_bounds/verified_3d_k2.json",
+      "classification": "V",
+      "all_exact_integer_moments_match": true,
+      "divergence_check": 0,
+      "rechecked_ratio_functionals_ball": [
+        "[-6.04947001358890301785826588816712745860514044404500578726214e-14 +/- 6.20e-57]",
+        "[-4.90888388249394926161683163612372396075926621408302128447698e-14 +/- 5.22e-57]"
+      ],
+      "exact_fourfold_label_symmetry_rechecked": true,
+      "reported_endpoints_enclose_exact_values": true,
+      "check_seconds_P": 3.5184720999677666
+    }
+  ],
+  "all_passed": true,
+  "seconds_P": 5.633043199952226
+}

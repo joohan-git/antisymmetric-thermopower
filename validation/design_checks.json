@@ -1,0 +1,28 @@
+{
+  "homogeneous_kappa_exact": 1.2,
+  "homogeneous_kappa_computed": 1.2,
+  "sources_unchanged": true,
+  "cases": {
+    "A_32": {
+      "final_residual": 8.992886152328938e-12,
+      "final_minimum_gap_eigenvalue": 0.0005706367358377727,
+      "passed": true
+    },
+    "A_64": {
+      "final_residual": 2.473058838861146e-11,
+      "final_minimum_gap_eigenvalue": 0.0005485037262100884,
+      "passed": true
+    },
+    "B_32": {
+      "final_residual": 6.354227173928309e-12,
+      "final_minimum_gap_eigenvalue": 8.745682164457732e-05,
+      "passed": true
+    },
+    "B_64": {
+      "final_residual": 1.732702489580728e-11,
+      "final_minimum_gap_eigenvalue": 9.910536651616042e-05,
+      "passed": true
+    }
+  },
+  "word_count": 621
+}

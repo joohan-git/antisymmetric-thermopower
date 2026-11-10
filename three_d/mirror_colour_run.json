@@ -1,0 +1,64 @@
+{
+  "started_utc": "2026-10-26T10:57:53.482092+00:00",
+  "source_tree": "solvers\\fv3d",
+  "cgd_path": "rcsr3d_web.cgd (RCSR, not redistributed)",
+  "N": 16,
+  "radius_over_a": 0.08,
+  "angle_tolerance_degrees": 1e-06,
+  "solver_tolerance": 1e-11,
+  "numerical_zero_threshold_uV_K": 1e-06,
+  "time_limit_seconds": 7200,
+  "phase_order": [
+    "weak",
+    "n",
+    "p"
+  ],
+  "issues": [],
+  "versions": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "gemmi": "0.7.5",
+    "pyamg": "5.2.1"
+  },
+  "sha256": {
+    "three_d/rcsr_filter.json": "16f6007280d51b205d8f136f4d60368e77fef2f067f2b51470efd07a5dc44435",
+    "three_d/rcsr_color_N16_all.json": "db7af85e0b57ab1fa6cfcedba382097b3a5e3a234a38cc85837572d1c555e27d",
+    "three_d/rcsr_color.py": "19b63ad3244ef85bdbff4cd7dedbee79bc99e95aaeed2f762cf02f4c68506859",
+    "three_d/rcsr_net.py": "830d0cc3bdfae781cac85b00df760f4f4606f439be9e58260d2f24f76985c77a",
+    "three_d/rcsr_colour_pg.py": "ccaa0d523d0c3ef9bc72bfae9dc89bbfa0c0e0d7a79ec7644743cb093f8e9919",
+    "three_d/coloring.py": "bfafc555b41c8d75450d13d7a150951c505e00191add007e7a5a9c9e963594b5",
+    "common/homog3d.py": "9caeca9aa7f20a36927d8bebffebdc5205276125a1b135df9cc42ac74f86b765",
+    "common/homog3d_it.py": "b08edd17022dc28b376cd5cf680653dd66dee128a910be86b9e7a1a998d83b89",
+    "three_d/run_rcsr_all.py": "96d2f4950626fa8591b19d899b6c73df8e30033af973f77e8e9e3858659d0290",
+    "rcsr3d_web.cgd (RCSR, not redistributed)": "091f1d52e83d18f4b1bcc3367487d104658ac593df3dc6625947774c06f7f2c7",
+    "three_d/mirror_colour.py": "9aa50ad655189673789b7dd96c88f6ade7d5cd608a0ed5193e650486621b3ba8"
+  },
+  "angular_rule_verification": {
+    "directions": 1110,
+    "point_operations": 16,
+    "passed": true
+  },
+  "original_summary": {
+    "allowed_z": 49,
+    "forbidden_z": 67,
+    "allowed_and_nonzero": 49,
+    "n_phases_counts": {
+      "2": 67,
+      "3": 49
+    }
+  },
+  "classification_seconds": 17.4276917000534,
+  "representative_names": [
+    "wfy",
+    "xfw",
+    "xfu",
+    "svs",
+    "unm",
+    "xft"
+  ],
+  "runtime_seconds": 42.24678700004006,
+  "representative_extrapolated_runtime_seconds": 52.025936616051084,
+  "finished_utc": "2026-10-26T10:58:35.673879+00:00",
+  "source_hashes_unchanged": true
+}

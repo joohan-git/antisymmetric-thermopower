@@ -1,0 +1,2 @@
+# Store every file byte for byte: the JSON records hold SHA-256 hashes of the released files.
+* -text
